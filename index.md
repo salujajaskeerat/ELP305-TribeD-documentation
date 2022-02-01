@@ -10,7 +10,7 @@ geometry: margin = 2cm
 >
 >Author: **Tribe D (DukhDard)**
 >
->Submitted to: Prof. Subrat Kar, Instructor, ELP305 Design and Systems Lab
+>Submitted to Prof. Subrat Kar, Instructor, ELP305 Design and Systems Lab
 
 # Table of Contents
 
@@ -41,12 +41,12 @@ geometry: margin = 2cm
   - [7.1. Roof Design](#71-roof-design)
   - [7.2. Solar panels](#72-solar-panels)
     - [7.2.1. Solar panel Connection](#721-solar-panel-connection)
-  - [7.3. Off Grid Solar Inverter](#73-off-grid-solar-inverter)
+  - [7.3. Off-Grid Solar Inverter](#73-off-grid-solar-inverter)
   - [7.4. Batteries](#74-batteries)
   - [7.5. Wires (AC and DC)](#75-wires-ac-and-dc)
   - [7.6. ACDB (1 in 1 out)](#76-acdb-1-in-1-out)
   - [7.7. DCDB (1 in 1 out)](#77-dcdb-1-in-1-out)
-  - [7.8. Solar water Heater](#78-solar-water-heater)
+  - [7.8. Solar Water Heater](#78-solar-water-heater)
   - [7.9. Charge Controller](#79-charge-controller)
   - [7.10. Clamp metre](#710-clamp-metre)
   - [7.11. MC4 connector](#711-mc4-connector)
@@ -69,6 +69,24 @@ geometry: margin = 2cm
   - [8.3. Cost Analysis](#83-cost-analysis)
   - [8.4. Power Analysis](#84-power-analysis)
 - [9. Biomass Energy](#9-biomass-energy)
+  - [9.1 Working of a biomass plant](#91-working-of-a-biomass-plant)
+  - [9.2 Component Description](#92-component-description)
+    - [9.2.1 Combustion chamber](#921-combustion-chamber)
+    - [High-Pressure Boiler](#high-pressure-boiler)
+    - [Working Boiler](#working-boiler)
+    - [Steam turbine](#steam-turbine)
+    - [Generator](#generator)
+- [COMPOST TUMBLER](#compost-tumbler)
+    - [Requirements for good Compost](#requirements-for-good-compost)
+    - [Basic Carbon/Nitrogen Table](#basic-carbonnitrogen-table)
+    - [!](#)
+    - [Items to avoid in Compost](#items-to-avoid-in-compost)
+  - [DESIGN And Specifications](#design-and-specifications)
+    - [Materials Required](#materials-required)
+    - [Cut specifications for wooden stand](#cut-specifications-for-wooden-stand)
+    - [Other design specifications](#other-design-specifications)
+    - [Cost estimations](#cost-estimations)
+    - [Output](#output)
 - [10. Storage](#10-storage)
   - [10.1. Requirements](#101-requirements)
   - [10.2. Specifications](#102-specifications)
@@ -80,7 +98,7 @@ geometry: margin = 2cm
   - [Cost Analysis](#cost-analysis)
 - [11. Closure](#11-closure)
 - [12. Reuse](#12-reuse)
-- [13.  Appendix](#13--appendix)
+- [13. Appendix](#13-appendix)
   - [13.1 Rating Calculations for Solar Charge Controller](#131-rating-calculations-for-solar-charge-controller)
   - [13.2. Wind energy density distribution over India](#132-wind-energy-density-distribution-over-india)
   - [13.3. Power Calculations](#133-power-calculations)
@@ -144,7 +162,7 @@ geometry: margin = 2cm
 | 50     | Ritik Yadav              | 2019MT10759 | Member                                    | 1                               |
 | 51     | K Dinesh Reddy           | 2019EE10489 | Member                                    | 1                               |
 
-- This document was submitted on 2 Feb, 2022.
+- This document was submitted on 2 Feb 2022.
 - The person to contact for any clarification: Bhavya Yadav (Documentation Tribe Sub Coordinator, mt1190684@iitd.ac.in )
 
 [Back to Table of Contents](#table-of-contents)
@@ -159,7 +177,7 @@ geometry: margin = 2cm
 | Total number of complex words        | 288   |
 | Average number of words per sentence | 3.46  |
 | Total number of sentences            | 521   |
-| Average number of syllable per word  | 1.65  |
+| Average number of syllables per word  | 1.65  |
 
 ## 2.2 Document Readability indices
 
@@ -201,7 +219,7 @@ Attached at the end of the pdf report.
 
 # 4. Motivation
 
->We are designing a system to meet the entire energy needs of your home without drawing commercial electrical power from the utility. This report contains the final report of the house designed by Tribe D i.e. the requirements, specifications and design of the house.
+>We are designing a system to meet the entire energy needs of your home without drawing commercial electrical power from the utility. This report contains the final report of the house designed by Tribe D, i.e. the house's requirements, specifications, and Design.
 
 # 5. Abstract
 
@@ -211,13 +229,13 @@ Attached at the end of the pdf report.
 
 ## 6.1. Energy Sources
 
-The energy requirements of the house are fulfilled by the following sources of energy:
+The following sources of energy fulfil the energy requirements of the house:
 
-1. Biomass : Chambers containing organic material (carbon content) undergoes reactions to spin the turbine. (Store room for production)
+1. Biomass: Chambers containing organic material (carbon content) undergoes reactions to spin the turbine. (Storeroom for production)
 
-2. Solar : Installed on roof
+2. Solar: Installed on the roof
 
-3. Windmill : Turbine (AC) Uses area from the garden
+3. Windmill: Turbine (AC) Uses area from the garden
 
 ## 6.2 Model of House
 
@@ -277,7 +295,7 @@ The following diagram shows the Electric Wiring Board:
 
 !["Electric Wiring Board Diagram"](./Images/Electric%20Wiring%20Board%20.png "Electric Wiring Board Diagram")
 
-The following diagrams shows the components of Electric Wiring Board:
+The following diagrams show the components of the Electric Wiring Board:
 
 <img src="./Images/Components%20of%20Electric%20Wiring%20Board.png" width="400px">
 
@@ -285,29 +303,29 @@ The following diagrams shows the components of Electric Wiring Board:
 
 MCB is a Miniature Circuit Breaker built to save the electrical circuit and loads from short circuit and overload faults.
 
-RCCB is Residual Current Circuit Breaker which is also used to break the circuit when leakage current occurs.
+RCCB is Residual Current Circuit Breaker used to break the circuit when leakage current occurs.
 
-The MCB Distribution Box consists of MCB, a neutral link, an earthing link and a distribution board which has a RCCB and a number of MCB for all the rooms.
+The MCB Distribution Box consists of an MCB, a neutral link, an earthing link and a distribution board with an RCCB and a number of MCB for all the rooms.
 
-A phase wire and a neutral wire from the input supply are connected to the MCB which are then connected to the RCCB in series. From the RCCB, the Phase connection goes in parallel to the MCBs and the neutral wire enters the neutral link.
+A phase wire and a neutral wire from the input supply are connected to the MCB, then connected to the RCCB in series. From the RCCB, the Phase connection goes in parallel to the MCBs, and the neutral wire enters the neutral link.
 
-From each MCB the phase wire is connected to the switch board in the room and a neutral wire is connected from the neutral link. Earthing wire is connected from the earthing link for each room.
+From each MCB, the phase wire is connected to the switchboard in the room, and a neutral wire is connected from the neutral link. Earthing wire is connected from the earthing link for each room.
 
 <https://in.pinterest.com/pin/207587864065004785/>
 <https://mechatrofice.com/electrical/wiring/distribution-board-wiring>
 
 ### 6.4.3. Battery Room preventive measures against mishaps
 
-1. Ventilation: During the recharge process hydrogen and oxygen evolve from the lead acid battery. If the hydrogen level exceeds 4% of the available volume in the area then the general atmosphere can become explosive – because of this it is recommended that the concentration of hydrogen never exceeds 1% of available volume.
+1. Ventilation: Hydrogen and oxygen evolved from the lead-acid battery during the recharge process. Suppose the hydrogen level exceeds 4% of the available volume in the area. In that case, the general atmosphere can become explosive – because of this; it is recommended that the concentration of hydrogen never exceeds 1% of available volume.
 
-- Adequate ventilation needs to be provided to keep the hydrogen level below 1%. The battery room shall be ventilated by means of two exhaust fans (one working + one standby).
+- Adequate ventilation needs to be provided to keep the hydrogen level below 1%. The battery room shall be ventilated employing two exhaust fans (one working + one standby).
 
 - The standby fan should start automatically in case the other fails.
-- The fan shall be mounted as high as possible in the wall, but not below the level of the light fittings. (Fan used : Havells Ventil Air DX 200mm Exhaust Fan )
+- The fan shall be mounted as high as possible in the wall, but not below the level of the light fittings. (Fan used: Havells Ventil Air DX 200mm Exhaust Fan )
 
 2. Personal Protective Equipment and Clothing
 
-- One ABC fire extinguisher that is properly inspected/maintained
+- One ABC fire extinguisher that is adequately inspected/maintained
 
 - One Fire extinguisher <https://www.amazon.in/ALERTFIRE-Fire-Stop-Home-Fire-Extinguisher/dp/B09D3T7BB6/ref=sr_1_4?keywords=fire%2Bextinguisher&qid=1643563208&s=kitchen&sprefix=fire%2Bex%2Ckitchen%2C286&sr=1-4&th=1>
 - Adequate amount of Neutralizer <https://www.amazon.in/Chemsorb-Neutralizing-Fast-Acting-Neutralizer-Laboratories/dp/B07BHVBF1T/ref=sr_1_2?crid=1HLP2UZKMZ8N1&keywords=neutralizer+battery&qid=1643565053&sprefix=neutralizer+batter%2Caps%2C197&sr=8-2>
@@ -316,11 +334,11 @@ From each MCB the phase wire is connected to the switch board in the room and a 
 
 - Throw sand over the contaminated area and remove the earth or sand once it has soaked up the acid/electrolyte <https://www.amazon.in/Fire-Shape-Industries-9ltr-Bucket/dp/B07YNGSGVS/ref=sr_1_2?crid=2C3LX946NRHC5&keywords=fire+bucket&qid=1643565147&s=kitchen&sprefix=fire+bucke%2Ckitchen%2C188&sr=1-2>
 
-- Wash down the area with a solution of common washing soda.
+- Wash down the area with a solution of ordinary washing soda.
 - Dispose of any contaminated material safely
 
-4. Do’s & Don'ts in and around battery room:
-   - To Ensure that the area is adequately ventilated to dissipate harmful gasses, two exhaust fans have been installed
+4. Do's & Don'ts in and around battery room:
+   - To ensure that the area is adequately ventilated to dissipate harmful gasses, two exhaust fans have been installed
    - Keep all metallic objects away from battery tops.
    - Prevent open flames, sparks or electric arcs in the battery charging areas.
    - The battery charging has been well lit with two lights
@@ -342,10 +360,10 @@ From each MCB the phase wire is connected to the switch board in the room and a 
 |Isolator|747|1|747|
 | | |Total| 10026|
 
-Spill Tray : <https://www.amazon.in/SHARMA-PLASTICS-Organizer-Decorative-Bathroom/dp/B0993F8XQQ/ref=sr_1_1?crid=2G8884Y9LSK02&keywords=spill+tray&qid=1643564648&s=kitchen&sprefix=spill+tra%2Ckitchen%2C199&sr=1-1>
-MCB : <https://www.amazon.in/Havells-DHMNCSPA016-Plastic-Mini-White/dp/B07BH44M5K/ref=sr_1_7?crid=FJHT0O4BJIDX&keywords=mcb&qid=1643570377&sprefix=macb%2Cdvd%2C172&sr=8-7>
-RCB : <https://www.amazon.in/amiciSmart-Circuit-Breaker-Lightning-Protection/dp/B09F39K2QN/ref=sr_1_1_sspa?crid=2NPFT7C7W5H56&keywords=rccb&qid=1643570284&s=kitchen&sprefix=rcb+%2Ckitchen%2C209&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMSVdZR0JKM0tFQ0MmZW5jcnlwdGVkSWQ9QTA1NjgwOTlKUkRGWFdINjk1RjgmZW5jcnlwdGVkQWRJZD1BMDk4ODk1NjNBTEk5TzExN0szSk4md2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl>
-Isolator : <https://www.amazon.in/Wipro-WMISO40AFP-Wpro-Isolator-40A/dp/B087DCCLGL/ref=sr_1_2?crid=10Y1JZ4KO866A&keywords=isolator&qid=1643570327&s=kitchen&sprefix=isolator%2Ckitchen%2C199&sr=1-2>
+Spill Tray: <https://www.amazon.in/SHARMA-PLASTICS-Organizer-Decorative-Bathroom/dp/B0993F8XQQ/ref=sr_1_1?crid=2G8884Y9LSK02&keywords=spill+tray&qid=1643564648&s=kitchen&sprefix=spill+tra%2Ckitchen%2C199&sr=1-1>
+MCB: <https://www.amazon.in/Havells-DHMNCSPA016-Plastic-Mini-White/dp/B07BH44M5K/ref=sr_1_7?crid=FJHT0O4BJIDX&keywords=mcb&qid=1643570377&sprefix=macb%2Cdvd%2C172&sr=8-7>
+RCB: <https://www.amazon.in/amiciSmart-Circuit-Breaker-Lightning-Protection/dp/B09F39K2QN/ref=sr_1_1_sspa?crid=2NPFT7C7W5H56&keywords=rccb&qid=1643570284&s=kitchen&sprefix=rcb+%2Ckitchen%2C209&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMSVdZR0JKM0tFQ0MmZW5jcnlwdGVkSWQ9QTA1NjgwOTlKUkRGWFdINjk1RjgmZW5jcnlwdGVkQWRJZD1BMDk4ODk1NjNBTEk5TzExN0szSk4md2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl>
+Isolator: <https://www.amazon.in/Wipro-WMISO40AFP-Wpro-Isolator-40A/dp/B087DCCLGL/ref=sr_1_2?crid=10Y1JZ4KO866A&keywords=isolator&qid=1643570327&s=kitchen&sprefix=isolator%2Ckitchen%2C199&sr=1-2>
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -353,16 +371,16 @@ Isolator : <https://www.amazon.in/Wipro-WMISO40AFP-Wpro-Isolator-40A/dp/B087DCCL
 
 ## 7.1. Roof Design
 
-The location of house is assumed to be Chennai (Tamil Nadu, India). We built a flat roof of the house as it provides greater area so there will be proper airflow which helps in the temperature reduction of the panels.
+The house's location is assumed to be Chennai (Tamil Nadu, India). We built a flat roof of the house as it provides greater area so there will be proper airflow which helps in the temperature reduction of the panels.
 
 The average Global tilted irradiation is 5.494 kWh/m$^2$ per day.
-The average sunlight time is 5 hour per day, with an error factor of 1.1 the average sunlight time is 4.99 hours.
+The average sunlight time is 5 hours per day, with an error factor of 1.1. The average sunlight time is 4.99 hours.
 
 ## 7.2. Solar panels
 
-Solar Panels should produce approx 6-8 kWh per day. It is the primary component for the solar energy system used to convert sunlight into electricity. Solar panels should fulfill the requirements :
+Solar Panels should produce approx 6-8 kWh per day. It is the primary component for the solar energy system to convert sunlight into electricity. Solar panels should fulfil the requirements :
 
-1. They should have auto-clean covering for better sunlight incident on solar cells.
+1. They should have an auto-clean covering for better sunlight incident on solar cells.
 2. They should be sturdy
 3. They Should not degrade by constant heating and cooling down
 4. They should be UV protected
@@ -388,47 +406,47 @@ Features of Luminous Monocrystalline Perc solar Panels are:
 
 1. Excellent performance under low light conditions.
 2. Comes with highly qualified anti-reflective glass.
-3. Comes with latest PERC(Passivated Emitter and Real Cell) technology.
+3. Comes with the latest PERC(Passivated Emitter and Rear Cell) technology.
 4. Panels made of potential-induced degradation (PID) resistance technology.
-5. Comes with premium MC4 connectors along with 1000mm DC cable that ensures a secure and safe connection.
-6. These Solar Panels offer high torsion resistance against wind and snow loads due to its silver anodized aluminium frame.
+5. Comes with premium MC4 connectors and 1000mm DC cable that ensures a secure and safe connection.
+6. These Solar Panels offer high torsion resistance against wind and snow loads due to their silver anodized aluminium frame.
 
 !["Solar Panel"](./Images/Single%20solar%20panel.jpg "Solar Panel")
 
 ### 7.2.1. Solar panel Connection
 
-We have to connect 2 solar panels in the series and 3 such connections in parallel. We need at least 2 solar panels in series because the total voltage generated by the solar panels must be significantly higher than battery voltage for efficient performance. We have 1 solar panel rated at 24V operating point but this might decrease depending on the production or temperature. Hence, to ensure the panel voltage to be higher than the battery voltage, we are keeping 2 panels in series but we also need these panels in parallel so that performance of 1 panel doesn’t affect the performance of all other solar panels.
+We have to connect two solar panels in the series and three such connections parallel. We need at least two solar panels in series because the total voltage generated by the solar panels must be significantly higher than battery voltage for efficient performance. We have one solar panel rated at a 24V operating point, but this might decrease depending on the production or temperature. Hence, we keep two panels in series to ensure the panel voltage is higher than the battery voltage. However, we also need these panels in parallel so that the performance of 1 panel does not affect the performance of all other solar panels.
 
-## 7.3. Off Grid Solar Inverter
+## 7.3. Off-Grid Solar Inverter
 
-It is the central component that converts DC Voltage into AC for AC operated home appliances. Solar inverter should fulfill the requirements :
+The central component converts DC Voltage into AC for AC operated home appliances. The solar inverter should fulfil the requirements :
 
-1. It should have an overload warning mechanism.
-2. It should have overload and short circuit protection.
-3. It should have at least 2.5kW power rating.
-4. It should be able to withstand high temperatures and should have a good cooling mechanism.
-5. It should be resistant to humid climate.
+1. It should have an overload warning mechanism
+2. It should have overload and short circuit protection
+3. It should have at least a 2.5kW power rating
+4. It should be able to withstand high temperatures and should have an excellent cooling mechanism
+5. It should be resistant to humid climates
 
 <https://www.luminousindia.com/solar-products/solar-pv-panel.html#:~:text=Monocrystalline%20PERC%20> solar%20 panels%20are%20 space%20 efficient%20as%20compared%20to,from%20as%20per%20your%20 preference.
 
-The inverter and the home should be as close as possible so that energy from the inverter has a short distance to travel to the electrical box / supply.
+The inverter and the home should be as close as possible so that energy from the inverter has a short distance to travel to the electrical box/supply.
 
 ## 7.4. Batteries
 
-Battery should be completely safe, not burnable, stable and maintenance-free. Battery should fulfill the requirements :
+The battery should be completely safe, not burnable, stable and maintenance-free. Battery should fulfil the requirements :
 
 1. It should have good electrical performance with low resistance.
 2. It should have a high number of charge cycles.
 3. It should have a high current rating.
 
-The maximum distance between solar panels and batteries should be 20 to 30 ft. and mount the charge controller within a yard or meter of the batteries. If the distance is more than 30ft we need high quality cables.
+The maximum distance between solar panels and batteries should be 20 to 30 ft. and mount the charge controller within a yard or meter of the batteries. If the distance is more than 30ft, we need high-quality cables.
 <https://solvoltaics.com/solar-panels-distance-battery-charge-controller-inverter/#:~:text=Solar%20Battery%20storage%20systems%20should,components%20of%20your%20solar%20array>.
 
-The battery bank and the inverter should also be close — within a yard or so.
+The battery bank and the inverter should also be close — within a yard.
 
 ## 7.5. Wires (AC and DC)
 
-The wires that are used in the connection of panels with the Solar inverter are called DC wires. These wires should be in PVC pipe and cable tray for protection from DC current and Sunlight. <br/>
+The wires used in the connection of panels with the Solar inverter are called DC wires. These wires should be in PVC pipe and cable tray for protection from DC and Sunlight. <br/>
 
 The specifications of DC Wire are as follows:
 
@@ -450,31 +468,31 @@ The specifications of DC Wire are as follows:
 
 <https://www.portablesolarexpert.com/solar-panel-grounding-wire-size-guide/>
 
-The wires that are used for the connection of the inverter with the grid power and Household loads are called AC wires.
+The wires that are used to connect the inverter with the grid power and Household loads are called AC wires.
 
 [Back to Table of Contents](#table-of-contents)
 
 ## 7.6. ACDB (1 in 1 out)
 
-It includes AC SPD, AC fuse and MCB to protect the solar inverter from high voltages on the AC current side. ACDB should fulfill the requirements:
+It includes AC SPD, AC fuse and MCB to protect the solar inverter from high voltages on the AC side. ACDB should fulfil the requirements:
 
-1. It should have capacity upto 3kW.
+1. It should have a capacity of up to 3kW.
 2. Dust and water protected
 3. Polycarbonate Material
 4. MCB Based AC disconnection
-5. It should have current rating
+5. It should have a current rating
 6. It should have high voltage and frequency ass in AC
 
 ## 7.7. DCDB (1 in 1 out)
 
-It protects the solar energy system from DC current from panels and protects panels from reverse current flow. DCDB should fulfill the requirements:
+It protects the solar energy system from DC from panels and protects panels from reverse current flow. DCDB should fulfil the requirements:
 
 1. It should include DC Fuse, DC MCB and SPDs.
 2. With an LED indicator for the Current produced from the panels
 3. IP66 Polycarbonate Material
-4. With DC SPD,DC Fuse and Indicators
-5. It should have fuse with dc rated current rating
-6. It should have voltage rating as of o/p of solar panels
+4. With DC SPD, DC Fuse and Indicators
+5. It should have fused with dc rated current rating
+6. It should have a voltage rating as of o/p of solar panels
 
 The following table shows the specifications of the DCDB used:
 
@@ -488,7 +506,7 @@ The following table shows the specifications of the DCDB used:
 |Material | PVC IP68|
 |Power rating| 1-3kW|
 
-## 7.8. Solar water Heater
+## 7.8. Solar Water Heater
 
 A Solar water heater with the following requirements:
 
@@ -498,9 +516,9 @@ A Solar water heater with the following requirements:
 4. Should not get overheated and cause damage
 5. Some covering on the sides must be incorporated to prevent burn if someone comes nearby
 6. Insulated hot water storage tank approx
-7. Cold water tank with required insulated hot water pipelines and accessories.
+7. Coldwater tank with required insulated hot water pipelines and accessories.
 8. Pipelines
-9. It should be able to withstand hot water upto 80 °C.
+9. It should withstand hot water up to 80 °C.
 10. The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the no. of storage tank
 11. Some valves to control the flow
 
@@ -508,9 +526,9 @@ The following are the specifications of the Solar Heater used:
 <https://www.indiamart.com/proddetail/200-lpd-solar-water-heater-10495712030.html>
 
 1. Dimensions are : 1.316m x 2.105m
-2. 200 LPD Non pressurized ETC(Evacuated Tube Collector-based on thermosyphon principle) because ETC has a very low heat loss coefficient.
+2. 200 LPD Non-pressurized ETC(Evacuated Tube Collector based on thermosyphon principle) because ETC has a very low heat loss coefficient.
 3. Average Hot water output is above 40 to 50 °C above ambient temperature.
-4. Tank insulation with Polyurethane foam which keeps the water hot for 16 to 18 hrs with a small temperature loss of 3 °C.
+4. Tank insulation with Polyurethane foam keeps the water hot for 16 to 18 hrs with a slight temperature loss of 3 °C.
 5. Socket provided for the Electrical Back up heating coil in the tank for low sunlight conditions.
 6. Plumbing Pipes and accessories are required for inlet and outlet connections with domestic water tank and supply.
 
@@ -518,11 +536,11 @@ The following are the specifications of the Solar Heater used:
 
 ## 7.9. Charge Controller
 
-We are using charge controllers to regulate voltage and current from solar panels to batteries. In this solar system we used MPPT(maximum Power Point tracking). Charge Controller should fulfill the following requirements:
+We use charge controllers to regulate voltage and current from solar panels to batteries. We used MPPT(Maximum Power Point Tracking) in this solar system. Charge Controller should fulfil the following requirements:
 
-1. It should have high current rating more than the output peak current of solar panels
+1. It should have a high current rating more than the output peak current of solar panels
 2. It should charge the batteries correctly and efficiently and protect them from overcharging.
-3. It should regulate the variation in current voltage characteristics properly.
+3. It should regulate the variation in current-voltage characteristics properly.
 
 We are using 1 Victron SmartSolar Charge Controller(85A,150V):
 <https://www.victronenergy.com/solar-charge-controllers/smartsolar-mppt-ve.can#enclosure-dimensions>
@@ -538,16 +556,16 @@ We are using 1 Victron SmartSolar Charge Controller(85A,150V):
 
 Other specifications of this Charge Controller are:
 
-1. It is a Maximum Power Point Tracking(MPPT) controller and usess advanced MPPT control algorithm to minimize the maximum power point loss rate and loss time,
-2. It has ultra-fast tracking speed and great tracking efficiency.
-3. It has fully programmable charge algorithm, and eight pre-programmed algorithms, selectable with a rotary switch.
-4. Comes with auto-voltage detection feature (12, 24, 36, or 48 volts)
+1. It is a Maximum Power Point Tracking(MPPT) controller and uses an advanced MPPT control algorithm to minimize the maximum power point loss rate and loss time,
+2. It has ultra-fast tracking speed and excellent tracking efficiency.
+3. It has a Fully programmable charge algorithm and eight pre-programmed algorithms, selectable with a rotary switch.
+4. Comes with an auto-voltage detection feature (12, 24, 36, or 48 volts)
 Current rating:- maximum output current of the solar panel and Battery Voltage.
 5. LCD and indicators to display operating data and status of the system.
-6. The wireless(Bluetooth) solution to set-up, monitor, update and synchronize SmartSolar Charge Controllers.
+6. The wireless(Bluetooth) solution to set up, monitor, update and synchronize SmartSolar Charge Controllers.
 7. Real-time energy statistics function, Overheating power reduction function
 
-The solar charge controller should always be placed close to the batteries, not close to the panels. It should be within one meter (approximately 3.25ft) of the battery bank and in the same room or enclosure.
+The solar charge controller should always be placed close to the batteries, not the panels. It should be within one meter (approximately 3.25ft) of the battery bank and in the same room or enclosure.
 <https://www.victronenergy.com/media/pg/SmartSolar_MPPT_RS/en/index-en.html>
 
 !["Charge controller outer casing with connectinon ports"](./Images/charge%20controller%20outer%20casing%20with%20connectinon%20ports.jpg "Charge controller outer casing with connectinon ports")
@@ -556,48 +574,48 @@ The solar charge controller should always be placed close to the batteries, not 
 
 ## 7.10. Clamp metre
 
-Clamp metre detects the magnetic field emitted by current flowing in wire in order to measure the current value. Charge Controller should fulfill the following requirements:
+Clamp metre detects the magnetic field emitted by current flowing in wire to measure the current value. Charge Controller should fulfil the following requirements:
 
 1. It should be lightweight
-2. It should have overload protection system
+2. It should have an overload protection system
 3. It should be adjusted according to different current ranges for better precision.
 
 [Back to Table of Contents](#table-of-contents)
 
 ## 7.11. MC4 connector
 
-MC4 (Multi Contact and the 4mm diameter contact pin) connectors are single contact electrical connectors commonly used for connecting solar panels.
+MC4 (Multi-Contact and the 4mm diameter contact pin) connectors are single-contact electrical connectors commonly used for connecting solar panels.
 We will use the Solar panel system to measure current and voltage whenever required.
 
 - 2 pairs of MC4 connectors are needed.
 
 ## 7.12. Solar Panel Stand
 
-Solar panel stand is an iron structure that fixes the solar panels on the rooftop and protects the solar panels from high blowing wind and animal attacks etc. <br/>
+Solar panel stand is an iron structure that fixes the solar panels on the rooftop and protects the solar panels from high blowing wind and animal attacks Etc. <br/>
 
-Solar Panel Stand should fulfill the following requirements:
+Solar Panel Stand should fulfil the following requirements:
 
-1. It can be made of self-adjusting mechanism according to the position of the sun
-2. The stand should be made of a quality material, it should be rust proof and universal
-3. Additionally, for protection from storms, we require bricks, cement to fix the stand
+1. It can be made of a self-adjusting mechanism according to the position of the sun
+2. The stand should be made of quality material; it should be rustproof and universal
+3. Additionally, for protection from storms, we require bricks cement to fix the stand
 4. It should be lightweight
 
 ### 7.12.1. Design of solar panel stand
 
-We used Mechanical stands for the panels, which includes change in angle of panels by mechanical movement of the roads. This will increase the energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.
+We used Mechanical stands for the panels, which includes a change in angle of panels by mechanical movement of the roads. This will increase energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.
 
 1. Panels will face towards the South direction with an angle of 14.8° from horizontal in Spring/Fall season, 30° in Winter season and 0°C (exactly horizontal) in summers.
 <https://footprinthero.com/solar-panel-tilt-angle-calculator>
 
-2. Panels will be adjusted four times in a year.
+2. Panels will be adjusted four times a year.
 3. Height of panels from the roof: The height should be at least 3-5 inches for continuous airflow. (the airflow helps in reducing the temperature of the panels for more energy production)
 <https://www.pveducation.org/pvcdrom/solar-cell-operation/effect-of-temperature>
 
-We have designed the Solar panel stands in such a way it have holes from 0°-30⁰ which can be adjusted manually according to position of sun, thus giving the desired output. Panels will be adjusted four times in a year.<br/>
+We have designed the Solar panel stands so that it has holes from 0°-30⁰, which can be adjusted manually according to the sun's position, thus giving the desired output. Panels will be adjusted four times a year.<br/>
 
-Area covered by both stands is 170 sq feet.
+The area covered by both stands is 170 sq feet.
 Total weight of solar panels is approx 22.5×6 = 133 kg.
-We designed our stand such that it support 3 solar panels(upto 66 kg). Weight of each stand is 20-25 kg.
+We designed our stand to support three solar panels(up to 66 kg). The weight of each stand is 20-25 kg.
 
 !["Solar Panel Stand"](./Images/New%20Stand%20frame_with%20three%20solar%20panels%20in%20one.jpg "Solar Panel Stand")
 
@@ -615,11 +633,11 @@ A: --> O:(Copper Plate)
 A: --> P:(Earthing Compound) 
 ```
 
-2 separate earthings are required, 1 for Inverter and other one for Lightning Arrester. <br/>
+Two separate earthlings are required, 1 for Inverter and another for Lightning Arrester. <br/>
 
-Copper rod of diameter should be enough to conduct lightning to earth and not degrade or GI can also be taken buried upright in the earth manually or with the help of a pneumatic hammer.<br/>
+Copper rod of diameter should be enough to conduct lightning to earth and not degrade, or GI can also be taken buried upright in the earth manually or with the help of a pneumatic hammer.<br/>
 
-The following table shows the specifications of Copper rod:
+The following table shows the specifications of the Copper rod:
 
 | Property | Specification |
 |---|---|
@@ -628,12 +646,12 @@ The following table shows the specifications of Copper rod:
 |Finish |Copper Bonded/Coated|
 |Dimension | 24 x 24 inches |
 
-Earthing is required for protection of human life as well as for protection of equipment of the system from excessive touch voltages, earthing provides the path to neutralise the surge voltage.
+Earthing is required for the protection of human life and protection of equipment of the system from excessive touch voltages; earthing provides the path to neutralize the surge voltage.
 
-The following table shows benefits of using Earthing compound:
+The following table shows the benefits of using Earthing compound:
 
 1. Improves soil resistance & the Electrical Conductivity of the Soil
-2. Non Toxic & Long Lasting
+2. Non-Toxic & Long Lasting
 3. Excellent Moisture Absorption and Retaining Capacity
 4. Enriches the Charge Carrying Ions in the soil
 
@@ -641,14 +659,14 @@ The following table shows benefits of using Earthing compound:
 
 ## 7.14. Lighting Arrester
 
-Lighting Arrester(LA) protects solar panels from thunder. In dangerous lighting strikes, LA activates and diverts lighting to ground.
+Lighting Arrester(LA) protects solar panels from thunder. In dangerous lightning strikes, LA activates and diverts lighting to the ground.
 
-We are using copper bonded lightning arrester 1 meter with earthing rod for home and building protection. This 1kg and 350gm weight offers a coverage of 45° from the top point of the arrester, that is the surrounding area with a 2m radius.
-In order to let the surge current flow to the ground via the earthing system, the copper strip or 4mm copper ac wire is connected between this lightning arrester and ground earthing system.
+We use a copper bonded lightning arrester 1 meter with earthing rod for home and building protection. This 1kg and 350gm weight offer coverage of 45° from the top point of the arrester, that is, the surrounding area with a 2m radius.
+In order to let the surge current flow to the ground via the earthing system, the copper strip or 4mm copper ac wire is connected between this lightning arrester and the ground earthing system.
 
 Suitable for: 1kW, 2kW, 1kVA to 3kVA off-grid or on-grid solar power system.
 
-The following table shows the specfications of lighting arrester used:
+The following table shows the specifications of the lighting arrester used:
 
 | Property | Specification |
 |---|---|
@@ -657,14 +675,14 @@ The following table shows the specfications of lighting arrester used:
 |Building Protection Coverage|45°C from the top point |
 |Application| Residential|
 |Material| Copper|
-|Surface Treatment| Galvanized|
+|Surface Treatment| Galvanized |
 |Total length|1m |
 |Diameter| 9.2mm|
 |Dimension of base plate| 9*9 cm|
 
 ## 7.15. Basic tools required
 
-The following flow chart shows the basic tools required for installing the set up:
+The following flow chart shows the essential tools required for installing the set-up:
 
 ```mermaid
 flowchart 
@@ -685,7 +703,7 @@ The following figure shows the block diagram for electricity production and tran
 
 <img src="./Images/electricity%20production%20from%20solar%20energy%20and%20transmission%20to%20battery_block%20diagram%20.jpeg" width="600px">
 
-The amount of energy lost in solar power systems depends on the cable used, solar panel and battery design and how far apart they are. The actual amount of energy lost is also dependent upon the gauge or thickness of the wire. Long, thin cables increase the amount of energy lost as the conductor resists current flow. With a shorter, thicker cable, energy loss is minimized during transmission.
+The amount of energy lost in solar power systems depends on the cable used, solar panel and battery design and how far apart they are. The actual amount of energy lost depends on the gauge or thickness of the wire. Long, thin cables increase the energy lost as the conductor resists current flow. With a shorter, thicker cable, energy loss is minimized during transmission.
 
 ## 7.17. Cost Analysis
 
@@ -734,7 +752,7 @@ The following table shows the specifications of the blade used:
 | Material | Carbon fibre  |
 | Quantity | 3 pieces      |
 
-We chose this blade because the higher stiffness and lower density of Carbon Fibre allows a thinner blade profile while producing stiffer, lighter blades. These blades have a longer lifetime because carbon fiber materials have a high fatigue and corrosion resistance.
+We chose this blade because the higher stiffness and lower density of Carbon Fibre allows a thinner blade profile while producing stiffer, lighter blades. These blades have a longer life because carbon fibre materials have high fatigue and corrosion resistance.
 
 <img src="./Images/Blade.png" width="400px">
 
@@ -750,7 +768,7 @@ The following table shows the specifications of the pole used:
 | Material              | Aluminium      |
 | Maximum load capacity | 150 kg         |
 
-We chose aluminium for the pole because it has low density and high tensile strength. Aluminium forms a protective oxide layer which makes the poles highly corrosion resistant and prolongs their life. The lower weight is not just beneficial during installation, it also offers advantages during shipping and storage that all help to keep the cost down.<br/>
+We chose aluminium for the pole because it has a low density and high tensile strength. Aluminium forms a protective oxide layer, making the poles highly corrosion resistant and prolonging their life. The lower weight is not just beneficial during installation; it also offers advantages during shipping and storage that all help to keep the cost down.<br/>
 
 Guy wires provide extra stability during extreme weather conditions.
 
@@ -767,7 +785,7 @@ The following table shows the specifications of the hub used:
 | Radius   | 135 mm        |
 | Material | Carbon fibre  |
 
-The hub is a key component not only because it holds the blades in their proper position for maximum aerodynamic efficiency, it also rotates the shaft of the generator.
+The hub is a crucial component because it holds the blades in their proper position for maximum aerodynamic efficiency; it also rotates the generator's shaft.
 
 <img src="./Images/Hub.png" width="400px">
 
@@ -784,7 +802,7 @@ The following table shows the specifications of the turbine used:
 | Frequency    | 50Hz                         |
 | Efficiency   | 93% (Highly efficient)       |
 
-This generator uses direct-drive mechanism, which eliminates the need for a gearbox and can operate at variable RPM. A gearbox free mechanism such as ours reduces the weight and cost.
+This generator uses a direct-drive mechanism, which eliminates a gearbox and can operate at variable RPM. A gearbox free mechanism such as ours reduces the weight and cost.
 
 <img src="./Images/Generator.png" width="400px">
 
@@ -801,7 +819,7 @@ The following table shows the specifications of the turbine used:
 | Material         | 5052 Aluminium H32       |
 | Weight           | 4.78 kg                  |
 
-5052 Aluminum is optimal for sheet metal work and is very easy to form at room temperature. This material is very bendable, and can therefore handle tight radii.
+5052 Aluminum is optimal for sheet metal work and is very easy to form at room temperature. This material is very bendable and can therefore handle tight radii.
 
 <img src="./Images/Casing.png" width="400px">
 
@@ -821,7 +839,7 @@ Working schematics of the Wind Mill
 
 ## 8.3. Cost Analysis
 
-| Component                              | Quantity | Cost per unit(INR) |
+| Component                              | Quantity | cost per unit(INR) |
 | -------------------------------------- | -------- | ------------------ |
 | Aluminum Casing                        | 1        | 2,500              |
 | Permanent Magnet Alternator (PMGL 270) | 1        | 22,000             |
@@ -839,7 +857,7 @@ Assuming Average Wind Speed to be 4.51 m/s, we get the following results:
 4. Cut-off Wind Speed = 1.2 m/s
 
 ( The above calculations were done using a tool that we built called Wind-Box. The source code is available [here](https://github.com/STK101/WindEnergy_Toolbox_Tribe-D))
-(For formulas used see Appendix 13.2.)
+(For formulas used, see Appendix 13.2.)
 
 - Command Line Interface of Wind Box
 !["Wind-Box"](./Images/Wind%20Box.png "Wind-Box")
@@ -848,7 +866,255 @@ Assuming Average Wind Speed to be 4.51 m/s, we get the following results:
 
 # 9. Biomass Energy
 
+Mind Map: ![](RackMultipart20220201-4-1apfz2s_html_1c48242ea212999b.png)
 
+## 9.1 Working of a biomass plant
+
+![](RackMultipart20220201-4-1apfz2s_html_89a5d94981e37c25.jpg)
+
+Reference: <https://arivjournal.com/technology/a-comprehensive-investigation-of-suitable-biomass-raw-materials-and-biomass-conversion-technology-in-sarawak-malaysia/>
+
+## 9.2 Component Description
+
+### 9.2.1 Combustion chamber
+
+ **Dimension and Design**: -
+
+- The 3 mm thick aluminium (1050a RECOMMENDED) is used to withstand high combustion temperatures with dimensions of 0.5 m (L) × 0.5 m (W) × 2 m (H) and a volume of ~0.5 m3, see figure1
+- An inlets for fuel can be used like in coals shown in Figure 2 as Design would be almost resembling for at least combustion part. The combustion chamber working temperature would be 473K in controlled oxygen
+- A hole will be made on the top of the chamber diameter of 100mm. with a funnel on top
+- The combustion chamber will be installed with a steam boiler(look boiler design specification), as shown in figure2
+- For starting, the combustion burner is attached through the inlet of fuel in the combustion chamber and closed once temperature(473K) is attained
+
+![](RackMultipart20220201-4-1apfz2s_html_c8550523be3b1c1b.png) ![](RackMultipart20220201-4-1apfz2s_html_c0351b9f96222acf.png)
+
+Figure1 Figure2
+
+Design of combustion chamber &#39;s burner attachment
+
+![](RackMultipart20220201-4-1apfz2s_html_428d275ee241039e.png)
+
+Isometric view
+
+Cost
+
+Taking cost/m2 of 3mm sheet = INR 7000
+
+Total cost =INR 30000(sheet) + INR 5000(manufacturing cost) = INR 35000
+
+Reference ;
+
+https://www.researchgate.net/publication/281112175\_A\_biomass\_combustion\_chamber\_Design\_evaluation\_and\_a\_case\_study\_of\_wheat\_straw\_combustion\_emission\_tests
+
+### High-Pressure Boiler
+
+![](RackMultipart20220201-4-1apfz2s_html_2118da285e4692ff.jpg)
+
+Figure showing dimensions of a high-pressure boiler
+
+(Scaled to half the dimensions shown in mm)
+
+![](RackMultipart20220201-4-1apfz2s_html_ca4ea38e94d954e7.png)
+
+Estimated cost: Rs.45000
+
+Efficiency: 70%
+
+- Input is water produced by combustion of 8 kg wood
+From the burning fuel, heated gasses are circulated by natural convection or forced by a pump.
+- Boiler processes this water to steam at high pressure.
+- For 8kg of wood, the steam produced is 22.580kg at this efficiency
+
+![](RackMultipart20220201-4-1apfz2s_html_e4360a86f9b28e06.png)
+
+### Working Boiler
+
+Specifications :
+
+Length: 1.9m
+
+Diameter of cylindrical base: 1.2m
+
+Area of cylindrical base: 1.2 sq.m
+
+Maximum temperature of water return/supply: 65/80 C
+
+Boiler capacity: 80L of water
+
+References
+
+[https://www.researchgate.net/figure/Basic-dimensions-of-the-boiler-model-I-II-burner-connections-K1-K6-measurement-points\_fig4\_286826933](https://www.researchgate.net/figure/Basic-dimensions-of-the-boiler-model-I-II-burner-connections-K1-K6-measurement-points_fig4_286826933)
+
+[https://www.indiamart.com/proddetail/biomass-steam-boilers-22695269591.html](https://www.indiamart.com/proddetail/biomass-steam-boilers-22695269591.html)
+
+[https://www.researchgate.net/publication/320057473\_Steam\_Boiler](https://www.researchgate.net/publication/320057473_Steam_Boiler)
+
+### Steam turbine
+
+<img src="./Images/RackMultipart20220201-4-1apfz2s_html_a4c5300863d4a9ad.png" width="400px">
+
+Pressure range: 10 bar- 87 bar
+
+Power : 1KW - 5MW
+
+Power capacity : 1KW - 40MW
+
+Cost : Rs. 50,000
+
+- Steam turbine extracts thermal energy from pressurized steam and use it to do mechanical work on a rotating output shaft.
+- The turbines are connected to a generator with an axle, which produces energy via a magnetic field that produces an electric current.
+
+References
+
+[https://www.indiamart.com/proddetail/steam-turbine-23055952012.html?pos=2&amp;kwd=steam%20turbine&amp;tags=A||||8258.9375|Price|proxy](https://www.indiamart.com/proddetail/steam-turbine-23055952012.html?pos=2&amp;kwd=steam%20turbine&amp;tags=A%7C%7C%7C%7C8258.9375%7CPrice%7Cproxy)
+
+[https://www.researchgate.net/publication/304396514\_Power\_Plant\_Lecture\_Notes\_-\_CHAPTER-4\_STEAM\_TURBINE](https://www.researchgate.net/publication/304396514_Power_Plant_Lecture_Notes_-_CHAPTER-4_STEAM_TURBINE)
+
+### Generator
+
+![](RackMultipart20220201-4-1apfz2s_html_ca5aa1b6402111f4.png) ![](RackMultipart20220201-4-1apfz2s_html_c3002d5ae1d578c2.png)
+
+Cost : Rs. 22000
+
+Power: 10KW
+
+Voltage: 415V
+
+Alternator Type: AC
+
+Frequency: 50Hz, 60 Hz
+
+Reference:
+
+[https://www.controlelectricco.com/permanent-magnet-alternator.html](https://www.controlelectricco.com/permanent-magnet-alternator.html)
+
+# COMPOST TUMBLER
+
+### Requirements for good Compost
+
+- Having a proper food-web: a mixture of creatures, which include many insects, bugs, slugs, bacteria, and mushrooms, adding a small quantity of soil to this mixture can be used to start the process.
+- Nitrogen / Carbon Ratio -The ideal mix is ¾ &quot;brown&quot; and ¼ &quot;green&quot; ingredients by volume. Such a mixture of &quot;brown&quot; and &quot;green&quot; ingredients will ensure that the mass maintains the appropriate quantity of humidity and air and hastens the decomposing process.
+- The compost should remain humid throughout the process. About 50% humidity is acceptable. Let excess water drain out through the ventilation bores. The mixture should remain humid but not wet.
+- All creatures and mushrooms in the compost mixture need oxygen during the process. The tumbler must be rotated every second day to prevent cutting off the air supply and hastening the process.
+- Location- The fastest decomposition occurs between 140°F (60°C) and 160°F (71°C). We should position the Compost Tumbler out of the excessive wind and in full sunlight.
+
+### Basic Carbon/Nitrogen Table
+
+### ![](RackMultipart20220201-4-1apfz2s_html_88559e31a3d4b7a2.png)
+
+### Items to avoid in Compost
+
+- Meat, fish, fats, and bones- could ferment or putrefy, causing odours and attracting flies, rodents, or other animals that can be pests
+- Other foods like dairy products, sauces, salad dressing, and cooking oil– These too could ferment or putrefy, causing odours and attracting flies, rodents, or other animals that can be pests.
+- Ashes - Wood ashes may be very useful but in small quantities.
+- Dog and cat faeces may cause a risk of adding diseases!
+- Perpetual weeds that have turned to seed or diseased plants are Not to be used as they can spread with the compost.
+- Any cooked or canned foods that contain salt- Salt kills the tiny creatures that do the composting in your mixture.
+
+## DESIGN And Specifications
+
+### Materials Required
+
+- 55-gallon plastic drum: Length- 39&quot;, Diameter- 25&quot;, Thickness- 3/16&quot;
+- Pressure-treated wooden boards- Two 2x4x8 Pressure Treated Boards, One 1x6x8 Pressure Treated Board
+- HPDE plastic sheet: dimensions- 1/2″x1/2″x6′
+- Stainless steel butt hinges
+- Stainless steel latch
+- Axel- galvanized metal conduit- diameter- 0.5&quot;, length- 42&quot;
+
+### Cut specifications for wooden stand
+
+(dimensions as shown in the diagram)
+
+- Two (2) 2×4&#39;s cut to 4′ 2-1/2″, one end cut at 30° inside mitre
+- Two (2) 2×4&#39;s cut to 3′ 8-7/16″, both ends with 30° inside mitres angled toward each other.
+- Two (2) 2×4&#39;s cut to 4″, one end cut at 30° inside mitre
+- Two (2) 1×6&#39;s cut to 2′ 2-5/16″ with 30° inside mitres at each end
+- One (1) 1×6 cut to 3′ 3″ long
+
+![](RackMultipart20220201-4-1apfz2s_html_827ef30a8183b3e9.png) ![](RackMultipart20220201-4-1apfz2s_html_97c0293d68ecae62.png)
+
+Image of the specification of the compost tumbler Image of the finished tumbler
+
+### Other design specifications
+
+- Tumbler&#39;s Hatch Door- 12&quot;x12&quot; attached with a hinge and locked with a latch.
+- Drill holes in the drum to allow airflow in and out. Sufficient airflow is essential to allow rain and air to enter and drain the drum. Space them 2-3 inches apart. Holes can be of ⅜&quot; diameter.
+
+- We add ½&quot; square HDPE plastic inside the drum to prevent the compost from stelling at the base.
+
+### Cost estimations
+
+The significant parts required are a pressure-treated wooden board, a 55-gallon plastic drum, and a 1/2″x1/2″x6′ HDPE, UHMWPE, or similar plastic sheet. Other than those, we would need screws, hinges, and a latch.
+
+- Drum- Rs 600 to Rs 800
+- Pressure-treated wooden boards- Rs 300
+- HDPE Plastic sheet- Rs 100
+
+So the total cost would be Rs. 1200 to Rs. 1500
+
+### Output
+
+Source of all images: [https://www.itsahusbandthing.com/make-diy-compost-tumbler-bin/](https://www.itsahusbandthing.com/make-diy-compost-tumbler-bin/)
+
+Other references:
+
+- [https://www.walshmedicalmedia.com/open-access/design-and-development-of-compost-bin-for-indian-kitchen-2252-5211-1000323.pdf](https://www.walshmedicalmedia.com/open-access/design-and-development-of-compost-bin-for-indian-kitchen-2252-5211-1000323.pdf)
+- [https://www.planetnatural.com/tumbling-composter/](https://www.planetnatural.com/tumbling-composter/)
+- [https://www.miraclegro.com/en-us/products/garden-tools/composters](https://www.miraclegro.com/en-us/products/garden-tools/composters)
+
+**FLUE GAS CLEANING(Optional)**
+
+Flue gas emanates from combustion plants and contains the reaction products of fuel and combustion air and residual substances such as particulate matter (dust), sulfur oxides, nitrogen oxides, Etc., that are hazardous to the environment and health. A flue gas cleaning system aims to reduce atmospheric emissions of these substances.
+
+Many gas cleaning systems can be summarized as removing particulates, removing water-soluble gas and pollutants, removing NOx, and removing toxic and hazardous pollutants like mercury (Hg).
+
+![](RackMultipart20220201-4-1apfz2s_html_1a31e84e43d437d2.png)
+
+Figure: Flow chart depicting Flue Gas Cleaning
+
+Cyclones(Cyclone Separator)
+
+- In cyclones, particles are separated by centrifugal forces. Flue gas containing particulates is fed into a cylinder tangentially to achieve rotational movement. The inside of the chamber creates a spiral vortex, similar to a tornado.
+- The lighter components of this gas have less inertia, so it is easier for them to be influenced by the vortex and travel up it.
+- Contrarily, more significant components of particulate matter have more inertia and are not as easily influenced by the vortex and drop down into a collection hopper.
+- The cleaned flue gas escapes out the top of the chamber.
+
+Estimated Cost: 1.2-1.5m(4-5 feet) tall cyclone separator can cost about Rs 75000.
+
+Efficiency: 70-80% for particulate matter
+
+![](RackMultipart20220201-4-1apfz2s_html_1fed6dc28466c18.png)
+
+Figure: Section View of a Cyclone
+
+References:-
+
+[https://www.sciencedirect.com/science/article/pii/B9780128095706000035](https://www.sciencedirect.com/science/article/pii/B9780128095706000035)
+
+[https://www.researchgate.net/publication/273856373\_A\_review\_on\_methods\_of\_flue\_gas\_cleaning\_from\_combustion\_of\_biomass](https://www.researchgate.net/publication/273856373_A_review_on_methods_of_flue_gas_cleaning_from_combustion_of_biomass)
+
+[https://energyeducation.ca/encyclopedia/Cyclone\_separator#cite\_note-1](https://energyeducation.ca/encyclopedia/Cyclone_separator#cite_note-1)
+
+[https://www.simerics.com/animation/cyclone\_ani.gif](https://www.simerics.com/animation/cyclone_ani.gif)
+
+##
+
+The overall cost of the whole set-up
+
+- Combustion chamber-Rs. 40000
+- High Pressure boiler- Rs. 45000
+- Steam turbine - Rs. 50000
+- Generator - Rs.22000
+- Cyclone separator (optional for environment purposes)- Rs.75000
+- Fuel for combustion chamber and boiler - Rs.10000
+- Compost tumbler - Rs.1500
+
+Total cost : Rs. 1,68,500
+
+The total electricity produced: 550W per kg waste
+
+Reference: <https://www.sciencedirect.com/science/article/pii/S0956053X16300599>
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -874,9 +1140,9 @@ The following are the requirements of storage of energy produced by the Solar, W
 
 8. The working system must require minimal supervision, including protective coverings, automated systems, and a single point of contact for all the user interfaces.
 
-9. Circuit breakers must be added to handle the excessive load.There must be a system to efficiently store distinct types of energy (AC/DC) from various sources without interference.
+9. Circuit breakers must be added to handle the excessive load. There must be a system to efficiently store distinct types of energy (AC/DC) from various sources without interference.
 
-10. There must be a system to efficiently store distinct type of energy(AC/DC) from various sources without interference.
+10. There must be a system to efficiently store distinct types of energy(AC/DC) from various sources without interference.
 
 11. Provisions to cut-off storage and sell off surplus energy.
 
@@ -892,7 +1158,7 @@ The following are the requirements of storage of energy produced by the Solar, W
 
 1. One 85A Charge Controller with the following specifications:
    1. 85A - As per the given maximum current allowed.
-   2. Power combiner box to monitor high-voltage fuses and over-voltage and to provide protection against over-current.
+   2. Power combiner box to monitor high-voltage fuses and over-voltage and provide protection against over-current.
    3. Charging management algorithm.
 
 2. 3500W 24V-240V Inverter
@@ -932,7 +1198,7 @@ The following table shows the characteristics of Supplied Power:
 
 4. Battery:
 
-The following table shows the specifiactions of Battery:
+The following table shows the specifications of the Battery:
 
 | Property                                 | Specification                    |
 | ---------------------------------------- | -------------------------------- |
@@ -952,19 +1218,19 @@ The following table shows the specifiactions of Battery:
 
 ### 10.3.1 Charge Controller
 
-For an optimal charging operation, the current and voltage supplied to the battery must follow specific characteristics depending on the battery to ensure its longevity. Circuits called charge controllers can be used to prevent overcharging and protect the battery from over-voltage.
+For an optimal charging operation, the current and voltage supplied to the battery must follow specific characteristics depending on the battery to ensure its longevity. Circuits called charge controllers can prevent overcharging and protect the battery from over-voltage.
 
 A charge controller either uses PWM or MPPT to control the battery supply.
 
 1. PWM based control: Switch between the controller and the battery. A PWM-based control is more suitable for smaller systems where the efficiency is not critical.
 
-2. MPPT based control: Adjusts the load on the supply dynamically with an incentive to maximize the power drawn from the supply. A charge controller equipped with MPPT dramatically improves the efficiency at which energy at which the energy is stored. This form of control is more suitable for our use case as the energy stored is of high importance.
+2. MPPT based control: Adjusts the load on the supply dynamically with an incentive to maximize the power drawn from the supply. A charge controller equipped with MPPT dramatically improves the efficiency at which energy is stored. This form of control is more suitable for our use case as the energy stored is vital.
 
 Remark: The output voltage of the supply needs to be close to the charging voltage of the battery, but using a battery of such a charging voltage was not feasible from a cost perspective.
 
 1. Solar Charge Controller
 
-The following table shows the specifiactions of Solar Charge Controller:
+The following table shows the specifications of the Solar Charge Controller:
 
 | Property                 | Specification |
 | ------------------------ | ------------- |
@@ -980,7 +1246,7 @@ The following table shows the specifiactions of Solar Charge Controller:
 
 2. Wind Turbine Charge Controller
 
-The following table shows the specifiactions of Wind Turbine Charge Controller:
+The following table shows the specifications of the Wind Turbine Charge Controller:
 
 | Property         | Specification |
 | ---------------- | ------------- |
@@ -997,7 +1263,7 @@ The following table shows the specifiactions of Wind Turbine Charge Controller:
 
 1. Biomass turbine Charge controller
 
-The following table shows the specifiactions of Biomass Turbine Charge Controller:
+The following table shows the specifications of the Biomass Turbine Charge Controller:
 
 | Property         | Specification |
 | ---------------- | ------------- |
@@ -1066,7 +1332,7 @@ It has high purity, corrosion-resistant proprietary spine alloy composition for 
 
 Extra-strong, flexible oxidation-resistant gauntlet for better performance and durability.
 
-Puncture-resistant polyethylene separator minimize the possibility of internal short circuits.
+Puncture-resistant polyethene separators minimize the possibility of internal short circuits.
 
 High durability with sealed plastic housing.
 
@@ -1076,7 +1342,7 @@ Easy maintenance with level indicators.
 
 ### 10.3.3 Inverter (For converting DC to AC)
 
-The battery provides a DC, but the household appliances and the electrical grid of a household require an AC. Therefore, the DC current first needs to be converted into AC current using an inverter device.
+The battery provides a DC, but the household appliances and the electrical grid of a household require an AC. Therefore, the DC needs to be converted into AC using an inverter device.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1084,7 +1350,7 @@ The battery provides a DC, but the household appliances and the electrical grid 
 
 Many inverters are available in the market, depending on the output frequency requirement (50Hz for us) and input voltage requirement:
 
-1. 12 V DC - for smaller consumer and commercial inverters that typically run from a rechargeable 12 V lead-acid battery or automotive electrical outlet.
+1. 12 V DC - for smaller consumer and commercial inverters typically run from a rechargeable 12 V lead-acid battery or automotive electrical outlet.
 
 2. 24, 36 and 48 V DC - common standards for home energy systems.
 
@@ -1092,13 +1358,13 @@ Many inverters are available in the market, depending on the output frequency re
 
 4. 300 to 450 V DC - when power is from electric vehicle battery packs in vehicle-to-grid systems.
 
-5. 1000 V - when the inverter is part of a high volateg direct current power transmission system.
+5. 1000 V - when the inverter is part of a high voltage direct current power transmission system.
 
 <https://en.m.wikipedia.org/wiki/High-voltage_direct_current>
 
 ![Design of a simple inverter](./Images/Design%20of%20a%20simple%20inverter.png "Design of a simple inverter")
 
-We will need the input to be 24V (coming from battery) for our purposes with the following specifications:
+We will need the input to be 24V (coming from the battery) for our purposes with the following specifications:
 
 | Property               | Specification                       |
 | ---------------------- | ----------------------------------- |
@@ -1135,14 +1401,14 @@ We will need the input to be 24V (coming from battery) for our purposes with the
 
 [Back to Table of Contents](#table-of-contents)
 
-# 13.  Appendix
+# 13. Appendix
 
 ## 13.1 Rating Calculations for Solar Charge Controller
 
 Rating of Solar Charge Controller: 85A,150V
 Maximum charging current for batteries = ( Solar panel Wattage / System voltage ) = (6*335/24) = 83.75A (<85A)
 
-Maximum rated voltage of the charge controller is 100V. Short circuit Voltage rating of each solar panel is 46.5V and total maximum voltage from combination of panels is 46.5x2=93V(<150V)
+The maximum rated voltage of the charge controller is 100V. The short circuit Voltage rating of each solar panel is 46.5V, and the total maximum voltage from a combination of panels is 46.5x2=93V(<150V)
 
 ## 13.2. Wind energy density distribution over India
 
@@ -1172,7 +1438,7 @@ For $\tau$ to exist :   $P_{wind} \ / \ ω \geq 86.1 \times ω$
 
 Hence, $0 \leq ω \leq (P_{wind}/86.1)^{1/2}$
   
-Abbreviation in the above used formulas are given in the following table:
+Abbreviations in the above-used formulas are given in the following table:
 
 | Abbreviation      | Meaning                            |
 | ----------------- | ---------------------------------- |
@@ -1184,9 +1450,9 @@ Abbreviation in the above used formulas are given in the following table:
 | $v$               | Velocity of wind                   |
 | $C_p$             | Power Coefficient                  |
 
-Now, we have 3 upper limits of omega and our system will run on the largest of these three and accordingly we'll get $P_{load}$ as given.
+Now, we have three upper limits of omega, and our system will run on the largest of these three, and accordingly, we will get $P_{load}$ as given.
 
-- Relaible Data for wind speeds was available at 50 meters above ground level. As our wind mill is 10 meters above ground, we can use the formula below to approximate wind speed at that height.
+- Reliable Data for wind speeds was available at 50 meters above ground level. Our windmill is 10 meters above ground; we can use the formula below to approximate wind speed at that height.
 
 $v_{10} = v_w(h) \cdot \left( \frac{h_{10}}{h} \right)^a$
 
