@@ -2,7 +2,6 @@
 geometry: margin = 2cm
 ---
 
-
 # ELP305, Design and Systems Lab
 
 >Semester 2, 2021-22
@@ -37,7 +36,7 @@ geometry: margin = 2cm
     - [6.4.1. Electric Wiring Board](#641-electric-wiring-board)
     - [6.4.2. MCB connections](#642-mcb-connections)
     - [6.4.3. Battery Room preventive measures against mishaps](#643-battery-room-preventive-measures-against-mishaps)
-    - [6.4.4. Cost Analysis :](#644-cost-analysis-)
+    - [6.4.4. Cost Analysis](#644-cost-analysis)
 - [7. Solar Energy](#7-solar-energy)
   - [7.1. Roof Design](#71-roof-design)
   - [7.2. Solar panels](#72-solar-panels)
@@ -55,7 +54,7 @@ geometry: margin = 2cm
     - [7.12.1. Design of solar panel stand](#7121-design-of-solar-panel-stand)
   - [7.13. Earthing Kit](#713-earthing-kit)
   - [7.14. Lighting Arrester](#714-lighting-arrester)
-  - [7.15. Basic tools required:](#715-basic-tools-required)
+  - [7.15. Basic tools required](#715-basic-tools-required)
   - [7.16. Block Diagram and Wirings](#716-block-diagram-and-wirings)
   - [7.17. Cost Analysis](#717-cost-analysis)
 - [8. Wind Energy](#8-wind-energy)
@@ -86,7 +85,8 @@ geometry: margin = 2cm
   - [13.2. Wind energy density distribution over India](#132-wind-energy-density-distribution-over-india)
   - [13.3. Power Calculations](#133-power-calculations)
 - [14. References](#14-references)
-  
+
+[Back to Table of Contents](#table-of-contents)  
 
 # 1. Our Tribe
 
@@ -147,6 +147,8 @@ geometry: margin = 2cm
 - This document was submitted on 2 Feb, 2022.
 - The person to contact for any clarification: Bhavya Yadav (Documentation Tribe Sub Coordinator, mt1190684@iitd.ac.in )
 
+[Back to Table of Contents](#table-of-contents)
+
 # 2. Readability Indices
 
 ## 2.1 Documentation Statistics
@@ -169,6 +171,8 @@ geometry: margin = 2cm
 | SMOG Index                  | 4.6   |
 | Coleman Liau Index          | 9.9   |
 | Automated Readability Index | 0.9   |
+
+[Back to Table of Contents](#table-of-contents)
 
 # 3. Preamble
 
@@ -193,11 +197,17 @@ geometry: margin = 2cm
 
 Attached at the end of the pdf report.
 
+[Back to Table of Contents](#table-of-contents)
+
 # 4. Motivation
 
 >We are designing a system to meet the entire energy needs of your home without drawing commercial electrical power from the utility. This report contains the final report of the house designed by Tribe D i.e. the requirements, specifications and design of the house.
 
+[Back to Table of Contents](#table-of-contents)
+
 # 5. Abstract
+
+[Back to Table of Contents](#table-of-contents)
 
 # 6. Design of House
 
@@ -224,11 +234,13 @@ The following table contains specifications of the house:
 
 The following figure shows the top view of the house:
 
-!["Top View of the House"](./Images/House%20Top%20View%20(Labelled).png "Top View of the House")
+<!-- !["Top View of the House"](./Images/House%20Top%20View%20(Labelled).png = 100x20) -->
+
+<img src="./Images/House%20Top%20View%20(Labelled).png" width="400px">
 
 The following figure shows the isometric view of the house:
 
-![Isometric view of the house](./Images/Isometric%20View%20.png "Isometric view of the house")
+<img src="./Images/Isometric%20View%20.png" width="400px">
 
 The following table contains information about different rooms in the house along with their specifications:
 
@@ -259,7 +271,7 @@ The following table contains information about different rooms in the house alon
 
 The following diagram shows the house wiring:
 
-!["House Wiring Diagram"](./Images/house%20wiring%20diagram.png "House Wiring Diagram")
+<img src="./Images/house%20wiring%20diagram.png" width="400px">
 
 ## 6.4. Battery Storage Room
 
@@ -271,7 +283,7 @@ The following diagram shows the Electric Wiring Board:
 
 The following diagrams shows the components of ELectric Wiring Board:
 
-!["Components of ELectric Wiring Board"](./Images/Components%20of%20Electric%20Wiring%20Board.png "Components of ELectric Wiring Board")
+<img src="./Images/Components%20of%20Electric%20Wiring%20Board.png" width="400px">
 
 ### 6.4.2. MCB connections
 
@@ -285,34 +297,42 @@ A phase wire and a neutral wire from the input supply are connected to the MCB w
 
 From each MCB the phase wire is connected to the switch board in the room and a neutral wire is connected from the neutral link. Earthing wire is connected from the earthing link for each room.
 
-https://in.pinterest.com/pin/207587864065004785/
-https://mechatrofice.com/electrical/wiring/distribution-board-wiring
+<https://in.pinterest.com/pin/207587864065004785/>
+<https://mechatrofice.com/electrical/wiring/distribution-board-wiring>
 
 ### 6.4.3. Battery Room preventive measures against mishaps
 
-1. Ventilation: During the recharge process hydrogen and oxygen evolve from the lead acid battery. If the hydrogen level exceeds 4% of the available volume in the area then the general atmosphere can become explosive – because of this it is recommended that the concentration of hydrogen never exceeds 1% of available volume. 
-* Adequate ventilation needs to be provided to keep the hydrogen level below 1%. The battery room shall be ventilated by means of two exhaust fans (one working + one standby). 
-* The standby fan should start automatically in case the other fails.
-* The fan shall be mounted as high as possible in the wall, but not below the level of the light fittings. (Fan used : Havells Ventil Air DX 200mm Exhaust Fan )
+1. Ventilation: During the recharge process hydrogen and oxygen evolve from the lead acid battery. If the hydrogen level exceeds 4% of the available volume in the area then the general atmosphere can become explosive – because of this it is recommended that the concentration of hydrogen never exceeds 1% of available volume.
+
+- Adequate ventilation needs to be provided to keep the hydrogen level below 1%. The battery room shall be ventilated by means of two exhaust fans (one working + one standby).
+
+- The standby fan should start automatically in case the other fails.
+- The fan shall be mounted as high as possible in the wall, but not below the level of the light fittings. (Fan used : Havells Ventil Air DX 200mm Exhaust Fan )
 
 2. Personal Protective Equipment and Clothing
-* One ABC fire extinguisher that is properly inspected/maintained
-* One Fire extinguisher https://www.amazon.in/ALERTFIRE-Fire-Stop-Home-Fire-Extinguisher/dp/B09D3T7BB6/ref=sr_1_4?keywords=fire%2Bextinguisher&qid=1643563208&s=kitchen&sprefix=fire%2Bex%2Ckitchen%2C286&sr=1-4&th=1
-* Adequate amount of Neutralizer https://www.amazon.in/Chemsorb-Neutralizing-Fast-Acting-Neutralizer-Laboratories/dp/B07BHVBF1T/ref=sr_1_2?crid=1HLP2UZKMZ8N1&keywords=neutralizer+battery&qid=1643565053&sprefix=neutralizer+batter%2Caps%2C197&sr=8-2
-3. If electrolyte is spilt:
-* Throw sand over the contaminated area and remove the earth or sand once it has soaked up the acid/electrolyte https://www.amazon.in/Fire-Shape-Industries-9ltr-Bucket/dp/B07YNGSGVS/ref=sr_1_2?crid=2C3LX946NRHC5&keywords=fire+bucket&qid=1643565147&s=kitchen&sprefix=fire+bucke%2Ckitchen%2C188&sr=1-2
-* Wash down the area with a solution of common washing soda.
-* Dispose of any contaminated material safely
-4. Do’s & Don'ts in and around battery room:
-   * To Ensure that the area is adequately ventilated to dissipate harmful gasses, two exhaust fans have been installed
-   * Keep all metallic objects away from battery tops.
-   * Prevent open flames, sparks or electric arcs in the battery charging areas.
-   * The battery charging has been well lit with two lights
-   * A spill tray should be installed under the battery to contain any spill.
-   * If installed batteries are at risk of metal tools or other conductive materials touching terminals, then the terminals should be insulated.
-https://www.miningsafety.co.za/battery-charging-rooms-and-mining-safety/
 
-### 6.4.4. Cost Analysis : 
+- One ABC fire extinguisher that is properly inspected/maintained
+
+- One Fire extinguisher <https://www.amazon.in/ALERTFIRE-Fire-Stop-Home-Fire-Extinguisher/dp/B09D3T7BB6/ref=sr_1_4?keywords=fire%2Bextinguisher&qid=1643563208&s=kitchen&sprefix=fire%2Bex%2Ckitchen%2C286&sr=1-4&th=1>
+- Adequate amount of Neutralizer <https://www.amazon.in/Chemsorb-Neutralizing-Fast-Acting-Neutralizer-Laboratories/dp/B07BHVBF1T/ref=sr_1_2?crid=1HLP2UZKMZ8N1&keywords=neutralizer+battery&qid=1643565053&sprefix=neutralizer+batter%2Caps%2C197&sr=8-2>
+
+3. If electrolyte is spilt:
+
+- Throw sand over the contaminated area and remove the earth or sand once it has soaked up the acid/electrolyte <https://www.amazon.in/Fire-Shape-Industries-9ltr-Bucket/dp/B07YNGSGVS/ref=sr_1_2?crid=2C3LX946NRHC5&keywords=fire+bucket&qid=1643565147&s=kitchen&sprefix=fire+bucke%2Ckitchen%2C188&sr=1-2>
+
+- Wash down the area with a solution of common washing soda.
+- Dispose of any contaminated material safely
+
+4. Do’s & Don'ts in and around battery room:
+   - To Ensure that the area is adequately ventilated to dissipate harmful gasses, two exhaust fans have been installed
+   - Keep all metallic objects away from battery tops.
+   - Prevent open flames, sparks or electric arcs in the battery charging areas.
+   - The battery charging has been well lit with two lights
+   - A spill tray should be installed under the battery to contain any spill.
+   - If installed batteries are at risk of metal tools or other conductive materials touching terminals, then the terminals should be insulated.
+<https://www.miningsafety.co.za/battery-charging-rooms-and-mining-safety/>
+
+### 6.4.4. Cost Analysis
 
 |Item | Price (INR) | Quantity | Cost (INR)|
 |---|---|---|---|
@@ -326,14 +346,16 @@ https://www.miningsafety.co.za/battery-charging-rooms-and-mining-safety/
 |Isolator|747|1|747|
 | | |Total| 10026|
 
-Spill Tray : https://www.amazon.in/SHARMA-PLASTICS-Organizer-Decorative-Bathroom/dp/B0993F8XQQ/ref=sr_1_1?crid=2G8884Y9LSK02&keywords=spill+tray&qid=1643564648&s=kitchen&sprefix=spill+tra%2Ckitchen%2C199&sr=1-1
-MCB : https://www.amazon.in/Havells-DHMNCSPA016-Plastic-Mini-White/dp/B07BH44M5K/ref=sr_1_7?crid=FJHT0O4BJIDX&keywords=mcb&qid=1643570377&sprefix=macb%2Cdvd%2C172&sr=8-7
-RCB : https://www.amazon.in/amiciSmart-Circuit-Breaker-Lightning-Protection/dp/B09F39K2QN/ref=sr_1_1_sspa?crid=2NPFT7C7W5H56&keywords=rccb&qid=1643570284&s=kitchen&sprefix=rcb+%2Ckitchen%2C209&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMSVdZR0JKM0tFQ0MmZW5jcnlwdGVkSWQ9QTA1NjgwOTlKUkRGWFdINjk1RjgmZW5jcnlwdGVkQWRJZD1BMDk4ODk1NjNBTEk5TzExN0szSk4md2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl
-Isolator : https://www.amazon.in/Wipro-WMISO40AFP-Wpro-Isolator-40A/dp/B087DCCLGL/ref=sr_1_2?crid=10Y1JZ4KO866A&keywords=isolator&qid=1643570327&s=kitchen&sprefix=isolator%2Ckitchen%2C199&sr=1-2
+Spill Tray : <https://www.amazon.in/SHARMA-PLASTICS-Organizer-Decorative-Bathroom/dp/B0993F8XQQ/ref=sr_1_1?crid=2G8884Y9LSK02&keywords=spill+tray&qid=1643564648&s=kitchen&sprefix=spill+tra%2Ckitchen%2C199&sr=1-1>
+MCB : <https://www.amazon.in/Havells-DHMNCSPA016-Plastic-Mini-White/dp/B07BH44M5K/ref=sr_1_7?crid=FJHT0O4BJIDX&keywords=mcb&qid=1643570377&sprefix=macb%2Cdvd%2C172&sr=8-7>
+RCB : <https://www.amazon.in/amiciSmart-Circuit-Breaker-Lightning-Protection/dp/B09F39K2QN/ref=sr_1_1_sspa?crid=2NPFT7C7W5H56&keywords=rccb&qid=1643570284&s=kitchen&sprefix=rcb+%2Ckitchen%2C209&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMSVdZR0JKM0tFQ0MmZW5jcnlwdGVkSWQ9QTA1NjgwOTlKUkRGWFdINjk1RjgmZW5jcnlwdGVkQWRJZD1BMDk4ODk1NjNBTEk5TzExN0szSk4md2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl>
+Isolator : <https://www.amazon.in/Wipro-WMISO40AFP-Wpro-Isolator-40A/dp/B087DCCLGL/ref=sr_1_2?crid=10Y1JZ4KO866A&keywords=isolator&qid=1643570327&s=kitchen&sprefix=isolator%2Ckitchen%2C199&sr=1-2>
+
+[Back to Table of Contents](#table-of-contents)
 
 # 7. Solar Energy
 
-## 7.1. Roof Design 
+## 7.1. Roof Design
 
 The location of house is assumed to be Chennai (Tamil Nadu, India). We built a flat roof of the house as it provides greater area so there will be proper airflow which helps in the temperature reduction of the panels.
 
@@ -352,9 +374,9 @@ Solar Panels should produce approx 6-8 kWh per day. It is the primary component 
 We are using six 335W Solar panels (Total 335W * 6 =2.01 kW). The following are the specifications of the Solar Panels used:
 
 | Property | Specification |
-|---|---| 
+|---|---|
 |Manufacturer | Luminous (335W/24V)|
-|Material | monocrystalline solar panel| 
+|Material | monocrystalline solar panel|
 |Number of panels | 6 |
 |Operating Voltage | 24 V |
 |Dimensions | height - 6.4 feet |
@@ -367,6 +389,7 @@ We are using six 335W Solar panels (Total 335W * 6 =2.01 kW). The following are 
 |Area for solar panels| 180 sq.feet|
 
 Features of Luminous Monocrystalline Perc solar Panels are:
+
 1. Excellent performance under low light conditions.
 2. Comes with highly qualified anti-reflective glass.
 3. Comes with latest PERC(Passivated Emitter and Real Cell) technology.
@@ -380,7 +403,7 @@ Features of Luminous Monocrystalline Perc solar Panels are:
 
 We have to connect 2 solar panels in the series and 3 such connections in parallel. We need at least 2 solar panels in series because the total voltage generated by the solar panels must be significantly higher than battery voltage for efficient performance. We have 1 solar panel rated at 24V operating point but this might decrease depending on the production or temperature. Hence, to ensure the panel voltage to be higher than the battery voltage, we are keeping 2 panels in series but we also need these panels in parallel so that performance of 1 panel doesn’t affect the performance of all other solar panels.
 
-## 7.3. Off Grid Solar Inverter 
+## 7.3. Off Grid Solar Inverter
 
 It is the central component that converts DC Voltage into AC for AC operated home appliances. Solar inverter should fulfill the requirements :
 
@@ -390,7 +413,7 @@ It is the central component that converts DC Voltage into AC for AC operated hom
 4. It should be able to withstand high temperatures and should have a good cooling mechanism.
 5. It should be resistant to humid climate.
 
-https://www.luminousindia.com/solar-products/solar-pv-panel.html#:~:text=Monocrystalline%20PERC%20 solar%20 panels%20are%20 space%20 efficient%20as%20compared%20to,from%20as%20per%20your%20 preference.
+<https://www.luminousindia.com/solar-products/solar-pv-panel.html#:~:text=Monocrystalline%20PERC%20> solar%20 panels%20are%20 space%20 efficient%20as%20compared%20to,from%20as%20per%20your%20 preference.
 
 The inverter and the home should be as close as possible so that energy from the inverter has a short distance to travel to the electrical box / supply.
 
@@ -403,7 +426,7 @@ Battery should be completely safe, not burnable, stable and maintenance-free. Ba
 3. It should have a high current rating.
 
 The maximum distance between solar panels and batteries should be 20 to 30 ft. and mount the charge controller within a yard or meter of the batteries. If the distance is more than 30ft we need high quality cables.
-https://solvoltaics.com/solar-panels-distance-battery-charge-controller-inverter/#:~:text=Solar%20Battery%20storage%20systems%20should,components%20of%20your%20solar%20array.
+<https://solvoltaics.com/solar-panels-distance-battery-charge-controller-inverter/#:~:text=Solar%20Battery%20storage%20systems%20should,components%20of%20your%20solar%20array>.
 
 The battery bank and the inverter should also be close — within a yard or so.
 
@@ -414,24 +437,26 @@ The wires that are used in the connection of panels with the Solar inverter are 
 The specifications of DC Wire are as follows:
 
 |S.No|Use of wire | Property | Specification |
-|---|---|---|---| 
+|---|---|---|---|
 |1|Solar Array to DCDB |Wire Gauge |12AWG|
 | | |Diameter | 1.8493mm|
 | | |One way distance | 6m |
-|2|DCDB to Charge Controllers |Wire Gauge | 12AWG | 
-| | |Diameter | 1.8493mm| 
+|2|DCDB to Charge Controllers |Wire Gauge | 12AWG |
+| | |Diameter | 1.8493mm|
 | | |One way distance | 6m |
-|3|Charge Controller to Batteries| Wire Gauge | 6AWG| 
-| | |Diameter | 4.09mm| 
+|3|Charge Controller to Batteries| Wire Gauge | 6AWG|
+| | |Diameter | 4.09mm|
 | | |One way distance| 2m |
 |4|Earthing Wire(For circuit grounding)|Wire Gauge| 6 AWG |
 |5|For Lightning Arrestor| | 50sq mm Aluminum Wire(insulated) |
 
-https://www.omnicalculator.com/physics/wire-size
+<https://www.omnicalculator.com/physics/wire-size>
 
-https://www.portablesolarexpert.com/solar-panel-grounding-wire-size-guide/
+<https://www.portablesolarexpert.com/solar-panel-grounding-wire-size-guide/>
 
-The wires that are used for the connection of the inverter with the grid power and Household loads are called AC wires. 
+The wires that are used for the connection of the inverter with the grid power and Household loads are called AC wires.
+
+[Back to Table of Contents](#table-of-contents)
 
 ## 7.6. ACDB (1 in 1 out)
 
@@ -441,7 +466,7 @@ It includes AC SPD, AC fuse and MCB to protect the solar inverter from high volt
 2. Dust and water protected
 3. Polycarbonate Material
 4. MCB Based AC disconnection
-5. It should have current rating 
+5. It should have current rating
 6. It should have high voltage and frequency ass in AC
 
 ## 7.7. DCDB (1 in 1 out)
@@ -458,8 +483,8 @@ It protects the solar energy system from DC current from panels and protects pan
 The following table shows the specifications of the DCDB used:
 
 | Property | Specification |
-|---|---| 
-|Maximum current| 3* 10.57A * 1.25 = 39.63A |
+|---|---|
+|Maximum current| 3*10.57A* 1.25 = 39.63A |
 |Fuse Rating | 38-40A |
 |Brand|Havells|
 |Model Name/Number | zoob|
@@ -467,7 +492,7 @@ The following table shows the specifications of the DCDB used:
 |Material | PVC IP68|
 |Power rating| 1-3kW|
 
-## 7.8. Solar water Heater 
+## 7.8. Solar water Heater
 
 A Solar water heater with the following requirements:
 
@@ -478,13 +503,13 @@ A Solar water heater with the following requirements:
 5. Some covering on the sides must be incorporated to prevent burn if someone comes nearby
 6. Insulated hot water storage tank approx
 7. Cold water tank with required insulated hot water pipelines and accessories.
-8. Pipelines 
+8. Pipelines
 9. It should be able to withstand hot water upto 80 degree
 10. The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the no. of storage tank
 11. Some valves to control the flow
 
 The following are the specifications of the Solar Heater used:
-https://www.indiamart.com/proddetail/200-lpd-solar-water-heater-10495712030.html 
+<https://www.indiamart.com/proddetail/200-lpd-solar-water-heater-10495712030.html>
 
 1. Dimensions are : 1.316m x 2.105m
 2. 200 LPD Non pressurized ETC(Evacuated Tube Collector-based on thermosyphon principle) because ETC has a very low heat loss coefficient.
@@ -504,12 +529,12 @@ We are using charge controllers to regulate voltage and current from solar panel
 3. It should regulate the variation in current voltage characteristics properly.
 
 We are using 1 Victron SmartSolar Charge Controller(85A,150V):
-https://www.victronenergy.com/solar-charge-controllers/smartsolar-mppt-ve.can#enclosure-dimensions
+<https://www.victronenergy.com/solar-charge-controllers/smartsolar-mppt-ve.can#enclosure-dimensions>
 
 | Property | Specification |
-|---|---| 
+|---|---|
 |Dimensions | 295 x 213.9 x 100.4 mm |
-|Maximum possible current in the system | 83.75 A (minimum Current rating) 
+|Maximum possible current in the system | 83.75 A (minimum Current rating)
 | Upper Voltage limit | 93 V (minimum voltage rating) |
 | Maximum power | 6*335 = 2140 W (minmium power rating) |
 | Efficiency | 98% |
@@ -517,7 +542,7 @@ https://www.victronenergy.com/solar-charge-controllers/smartsolar-mppt-ve.can#en
 
 Other specifications of this Charge Controller are:
 
-1. It is a Maximum Power Point Tracking(MPPT) controller and usess advanced MPPT control algorithm to minimize the maximum power point loss rate and loss time, 
+1. It is a Maximum Power Point Tracking(MPPT) controller and usess advanced MPPT control algorithm to minimize the maximum power point loss rate and loss time,
 2. It has ultra-fast tracking speed and great tracking efficiency.
 3. It has fully programmable charge algorithm, and eight pre-programmed algorithms, selectable with a rotary switch.
 4. Comes with auto-voltage detection feature (12, 24, 36, or 48 volts)
@@ -527,7 +552,7 @@ Current rating:- maximum output current of the solar panel and Battery Voltage.
 7. Real-time energy statistics function, Overheating power reduction function
 
 The solar charge controller should always be placed close to the batteries, not close to the panels. It should be within one meter (approximately 3.25ft) of the battery bank and in the same room or enclosure.
-https://www.victronenergy.com/media/pg/SmartSolar_MPPT_RS/en/index-en.html
+<https://www.victronenergy.com/media/pg/SmartSolar_MPPT_RS/en/index-en.html>
 
 !["Charge controller outer casing with connectinon ports"](./Images/charge%20controller%20outer%20casing%20with%20connectinon%20ports.jpg "Charge controller outer casing with connectinon ports")
 
@@ -541,11 +566,14 @@ Clamp metre detects the magnetic field emitted by current flowing in wire in ord
 2. It should have overload protection system
 3. It should be adjusted according to different current ranges for better precision.
 
+[Back to Table of Contents](#table-of-contents)
+
 ## 7.11. MC4 connector
 
-MC4 (Multi Contact and the 4mm diameter contact pin) connectors are single contact electrical connectors commonly used for connecting solar panels. 
+MC4 (Multi Contact and the 4mm diameter contact pin) connectors are single contact electrical connectors commonly used for connecting solar panels.
 We will use the Solar panel system to measure current and voltage whenever required.
-* 2 pairs of MC4 connectors are needed.
+
+- 2 pairs of MC4 connectors are needed.
 
 ## 7.12. Solar Panel Stand
 
@@ -562,12 +590,12 @@ Solar Panel Stand should fulfill the following requirements:
 
 We used Mechanical stands for the panels, which includes change in angle of panels by mechanical movement of the roads. This will increase the energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.
 
-1. Panels will face towards the South direction with an angle of 14.8 degrees from horizontal in Spring/Fall season, 30 degrees in Winter season and 0 degree (exactly horizontal) in summers. 
-https://footprinthero.com/solar-panel-tilt-angle-calculator 
+1. Panels will face towards the South direction with an angle of 14.8 degrees from horizontal in Spring/Fall season, 30 degrees in Winter season and 0 degree (exactly horizontal) in summers.
+<https://footprinthero.com/solar-panel-tilt-angle-calculator>
 
 2. Panels will be adjusted four times in a year.
-3. Height of panels from the roof: The height should be at least 3-5 inches for continuous airflow. (the airflow helps in reducing the temperature of the panels for more energy production) 
-https://www.pveducation.org/pvcdrom/solar-cell-operation/effect-of-temperature
+3. Height of panels from the roof: The height should be at least 3-5 inches for continuous airflow. (the airflow helps in reducing the temperature of the panels for more energy production)
+<https://www.pveducation.org/pvcdrom/solar-cell-operation/effect-of-temperature>
 
 We have designed the Solar panel stands in such a way it have holes from 0-30⁰(degree)which can be adjusted manually according to position of sun, thus giving the desired output. Panels will be adjusted four times in a year.<br/>
 
@@ -598,7 +626,7 @@ Copper rod of diameter should be enough to conduct lightning to earth and not de
 The following table shows the specifications of Copper rod:
 
 | Property | Specification |
-|---|---| 
+|---|---|
 |Length|6-8 feet|
 |Material|Mild Steel|
 |Finish |Copper Bonded/Coated|
@@ -613,30 +641,32 @@ The following table shows benefits of using Earthing compound:
 3. Excellent Moisture Absorption and Retaining Capacity
 4. Enriches the Charge Carrying Ions in the soil
 
-## 7.14. Lighting Arrester 
+[Back to Table of Contents](#table-of-contents)
+
+## 7.14. Lighting Arrester
 
 Lighting Arrester(LA) protects solar panels from thunder. In dangerous lighting strikes, LA activates and diverts lighting to ground.
 
 We are using copper bonded lightning arrester 1 meter with earthing rod for home and building protection. This 1kg and 350gm weight offers a coverage of 45 degrees from the top point of the arrester, that is the surrounding area with a 2m radius.
 In order to let the surge current flow to the ground via the earthing system, the copper strip or 4mm copper ac wire is connected between this lightning arrester and ground earthing system.
 
-Suitable for: 1kW, 2kW, 1kVA to 3kVA off-grid or on-grid solar power system. 
+Suitable for: 1kW, 2kW, 1kVA to 3kVA off-grid or on-grid solar power system.
 
 The following table shows the specfications of lighting arrester used:
 
 | Property | Specification |
-|---|---| 
+|---|---|
 |Phase| Single Phase|
 |No. of Poles| 5|
 |Building Protection Coverage|45 degrees from the top point |
 |Application| Residential|
 |Material| Copper|
 |Surface Treatment| Galvanized|
-|Total length|1m | 
+|Total length|1m |
 |Diameter| 9.2mm|
 |Dimension of base plate| 9*9 cm|
 
-## 7.15. Basic tools required:
+## 7.15. Basic tools required
 
 The following flow chart shows the basic tools required for installing the set up:
 
@@ -652,13 +682,14 @@ A: --> S:(PVC Pipe)
 A: --> T:(Hammer)
 A: --> U:(Cement, Sand, Water) 
 ```
+
 ## 7.16. Block Diagram and Wirings
 
 The following figure shows the block diagram for electricity production and transmission from solar energy:
 
-!["Block Diagram"](./Images/electricity%20production%20from%20solar%20energy%20and%20transmission%20to%20battery_block%20diagram%20.jpeg "Block Diagram")
+<img src="./Images/electricity%20production%20from%20solar%20energy%20and%20transmission%20to%20battery_block%20diagram%20.jpeg" width="600px">
 
-The amount of energy lost in solar power systems depends on the cable used, solar panel and battery design and how far apart they are. The actual amount of energy lost is also dependent upon the gauge or thickness of the wire. Long, thin cables increase the amount of energy lost as the conductor resists current flow. With a shorter, thicker cable, energy loss is minimized during transmission. 
+The amount of energy lost in solar power systems depends on the cable used, solar panel and battery design and how far apart they are. The actual amount of energy lost is also dependent upon the gauge or thickness of the wire. Long, thin cables increase the amount of energy lost as the conductor resists current flow. With a shorter, thicker cable, energy loss is minimized during transmission.
 
 ## 7.17. Cost Analysis
 
@@ -675,6 +706,9 @@ Cost analysis(all prices in INR):
 |Water heater |26,828|1|26,828|
 |Stands |6,500|1|6,500|
 |||Total|1,92,242|
+
+[Back to Table of Contents](#table-of-contents)
+
 # 8. Wind Energy
 
 ## 8.1. Components of Wind Mill
@@ -690,6 +724,8 @@ flowchart
  E: --> G:(Generator) 
 ```
 
+[Back to Table of Contents](#table-of-contents)
+
 ## 8.2. Component Description
 
 ### 8.2.1. Blade
@@ -704,7 +740,7 @@ The following table shows the specifications of the blade used:
 
 We chose this blade because the higher stiffness and lower density of Carbon Fibre allows a thinner blade profile while producing stiffer, lighter blades. These blades have a longer lifetime because carbon fiber materials have a high fatigue and corrosion resistance.
 
-!["Blade"](./Images/Blade.png "Blade")
+<img src="./Images/Blade.png" width="400px">
 
 [Available at Ali-express](https://www.aliexpress.com/item/4001139515403.html?spm=a2g0n.productlist.0.0.7211IQi9IQi9Vx&browser_id=d00f1a8121fb44c1b2b14a6af3db712a&aff_trace_key=2e6262a6b946444e9647f01778184a13-1640936845702-06527-_d8O2mSk&aff_platform=msite&m_page_id=kknvggxbwhicaasx17e4e54623120c0b2a7f2476ba&gclid)
 
@@ -722,7 +758,7 @@ We chose aluminium for the pole because it has low density and high tensile stre
 
 Guy wires provide extra stability during extreme weather conditions.
 
-!["Pole and Guy Wires"](./Images/Pole%20and%20Guy%20Wires.png "Pole and Guy Wires")
+<img src="./Images/Pole%20and%20Guy%20Wires.png" width="400px">
 
 [Available at 27500 (ubuy.co.in)](https://www.ubuy.co.in/product/1PIQEAHYQ-primus-wind-power-guyed-tower-kit-wind-power-turbine-solutions-made-in-usa?utm_source=gad&utm_medium=cpc&utm_campaign=inshop&loc=1007820&gclid=CjwKCAiAxJSPBhAoEiwAeO_fP0KSJjIbn2V1CJ2GrzT_fX6-uDxSN_J46sOmyb-0edaQnGA6p-P1MRoCU1kQAvD_BwE)
 
@@ -737,7 +773,7 @@ The following table shows the specifications of the hub used:
 
 The hub is a key component not only because it holds the blades in their proper position for maximum aerodynamic efficiency, it also rotates the shaft of the generator.
 
-!["Hub"](./Images/Hub.png "Hub")
+<img src="./Images/Hub.png" width="400px">
 
 [Available at Ali-express](https://www.aliexpress.com/item/4001139515403.html?spm=a2g0n.productlist.0.0.7211IQi9IQi9Vx&browser_id=d00f1a8121fb44c1b2b14a6af3db712a&aff_trace_key=2e6262a6b946444e9647f01778184a13-1640936845702-06527-_d8O2mSk&aff_platform=msite&m_page_id=kknvggxbwhicaasx17e4e54623120c0b2a7f2476ba&gclid)
 
@@ -754,9 +790,9 @@ The following table shows the specifications of the turbine used:
 
 This generator uses direct-drive mechanism, which eliminates the need for a gearbox and can operate at variable RPM. A gearbox free mechanism such as ours reduces the weight and cost.
 
-!["Generator"](./Images/Generator.png "Generator")
+<img src="./Images/Generator.png" width="400px">
 
-[Supplier-controlelectricco.com at INR 22,000 ](https://www.controlelectricco.com/permanent-magnet-alternator.html)
+[Supplier-controlelectricco.com at INR 22,000](https://www.controlelectricco.com/permanent-magnet-alternator.html)
 
 ### 8.2.5. Casing
 
@@ -771,7 +807,7 @@ The following table shows the specifications of the turbine used:
 
 5052 Aluminum is optimal for sheet metal work and is very easy to form at room temperature. This material is very bendable, and can therefore handle tight radii.
 
-!["Casing for generator"](./Images/Casing.png "Casing for Generator")
+<img src="./Images/Casing.png" width="400px">
 
 [Supplier - protocase](https://www.protocase.com/products/materials-components-finishes/materials/aluminum.php)
 
@@ -779,11 +815,13 @@ The following table shows the specifications of the turbine used:
 
 Flowchart of Mechanical Assembly of the Wind Mill
 
-!["Flowchart of Mechanical Assembly of the Wind Mill"](./Images/Flowchart%20of%20Mechanical%20Assembly%20of%20Wind%20Mill.jpeg "Flowchart of Mechanical Assembly of the Wind Mill")
+<img src="./Images/Flowchart%20of%20Mechanical%20Assembly%20of%20Wind%20Mill.jpeg" width="800px">
 
 Working schematics of the Wind Mill
 
 !["Working schematics of the Wind Mill"](./Images/Working%20schematics%20of%20the%20Wind%20Mill.png "Working schematics of the Wind Mill")
+
+[Back to Table of Contents](#table-of-contents)
 
 ## 8.3. Cost Analysis
 
@@ -810,9 +848,11 @@ Assuming Average Wind Speed to be 4.51 m/s, we get the following results:
 - Command Line Interface of Wind Box
 !["Wind-Box"](./Images/Wind%20Box.png "Wind-Box")
 
+[Back to Table of Contents](#table-of-contents)
+
 # 9. Biomass Energy
 
-
+[Back to Table of Contents](#table-of-contents)
 
 # 10. Storage
 
@@ -908,6 +948,8 @@ The following table shows the specifiactions of Battery:
 <https://www.amazon.com/dp/B07ZRKXV2L?tag=solartree-20>
 <https://www.victronenergy.com/batteries>
 
+[Back to Table of Contents](#table-of-contents)
+
 ## 10.3. Design
 
 ### 10.3.1 Charge Controller
@@ -951,11 +993,11 @@ The following table shows the specifiactions of Wind Turbine Charge Controller:
 | Weight           | 0.4 kg        |
 | Cost             | $104.61       |
 
-![Wind Turbine Charge Controller](./Images/Wind%20Turbine%20Charge%20Controller.png "Wind Turbine Charge Controller")
+<img src="./Images/Wind%20Turbine%20Charge%20Controller.png" width="400px">
 
 <https://www.ato.com/600w-wind-turbine-mppt-charge-controller>
 
-3. Biomass turbine Charge controller
+1. Biomass turbine Charge controller
 
 The following table shows the specifiactions of Biomass Turbine Charge Controller:
 
@@ -1010,7 +1052,7 @@ Three parallel sets can handle 132A (3 $*$ 44A) charging current and ensure a 66
 | Total power                       | (12)V*(6*220) Ah = 15.84kw |
 | Total Cost                        | 6*20,856 = 1,25,136 INR    |
 
-![Battery Connections](./Images/Battery.png "Battery Connections")
+<img src="./Images/Battery.png" width="400px">
 
 1 N Battery, 6 N Float Indicator, 1 N Warranty Card, 2N MS fasteners.
 
@@ -1037,6 +1079,8 @@ Easy maintenance with level indicators.
 ### 10.3.3 Inverter (For converting DC to AC)
 
 The battery provides a DC, but the household appliances and the electrical grid of a household require an AC. Therefore, the DC current first needs to be converted into AC current using an inverter device.
+
+[Back to Table of Contents](#table-of-contents)
 
 #### Design of a simple inverter:-
 
@@ -1069,6 +1113,8 @@ We will need the input to be 24V (coming from battery) for our purposes with the
 
 <https://www.amazon.in/WindyNation-Welding-Battery-Flexible-Inverter/dp/B01MY9QVRI>
 
+[Back to Table of Contents](#table-of-contents)
+
 ## Cost Analysis
 
 | Item                           | Quantity | Price/item(in Rs) | Total  |
@@ -1081,9 +1127,15 @@ We will need the input to be 24V (coming from battery) for our purposes with the
 | Wind Turbine charge controller | 1        | 7500              | 7500   |
 | Biomass charge controller      | 1        | 8000              | 8000   |
 
+[Back to Table of Contents](#table-of-contents)
+
 # 11. Closure
 
+[Back to Table of Contents](#table-of-contents)
+
 # 12. Reuse
+
+[Back to Table of Contents](#table-of-contents)
 
 # 13.  Appendix
 
@@ -1100,7 +1152,7 @@ Maximum rated voltage of the charge controller is 100V. Short circuit Voltage ra
 <https://journals.sagepub.com/doi/full/10.1177/0144598719875276>#
 <https://www.researchgate.net/figure/Map-showing-wind-power-potential-at-100-m-AGL-26_fig3_332702533>
 
-!["Map showing Wind power potential all over India"](./Images/Map-showing-wind-power-potential-at-100-m.png "Map showing Wind power potential all over India")
+<img src="./Images/Map-showing-wind-power-potential-at-100-m.png" width="500px">
 
 ## 13.3. Power Calculations
 
@@ -1143,5 +1195,7 @@ $v_{10} = v_w(h) \cdot \left( \frac{h_{10}}{h} \right)^a$
 From this, we get $4.51$ m/s as stated above.
 
 Output power @Wind Speed(4.5 m/s) ~ 470 Watts
+
+[Back to Table of Contents](#table-of-contents)
 
 # 14. References
