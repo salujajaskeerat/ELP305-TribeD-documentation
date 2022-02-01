@@ -525,7 +525,7 @@ The following table shows the specifications of the blade used:
 
 We chose this blade because the higher stiffness and lower density of Carbon Fibre allows a thinner blade profile while producing stiffer, lighter blades. These blades have a longer lifetime because carbon fiber materials have a high fatigue and corrosion resistance.
 
-!["Blade"](Blade.png "Blade")
+!["Blade"](./Images/Blade.png "Blade")
 
 [Available at Ali-express](https://www.aliexpress.com/item/4001139515403.html?spm=a2g0n.productlist.0.0.7211IQi9IQi9Vx&browser_id=d00f1a8121fb44c1b2b14a6af3db712a&aff_trace_key=2e6262a6b946444e9647f01778184a13-1640936845702-06527-_d8O2mSk&aff_platform=msite&m_page_id=kknvggxbwhicaasx17e4e54623120c0b2a7f2476ba&gclid)
 
@@ -543,7 +543,7 @@ We chose aluminium for the pole because it has low density and high tensile stre
 
 Guy wires provide extra stability during extreme weather conditions.
 
-!["Pole and Guy Wires"](Pole%20and%20Guy%20Wires.png "Pole and Guy Wires")
+!["Pole and Guy Wires"](./Images/Pole%20and%20Guy%20Wires.png "Pole and Guy Wires")
 
 [Available at 27500 (ubuy.co.in)](https://www.ubuy.co.in/product/1PIQEAHYQ-primus-wind-power-guyed-tower-kit-wind-power-turbine-solutions-made-in-usa?utm_source=gad&utm_medium=cpc&utm_campaign=inshop&loc=1007820&gclid=CjwKCAiAxJSPBhAoEiwAeO_fP0KSJjIbn2V1CJ2GrzT_fX6-uDxSN_J46sOmyb-0edaQnGA6p-P1MRoCU1kQAvD_BwE)
 
@@ -558,7 +558,7 @@ The following table shows the specifications of the hub used:
 
 The hub is a key component not only because it holds the blades in their proper position for maximum aerodynamic efficiency, it also rotates the shaft of the generator.
 
-!["Hub"](Hub.png "Hub")
+!["Hub"](./Images/Hub.png "Hub")
 
 [Available at Ali-express](https://www.aliexpress.com/item/4001139515403.html?spm=a2g0n.productlist.0.0.7211IQi9IQi9Vx&browser_id=d00f1a8121fb44c1b2b14a6af3db712a&aff_trace_key=2e6262a6b946444e9647f01778184a13-1640936845702-06527-_d8O2mSk&aff_platform=msite&m_page_id=kknvggxbwhicaasx17e4e54623120c0b2a7f2476ba&gclid)
 
@@ -575,7 +575,7 @@ The following table shows the specifications of the turbine used:
 
 This generator uses direct-drive mechanism, which eliminates the need for a gearbox and can operate at variable RPM. A gearbox free mechanism such as ours reduces the weight and cost.
 
-!["Generator"](Generator.png "Generator")
+!["Generator"](./Images/Generator.png "Generator")
 
 [Supplier-controlelectricco.com at INR 22,000 ](https://www.controlelectricco.com/permanent-magnet-alternator.html)
 
@@ -592,7 +592,7 @@ The following table shows the specifications of the turbine used:
 
 5052 Aluminum is optimal for sheet metal work and is very easy to form at room temperature. This material is very bendable, and can therefore handle tight radii.
 
-!["Casing for generator"](Casing.png "Casing for Generator")
+!["Casing for generator"](./Images/Casing.png "Casing for Generator")
 
 [Supplier - protocase](https://www.protocase.com/products/materials-components-finishes/materials/aluminum.php)
 
@@ -600,11 +600,11 @@ The following table shows the specifications of the turbine used:
 
 Flowchart of Mechanical Assembly of the Wind Mill
 
-!["Flowchart of Mechanical Assembly of the Wind Mill"](Flowchart%20of%20Mechanical%20Assembly%20of%20Wind%20Mill.jpeg "Flowchart of Mechanical Assembly of the Wind Mill")
+!["Flowchart of Mechanical Assembly of the Wind Mill"](./Images/Flowchart%20of%20Mechanical%20Assembly%20of%20Wind%20Mill.jpeg "Flowchart of Mechanical Assembly of the Wind Mill")
 
 Working schematics of the Wind Mill
 
-!["Working schematics of the Wind Mill"](Working%20schematics%20of%20the%20Wind%20Mill.png "Working schematics of the Wind Mill")
+!["Working schematics of the Wind Mill"](./Images/Working%20schematics%20of%20the%20Wind%20Mill.png "Working schematics of the Wind Mill")
 
 ## 8.3. Cost Analysis
 
@@ -629,7 +629,7 @@ Assuming Average Wind Speed to be 4.51 m/s, we get the following results:
 (For formulas used see Appendix 13.2.)
 
 - Command Line Interface of Wind Box
-!["Wind-Box"](Wind%20Box.png "Wind-Box")
+!["Wind-Box"](./Images/Wind%20Box.png "Wind-Box")
 
 # 9. Biomass Energy
 
@@ -770,7 +770,7 @@ The following table shows the specifiactions of Wind Turbine Charge Controller:
 | Weight           | 0.4 kg        |
 | Cost             | $104.61       |
 
-![Wind Turbine Charge Controller](Wind%20Turbine%20Charge%20Controller.png "Wind Turbine Charge Controller")
+![Wind Turbine Charge Controller](./Images/Wind%20Turbine%20Charge%20Controller.png "Wind Turbine Charge Controller")
 
 <https://www.ato.com/600w-wind-turbine-mppt-charge-controller>
 
@@ -789,7 +789,7 @@ The following table shows the specifiactions of Biomass Turbine Charge Controlle
 
 <https://www.inverter.com/800w-wind-turbine-mppt-charge-controller>)
 
-![Battery Connection Diagram](Battery%20Connection%20Diagram.png "Battery Connection Diagram")
+![Battery Connection Diagram](./Images/Battery%20Connection%20Diagram.png "Battery Connection Diagram")
 
 ### 10.3.2 Battery
 
@@ -829,7 +829,7 @@ Three parallel sets can handle 132A (3 $*$ 44A) charging current and ensure a 66
 | Total power                       | (12)V*(6*220) Ah = 15.84kw |
 | Total Cost                        | 6*20,856 = 1,25,136 INR    |
 
-![Battery Connections](Battery.png "Battery Connections")
+![Battery Connections](./Images/Battery.png "Battery Connections")
 
 1 N Battery, 6 N Float Indicator, 1 N Warranty Card, 2N MS fasteners.
 
@@ -873,7 +873,7 @@ Many inverters are available in the market, depending on the output frequency re
 
 <https://en.m.wikipedia.org/wiki/High-voltage_direct_current>
 
-![Design of a simple inverter](Design%20of%20a%20simple%20inverter.png "Design of a simple inverter")
+![Design of a simple inverter](./Images/Design%20of%20a%20simple%20inverter.png "Design of a simple inverter")
 
 We will need the input to be 24V (coming from battery) for our purposes with the following specifications:
 
@@ -912,7 +912,7 @@ We will need the input to be 24V (coming from battery) for our purposes with the
 <https://journals.sagepub.com/doi/full/10.1177/0144598719875276>#
 <https://www.researchgate.net/figure/Map-showing-wind-power-potential-at-100-m-AGL-26_fig3_332702533>
 
-!["Map showing Wind power potential all over India"](Map-showing-wind-power-potential-at-100-m.png "Map showing Wind power potential all over India")
+!["Map showing Wind power potential all over India"](./Images/Map-showing-wind-power-potential-at-100-m.png "Map showing Wind power potential all over India")
 
 ## 13.2. Power Calculations
 
