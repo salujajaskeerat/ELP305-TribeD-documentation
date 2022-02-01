@@ -839,7 +839,7 @@ Working schematics of the Wind Mill
 
 ## 8.3. Cost Analysis
 
-| Component                              | Quantity | cost per unit(INR) |
+| Component                              | Quantity | Cost per Unit(INR) |
 | -------------------------------------- | -------- | ------------------ |
 | Aluminum Casing                        | 1        | 2,500              |
 | Permanent Magnet Alternator (PMGL 270) | 1        | 22,000             |
