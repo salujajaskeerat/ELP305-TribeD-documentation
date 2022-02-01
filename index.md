@@ -360,9 +360,9 @@ From each MCB, the phase wire is connected to the switchboard in the room, and a
 |Isolator|747|1|747|
 | | |Total| 10026|
 
-Spill Tray: <https://www.amazon.in/SHARMA-PLASTICS-Organizer-Decorative-Bathroom/dp/B0993F8XQQ>
-MCB: <https://www.amazon.in/Havells-DHMNCSPA016-Plastic-Mini-White/dp/B07BH44M5K>
-RCB: <https://www.amazon.in/amiciSmart-Circuit-Breaker-Lightning-Protection/dp/B09F39K2QN>
+Spill Tray: <https://www.amazon.in/SHARMA-PLASTICS-Organizer-Decorative-Bathroom/dp/B0993F8XQQ><br>
+MCB: <https://www.amazon.in/Havells-DHMNCSPA016-Plastic-Mini-White/dp/B07BH44M5K><br>
+RCCB: <https://www.amazon.in/amiciSmart-Circuit-Breaker-Lightning-Protection/dp/B09F39K2QN><br>
 Isolator: <https://www.amazon.in/Wipro-WMISO40AFP-Wpro-Isolator-40A/dp/B087DCCLGL>
 
 [Back to Table of Contents](#table-of-contents)
