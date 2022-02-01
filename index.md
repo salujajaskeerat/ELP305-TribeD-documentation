@@ -48,12 +48,12 @@ geometry: margin = 2cm
   - [7.7. DCDB (1 in 1 out)](#77-dcdb-1-in-1-out)
   - [7.8. Solar Water Heater](#78-solar-water-heater)
   - [7.9. Charge Controller](#79-charge-controller)
-  - [7.10. Clamp metre](#710-clamp-metre)
+  - [7.10. Clamp meter](#710-clamp-meter)
   - [7.11. MC4 connector](#711-mc4-connector)
   - [7.12. Solar Panel Stand](#712-solar-panel-stand)
     - [7.12.1. Design of solar panel stand](#7121-design-of-solar-panel-stand)
   - [7.13. Earthing Kit](#713-earthing-kit)
-  - [7.14. Lighting Arrester](#714-lighting-arrester)
+  - [7.14. Lightning Arrester](#714-lightning-arrester)
   - [7.15. Basic tools required](#715-basic-tools-required)
   - [7.16. Block Diagram and Wirings](#716-block-diagram-and-wirings)
   - [7.17. Cost Analysis](#717-cost-analysis)
@@ -716,7 +716,7 @@ Cost analysis(all prices in INR):
 |DCDB and MC4 connectors|4,765|1|4,765|
 |Wires (12 AWG 12 feet)|1,235|4|4,940|
 |Wires(6 AWG 1m)|839|2|1,678|
-|Lighting arrester Full set |5,531|1|5,531|
+|Lightning arrester Full set |5,531|1|5,531|
 |Water heater |26,828|1|26,828|
 |Stands |6,500|1|6,500|
 |||Total|1,92,242|
