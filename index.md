@@ -1,5 +1,5 @@
 ---
-geometry: margin = 2cm
+geometry: margin = 1.5 cm
 ---
 
 # ELP305, Design and Systems Lab
@@ -22,9 +22,9 @@ geometry: margin = 2cm
   - [2.2 Document Readability indices](#22-document-readability-indices)
 - [3. Preamble](#3-preamble)
   - [3.1 Abbreviations](#31-abbreviations)
-  - [3.2 List of Tables](#32-list-of-tables)
-  - [3.3 List of Figures](#33-list-of-figures)
-  - [3.4 Units used](#34-units-used)
+  - [3.2 Units used](#32-units-used)
+  - [3.3 List of Tables](#33-list-of-tables)
+  - [3.4 List of Figures](#34-list-of-figures)
   - [3.5 Gantt Chart](#35-gantt-chart)
 - [4. Motivation](#4-motivation)
 - [5. Abstract](#5-abstract)
@@ -69,24 +69,16 @@ geometry: margin = 2cm
   - [8.3. Cost Analysis](#83-cost-analysis)
   - [8.4. Power Analysis](#84-power-analysis)
 - [9. Biomass Energy](#9-biomass-energy)
-  - [9.1 Working of a biomass plant](#91-working-of-a-biomass-plant)
-  - [9.2 Component Description](#92-component-description)
-    - [9.2.1 Combustion chamber](#921-combustion-chamber)
-    - [High-Pressure Boiler](#high-pressure-boiler)
-    - [Working Boiler](#working-boiler)
-    - [Steam turbine](#steam-turbine)
-    - [Generator](#generator)
-- [COMPOST TUMBLER](#compost-tumbler)
-    - [Requirements for good Compost](#requirements-for-good-compost)
-    - [Basic Carbon/Nitrogen Table](#basic-carbonnitrogen-table)
-    - [!](#)
-    - [Items to avoid in Compost](#items-to-avoid-in-compost)
-  - [DESIGN And Specifications](#design-and-specifications)
-    - [Materials Required](#materials-required)
-    - [Cut specifications for wooden stand](#cut-specifications-for-wooden-stand)
-    - [Other design specifications](#other-design-specifications)
-    - [Cost estimations](#cost-estimations)
-    - [Output](#output)
+  - [9.1. Mindmap](#91-mindmap)
+  - [9.2. Components of a biomass plant](#92-components-of-a-biomass-plant)
+    - [9.2.1. Combustion Chamber](#921-combustion-chamber)
+    - [9.2.2. High Pressure Boiler](#922-high-pressure-boiler)
+    - [9.2.3. Steam Turbine](#923-steam-turbine)
+    - [9.2.5. Compost Tumbler](#925-compost-tumbler)
+    - [9.2.6. Flue Gas Cleaning](#926-flue-gas-cleaning)
+    - [9.2.7. Cyclones (Cyclone separator)](#927-cyclones-cyclone-separator)
+  - [9.3 Cost Analysis](#93-cost-analysis)
+  - [9.4 Results for Biomass Production](#94-results-for-biomass-production)
 - [10. Storage](#10-storage)
   - [10.1. Requirements](#101-requirements)
   - [10.2. Specifications](#102-specifications)
@@ -197,18 +189,116 @@ geometry: margin = 2cm
 
 | Abbreviation | Definition |
 | ------------ | ---------- |
+|AC | Alternating Current|
+|ACDB | AC Distributing Board|
+|DCDB | DC Distributing Board|
+|HDPE | High Density Polyethylene|
+|LCD | Liquid Crystal Display|
+|LED | Light Emitting Diode|
+|MC4 | Multi Contact, 4 mm |
+|MCB | Miniature Circuit Breakers|
+|MPPT | Maximum Power Point Tracking|
+|PVC | Poly Vinyl chloride|
+|PWM | Pulse Width Modulation|
+|RCCB | Residual Current Circuit Breaker|
+|SPD | Search Protective Devices|
+|UV | Ultra-Violet|
 
-## 3.2 List of Tables
+## 3.2 Units used
 
 | Table Number | Information |
 | ------------ | ----------- |
+| A | Ampere|
+|AWG | American Wire Gauge|
+|ft | feet|
+|Hz | Hertz|
+|k | Kilo|
+|L | Liter|
+|mm | Millimetre|
+|sqft | Square feet|
+|sqmm | Square Millimetre |
+|V | Volt|
+|W | Watt|
+|Wh | Watt hours|
 
-## 3.3 List of Figures
+## 3.3 List of Tables
+
+| Table Number | Information |
+| ------------- | ----------- |
+|1 | Specifications of the house|
+|2 | Specifications of Rooms of the House|
+|3 | Cost Analysis for Battery Room|
+|4 | Solar Panels Specifications|
+|5 | Specifications of DC Wires used to connect solar panels and inverter|
+|6 | Specifications of DCDB used in Solar Unit|
+|7 | Specifications of Charge Controller for Solar Unit|
+|8 | Specifications of Copper Rod for Solar Unit|
+|9 | Specifications of Lighting Arrester for Solar Unit|
+|10 | Cost Analysis for Solar Unit|
+|11 | Specifications of Blade for Wind Mill|
+|12 | Specifications of Pole and Guy Wires for Wind Mill|
+|13 | Specifications of Hub for Wind Mill| 
+|14 | Specifications of Turbine and Generator Wires for Wind Mill| 
+|15 | Specifications of Casing for Wind Mill|
+|16 | Cost Analysis for Wind Unit |
+|17 | Power Analysis for Wind Unit|
+|18 | Specifications of High Pressure boiler for Biomass Unit|
+|19 | Specifications of Steam Turbine for Biomass Unit|
+|20 | Specifications of Generator for Biomass Unit |
+|21 | Information about various material used in compost|
+|22 | Cost of individual components for Biomass Unit| 
+|23 | Specifications of Inverter for Storage Unit|
+|24 | Characteristics of Supplied Power for Storage Unit|
+|25 | Characteristics of Battery for Storage Unit|
+|26 | Characteristics of Wind Turbine Charge Controller|
+|27 | Characteristics of Biomass Turbine Charge Controller|
+|28 | Characteristics of ILTT26060 Battery|
+|29 | Cost Analysis for Storage Unit| 
+
+## 3.4 List of Figures
 
 | Figure Number | Information |
 | ------------- | ----------- |
-
-## 3.4 Units used
+|1 | Top View of House |
+|2 | Isometric View of the House |
+|3 | House Wiring |
+|4 | Electric Wiring Board |
+|5 | Components of Electric Wiring Board |
+|6 | Isometric View of a Single Solar Panel |
+|7 | Isometric View of Solar Water Heater |
+|8 | Charge controller outer casing with connection ports|
+|9 | Block Diagram of Charge Controller |
+|10 | Isometric View of Solar Panel Stand |
+|11 | Assembly of Solar Panels and Solar Stand |
+|12 | Components of Earthing Kit |
+|13 | Basic Tools required for installing Solar Unit |
+|14 | Block Diagram for Solar Panel Connections |
+|15 | Components of a Wind Mill |
+|16 | Blade of a Wind Mill|
+|17 | Pole and Guy Wires of a Wind Mill|
+|18 | Hub of a Wind Mill |
+|19 | Generator of a Wind Mill |
+|20 | Casing of a Wind Mill |
+|21 | Flowchart of Mechanical Assembly of Wind Mill | 
+|22 | Working schematics of the Wind Mill |
+|23 | Command Line Interface of Wind Box |
+|24 | Mindmap used while designing the Biomass energy production unit |
+|25 | Isometric view of the burner of Combustion Chamber|
+|26 | Design of combustion chamber |
+|27 | Burner attachment of Combustion Chamber  |
+|28 | Isometric view of the boiler of Biomass Unit|
+|29 | Dimensions of high pressure boiler of Biomass Unit|
+|30 | Top view of the generator of Biomass Unit |
+|31 | Isometric view of the generator of Biomass Unit|
+|32 | Image of the Compost Tumbler of Biomass Unit|
+|33 | Flow chart depicting Flue Gas Cleaning |
+|34 | Section View of a Cyclone of Biomass Unit|
+|35 | Mindmap used while developing the Storage unit|
+|36 | Wind Charge Controller  |
+|37 | Connection Diagram of Battery used for Storage|
+|38 | Battery used for Storage|
+|39 | Inverter used for Storage |
+|40 | Map showing wind power potential at 100m|
 
 ## 3.5 Gantt Chart
 
@@ -222,6 +312,16 @@ Attached at the end of the pdf report.
 
 # 5. Abstract
 
+The aim of this project is to design an assembly of power resources to meet the entire energy needs of a home without drawing from commercial electricity. To meet these needs, we’ve incorporated Solar, Biomass and Wind Energy with an emphasis on Solar energy, and using Wind and Biomass as per the availability of resources in the environment. The location of the house is assumed to be Chennai (Tamil Nadu, India). 
+
+The designed house has one floor, with adequate space allocated in the garden area for a Biomass Unit as well as a Windmill unit and the roof which mounts the solar panels all of which connect to a separate battery storage room. The power supplied to the house is enough for daily usage, and incase of a cutoff can provide backup for upto a week.
+
+The setup is designed to harness approximately 7kWh of electricity per day from solar energy which is taken to be available for approximately five hour per day. We have taken an array of six solar panels with connections optimised for continuous and maximum generation. We designed a custom build design of a stand which can hold three panels in one frame. With two of this frame holding 6 panels in total.
+
+The biomass resources have the potential to supply more useful energy at the same time reducing the impacts on the environment compared to fossil fuels. The biomass power plant uses a direct-fired combustion system to produce electricity in which the biomass is burned directly to produce high-pressure steam to drive a turbine generator. The setup is designed to harness 4-5kWh of electricity per day from biomass energy using around 8-10 kg of dry waste everyday. We also propose to use the wet waste using a compost. 
+
+The storage unit has wild AC coming from three sources - solar, wind, and biomass. Through charge controllers, this is converted to DC at a constant 24V. The charging voltage for the batteries is set at 24V. Simultaneously, the current is drawn from the battery at 24V and fed to the inverter, converting it into AC at 220V, 50Hz frequency. The AC current is then supplied to the household through MCB to prevent damage.
+
 [Back to Table of Contents](#table-of-contents)
 
 # 6. Design of House
@@ -234,11 +334,11 @@ The following sources of energy fulfil the energy requirements of the house:
 
 2. Solar: Installed on the roof
 
-3. Windmill: Turbine (AC) Uses area from the garden
+3. Windmill: Turbine (AC) uses area from the garden
 
 ## 6.2 Model of House
 
-The following table contains specifications of the house:
+The following table (Table 1) contains specifications of the house:
 | Property | Specification |
 |------|--------|
 | Total Area of the house| 2500 sqft |
@@ -247,15 +347,15 @@ The following table contains specifications of the house:
 | | Biogas Chamber (Underground) |
 | Room height | 10 ft |
 
-The following figure shows the top view of the house:
+The following figure (Fig 1) shows the top view of the house:
 
 <img src="./Images/House%20Top%20View%20(Labelled).png" width="400px">
 
-The following figure shows the isometric view of the house:
+The following figure (Fig 2) shows the isometric view of the house:
 
 <img src="./Images/Isometric%20View%20.png" width="400px">
 
-The following table contains information about different rooms in the house along with their specifications:
+The following table (Table 2) contains information about different rooms in the house along with their specifications:
 
 | Room | Item | Quantity | Specifications |
 |-------|------|----|----|
@@ -278,11 +378,12 @@ The following table contains information about different rooms in the house alon
 | | 5A 3-pin power outlet |2| 230 V, 5 A|
 | 1 Battery Storage Room| MCB + Fuse Box |
 
+Figure : Dimensions of House
 ![](./Images/House%20Dimensions.png "")
 
 ## 6.3. House Wiring
 
-The following diagram shows the house wiring:
+The following diagram (Fig 3) shows the house wiring:
 
 <img src="./Images/house%20wiring%20diagram.png" width="400px">
 
@@ -290,11 +391,11 @@ The following diagram shows the house wiring:
 
 ### 6.4.1. Electric Wiring Board
 
-The following diagram shows the Electric Wiring Board:
+The following diagram (Fig 4) shows the Electric Wiring Board:
 
 !["Electric Wiring Board Diagram"](./Images/Electric%20Wiring%20Board%20.png "Electric Wiring Board Diagram")
 
-The following diagrams show the components of the Electric Wiring Board:
+The following diagrams (Fig 5) show the components of the Electric Wiring Board:
 
 <img src="./Images/Components%20of%20Electric%20Wiring%20Board.png" width="400px">
 
@@ -310,9 +411,6 @@ A phase wire and a neutral wire from the input supply are connected to the MCB, 
 
 From each MCB, the phase wire is connected to the switchboard in the room, and a neutral wire is connected from the neutral link. Earthing wire is connected from the earthing link for each room.
 
-<https://in.pinterest.com/pin/207587864065004785/>
-<https://mechatrofice.com/electrical/wiring/distribution-board-wiring>
-
 ### 6.4.3. Battery Room preventive measures against mishaps
 
 1. Ventilation: Hydrogen and oxygen evolved from the lead-acid battery during the recharge process. Suppose the hydrogen level exceeds 4% of the available volume in the area. In that case, the general atmosphere can become explosive – because of this; it is recommended that the concentration of hydrogen never exceeds 1% of available volume
@@ -326,26 +424,26 @@ From each MCB, the phase wire is connected to the switchboard in the room, and a
 
 - One ABC fire extinguisher that is adequately inspected/maintained
 
-- One Fire extinguisher <https://www.amazon.in/ALERTFIRE-Fire-Stop-Home-Fire-Extinguisher/dp/B09D3T7BB6/ref=sr_1_4?keywords=fire%2Bextinguisher&qid=1643563208&s=kitchen&sprefix=fire%2Bex%2Ckitchen%2C286&sr=1-4&th=1>
-- Adequate amount of Neutralizer <https://www.amazon.in/Chemsorb-Neutralizing-Fast-Acting-Neutralizer-Laboratories/dp/B07BHVBF1T/ref=sr_1_2?crid=1HLP2UZKMZ8N1&keywords=neutralizer+battery&qid=1643565053&sprefix=neutralizer+batter%2Caps%2C197&sr=8-2>
+- One Fire extinguisher
+- Adequate amount of Neutralizer 
 
-3. If electrolyte is spilt:
+1. If electrolyte is spilt:
 
-- Throw sand over the contaminated area and remove the earth or sand once it has soaked up the acid/electrolyte <https://www.amazon.in/Fire-Shape-Industries-9ltr-Bucket/dp/B07YNGSGVS/ref=sr_1_2?crid=2C3LX946NRHC5&keywords=fire+bucket&qid=1643565147&s=kitchen&sprefix=fire+bucke%2Ckitchen%2C188&sr=1-2>
-
+- Throw sand over the contaminated area and remove the earth or sand once it has soaked up the acid/electrolyte 
 - Wash down the area with a solution of ordinary washing soda.
 - Dispose of any contaminated material safely
 
-4. Do's & Don'ts in and around battery room:
+1. Do's & Don'ts in and around battery room:
    - To ensure that the area is adequately ventilated to dissipate harmful gasses, two exhaust fans have been installed
    - Keep all metallic objects away from battery tops
    - Prevent open flames, sparks or electric arcs in the battery charging areas
    - The battery charging has been well lit with two lights
    - A spill tray should be installed under the battery to contain any spill
    - If installed batteries are at risk of metal tools or other conductive materials touching terminals, then the terminals should be insulated
-<https://www.miningsafety.co.za/battery-charging-rooms-and-mining-safety/>
 
 ### 6.4.4. Cost Analysis
+
+The following table (Table 3) shows the Cost Analysis for Battery Room:
 
 |Item | Price (INR) | Quantity | Cost (INR)|
 |---|---|---|---|
@@ -359,10 +457,7 @@ From each MCB, the phase wire is connected to the switchboard in the room, and a
 |Isolator|747|1|747|
 | | |Total| 10026|
 
-Spill Tray: <https://www.amazon.in/SHARMA-PLASTICS-Organizer-Decorative-Bathroom/dp/B0993F8XQQ><br>
-MCB: <https://www.amazon.in/Havells-DHMNCSPA016-Plastic-Mini-White/dp/B07BH44M5K><br>
-RCCB: <https://www.amazon.in/amiciSmart-Circuit-Breaker-Lightning-Protection/dp/B09F39K2QN><br>
-Isolator: <https://www.amazon.in/Wipro-WMISO40AFP-Wpro-Isolator-40A/dp/B087DCCLGL>
+
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -370,21 +465,18 @@ Isolator: <https://www.amazon.in/Wipro-WMISO40AFP-Wpro-Isolator-40A/dp/B087DCCLG
 
 ## 7.1. Roof Design
 
-The house's location is assumed to be Chennai (Tamil Nadu, India). We built a flat roof of the house as it provides greater area so there will be proper airflow which helps in the temperature reduction of the panels.
-
-The average Global tilted irradiation is 5.494 kWh/m$^2$ per day.
-The average sunlight time is 5 hours per day, with an error factor of 1.1. The average sunlight time is 4.99 hours.
+The location of house is assumed to be Chennai (Tamil Nadu, India). We built a flat roof of the house as it provides greater area so there will be proper airflow which helps in the temperature reduction of the panels.
 
 ## 7.2. Solar panels
 
 Solar Panels should produce approx 6-8 kWh per day. It is the primary component for the solar energy system to convert sunlight into electricity. Solar panels should fulfil the requirements :
 
-1. They should have an auto-clean covering for better sunlight incidence on solar cells
+1. They should have anti-reflectin and self cleaning coating for better sunlight incidence on solar cells
 2. They should be sturdy
 3. They should not degrade by constant heating and cooling down
 4. They should be UV protected
 
-We are using six 335W Solar panels (Total 335W * 6 =2.01 kW). The following are the specifications of the Solar Panels used:
+We are using six 335W Solar panels (2.01 kW). The following (Table 4) are the specifications of the Solar Panels used:
 
 | Property | Specification |
 |---|---|
@@ -410,11 +502,12 @@ Features of Luminous Monocrystalline PERC solar Panels are:
 5. Comes with premium MC4 connectors and 1000mm DC cable that ensures a secure and safe connection
 6. These Solar Panels offer high torsion resistance against wind and snow loads due to their silver anodized aluminium frame
 
+Fig 6:
 !["Solar Panel"](./Images/Single%20solar%20panel.jpg "Solar Panel")
 
 ### 7.2.1. Solar panel Connection
 
-We have to connect two solar panels in series and three such connections parallel. We need at least two solar panels in series because the total voltage generated by the solar panels must be significantly higher than battery voltage for efficient performance. We have one solar panel rated at a 24V operating point, but this might decrease depending on the production or temperature. Hence, we keep two panels in series to ensure the panel voltage is higher than the battery voltage. However, we also need these panels in parallel so that the performance of 1 panel does not affect the performance of all other solar panels.
+We have to connect two solar panels in series and three such connections parallel. We need at least two solar panels in series because the total voltage generated by the solar panels must be significantly higher than battery voltage for efficient performance. We have one solar panel rated at a 24 V operating point, but this might decrease depending on the production or temperature. Hence, we keep two panels in series to ensure the panel voltage is higher than the battery voltage. However, we also need these panels in parallel so that the performance of 1 panel does not affect the performance of all other solar panels.
 
 ## 7.3. Off-Grid Solar Inverter
 
@@ -422,13 +515,10 @@ The central component converts DC Voltage into AC for AC operated home appliance
 
 1. It should have an overload warning mechanism
 2. It should have overload and short circuit protection
-3. It should have at least a 2.5kW power rating
+3. It should have at least a 2.5 kW power rating
 4. It should be able to withstand high temperatures and should have an excellent cooling mechanism
 5. It should be resistant to humid climates
 
-<https://www.luminousindia.com/solar-products/solar-pv-panel.html#:~:text=Monocrystalline%20PERC%20> solar%20 panels%20are%20 space%20 efficient%20as%20compared%20to,from%20as%20per%20your%20 preference.
-
-The inverter and the home should be as close as possible so that energy from the inverter has a short distance to travel to the electrical box/supply.
 
 ## 7.4. Batteries
 
@@ -439,15 +529,13 @@ The battery should be completely safe, not burnable, stable and maintenance-free
 3. It should have a high current rating
 
 The maximum distance between solar panels and batteries should be 20 to 30 ft. and mount the charge controller within a meter of the batteries. If the distance is more than 30ft, we need high-quality cables.
-<https://solvoltaics.com/solar-panels-distance-battery-charge-controller-inverter/#:~:text=Solar%20Battery%20storage%20systems%20should,components%20of%20your%20solar%20array>.
-
 The battery bank and the inverter should also be close — within a meter.
 
 ## 7.5. Wires (AC and DC)
 
 The wires used in the connection of panels with the Solar inverter are called DC wires. These wires should be in PVC pipe and cable tray for protection from DC and Sunlight. <br/>
 
-The specifications of DC Wire are as follows:
+The specifications of DC Wire are as follows(Table 5):
 
 |S.No|Use of wire | Property | Specification |
 |---|---|---|---|
@@ -463,10 +551,6 @@ The specifications of DC Wire are as follows:
 |4|Earthing Wire(For circuit grounding)|Wire Gauge| 6 AWG |
 |5|For Lightning Arrestor| | 50sq mm Aluminium Wire(insulated) |
 
-<https://www.omnicalculator.com/physics/wire-size>
-
-<https://www.portablesolarexpert.com/solar-panel-grounding-wire-size-guide/>
-
 The wires that are used to connect the inverter with the grid power and Household loads are called AC wires.
 
 [Back to Table of Contents](#table-of-contents)
@@ -479,8 +563,8 @@ It includes AC SPD, AC fuse and MCB to protect the solar inverter from high volt
 2. Dust and water protected
 3. Polycarbonate material
 4. MCB based AC disconnection
-5. It should have a current rating
-6. It should have high voltage and frequency ass in AC
+5. It should have a high current rating
+6. It should have high voltage and frequency rating as in AC
 
 ## 7.7. DCDB (1 in 1 out)
 
@@ -493,11 +577,11 @@ It protects the solar energy system from DC from panels and protects panels from
 5. It should have fused with DC rated current rating
 6. It should have a voltage rating as of o/p of solar panels
 
-The following table shows the specifications of the DCDB used:
+The following table (Table 6) shows the specifications of the DCDB used:
 
 | Property | Specification |
 |---|---|
-|Maximum current| 3\*10.57A\*1.25 = 39.63 A |
+|Maximum current| 39.63 A |
 |Fuse Rating | 38-40 A |
 |Brand|Havells|
 |Model Name/Number | zoob|
@@ -514,15 +598,14 @@ A Solar water heater with the following requirements:
 3. It should have good efficiency
 4. Should not get overheated and cause damage
 5. Some covering on the sides must be incorporated to prevent burn if someone comes nearby
-6. Insulated hot water storage tank approx
-7. Coldwater tank with required insulated hot water pipelines and accessories.
-8. Pipelines
-9. It should withstand hot water up to 80°C.
-10. The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the number of storage tank
-11. Some valves to control the flow
+6. Insulated hot water storage tank approx 200-300 L
+7. Coldwater tank with required insulated hot water pipelines and accessories
+8. It should withstand hot water up to 80°C
+9.  The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the number of storage tank
+10. Some valves to control the flow
 
 The following are the specifications of the Solar Heater used:
-<https://www.indiamart.com/proddetail/200-lpd-solar-water-heater-10495712030.html>
+
 
 1. Dimensions are : 1.316m x 2.105m
 2. 200 LPD Non-pressurized ETC(Evacuated Tube Collector based on thermosyphon principle) because ETC has a very low heat loss coefficient
@@ -531,6 +614,7 @@ The following are the specifications of the Solar Heater used:
 5. Socket provided for the electrical back up heating coil in the tank for low sunlight conditions
 6. Plumbing Pipes and accessories are required for inlet and outlet connections with domestic water tank and supply
 
+Fig 7:
 !["Isometric View of Solar Water Heater"](./Images/solar%20water%20heater%20(isometric).jpg "Isometric View of Solar Water Heater")
 
 ## 7.9. Charge Controller
@@ -542,7 +626,9 @@ We use charge controllers to regulate voltage and current from solar panels to b
 3. It should regulate the variation in current-voltage characteristics properly
 
 We are using 1 Victron SmartSolar Charge Controller(85A,150V):
-<https://www.victronenergy.com/solar-charge-controllers/smartsolar-mppt-ve.can#enclosure-dimensions>
+
+
+The following table (Table 7) shows the specifications of charge controller:
 
 | Property | Specification |
 |---|---|
@@ -565,10 +651,11 @@ Current rating:- maximum output current of the solar panel and Battery Voltage
 7. Real-time energy statistics function, Overheating power reduction function
 
 The solar charge controller should always be placed close to the batteries, not the panels. It should be within one meter (approximately 3.25ft) of the battery bank and in the same room or enclosure.
-<https://www.victronenergy.com/media/pg/SmartSolar_MPPT_RS/en/index-en.html>
 
+Fig 8:
 !["Charge controller outer casing with connectinon ports"](./Images/charge%20controller%20outer%20casing%20with%20connectinon%20ports.jpg "Charge controller outer casing with connectinon ports")
 
+Fig 9:
 !["Charge Controller Block Diagram"](./Images/charge%20controller%20block%20diagram.jpg "Charge Controller Block Diagram")
 
 ## 7.10. Clamp meter
@@ -604,11 +691,9 @@ Solar Panel Stand should fulfil the following requirements:
 We used Mechanical stands for the panels, which includes a change in angle of panels by mechanical movement of the rods. This will increase energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.
 
 1. Panels will face towards the South direction with an angle of 14.8° from horizontal in Spring/Fall season, 30° in Winter season and 0°C (exactly horizontal) in summers
-<https://footprinthero.com/solar-panel-tilt-angle-calculator>
 
 2. Panels will be adjusted four times a year
 3. Height of panels from the roof: The height should be at least 3-5 inches for continuous airflow. (the airflow helps in reducing the temperature of the panels for more energy production)
-<https://www.pveducation.org/pvcdrom/solar-cell-operation/effect-of-temperature>
 
 We have designed the Solar panel stands so that it has holes from 0°-30⁰, which can be adjusted manually according to the sun's position, thus giving the desired output. Panels will be adjusted four times a year.
 
@@ -616,13 +701,15 @@ The area covered by both stands is 170 sq feet.
 Total weight of solar panels is approx 22.5×6 = 133 kg.
 We designed our stand to support three solar panels(up to 66 kg). The weight of each stand is 20-25 kg.
 
+Fig 10:
 !["Solar Panel Stand"](./Images/New%20Stand%20frame_with%20three%20solar%20panels%20in%20one.jpg "Solar Panel Stand")
 
+Fig 11:
 !["Assembly of Solar Panel and Solar Stand"](./Images/solar%20panel%20with%20stand(isometric%20view).jpg "Assembly of Solar Panel and Solar Stand")
 
 ## 7.13. Earthing Kit
 
-The following flow chart shows the components of Earthing kit:
+The following flow chart (Fig 12) shows the components of Earthing kit:
 
 ```mermaid
 flowchart 
@@ -636,7 +723,7 @@ Two separate earthings are required, one for Inverter and another for Lightning 
 
 Copper rod of diameter should be enough to conduct lightning to earth and not degrade, or GI can also be taken buried upright in the earth manually or with the help of a pneumatic hammer.<br/>
 
-The following table shows the specifications of the Copper rod:
+The following table (Table 8) shows the specifications of the Copper rod:
 
 | Property | Specification |
 |---|---|
@@ -665,7 +752,7 @@ In order to let the surge current flow to the ground via the earthing system, th
 
 Suitable for: 1kW, 2kW, 1kVA to 3kVA off-grid or on-grid solar power system.
 
-The following table shows the specifications of the lightning arrester used:
+The following table (Table 9) shows the specifications of the lightning arrester used:
 
 | Property | Specification |
 |---|---|
@@ -681,7 +768,7 @@ The following table shows the specifications of the lightning arrester used:
 
 ## 7.15. Basic tools required
 
-The following flow chart shows the essential tools required for installing the set-up:
+The following flow chart (Fig 13) shows the essential tools required for installing the set-up:
 
 ```mermaid
 flowchart 
@@ -698,15 +785,15 @@ A: --> U:(Cement, Sand, Water)
 
 ## 7.16. Block Diagram and Wirings
 
-The following figure shows the block diagram for electricity production and transmission from solar energy:
+The following figure (Fig 14) shows the block diagram for electricity production and transmission from solar energy:
 
-<img src="./Images/electricity%20production%20from%20solar%20energy%20and%20transmission%20to%20battery_block%20diagram%20.jpeg" width="600px">
+<img src="./Images/electricity%20production%20from%20solar%20energy%20and%20transmission%20to%20battery_block%20diagram%20.png" width="600px">
 
 The amount of energy lost in solar power systems depends on the cable used, solar panel and battery design and how far apart they are. The actual amount of energy lost also depends on the gauge or thickness of the wire. Long, thin cables increase the energy lost as the conductor resists current flow. With a shorter, thicker cable, energy loss is minimized during transmission.
 
 ## 7.17. Cost Analysis
 
-Cost analysis(all prices in INR):
+Cost analysis(all prices in INR) (Table 10):
 
 |Name |Price (INR) | Quantity | Total Price |
 |---|---|---|---|
@@ -726,6 +813,7 @@ Cost analysis(all prices in INR):
 
 ## 8.1. Components of Wind Mill
 
+Fig 15: 
 ```mermaid
 flowchart  
  A:(Wind Mill) --> M:(Mechanical Components)  
@@ -743,7 +831,7 @@ flowchart
 
 ### 8.2.1. Blade
 
-The following table shows the specifications of the blade used:
+The following table (Table 11) shows the specifications of the blade used:
 
 | Property | Specification |
 | -------- | ------------- |
@@ -753,13 +841,12 @@ The following table shows the specifications of the blade used:
 
 We chose this blade because the higher stiffness and lower density of Carbon Fibre allows a thinner blade profile while producing stiffer, lighter blades. These blades have a longer life because carbon fibre materials have high fatigue and corrosion resistance.
 
+Fig 16:
 <img src="./Images/Blade.png" width="400px">
-
-[Available at Ali-express](https://www.aliexpress.com/item/4001139515403.html?spm=a2g0n.productlist.0.0.7211IQi9IQi9Vx&browser_id=d00f1a8121fb44c1b2b14a6af3db712a&aff_trace_key=2e6262a6b946444e9647f01778184a13-1640936845702-06527-_d8O2mSk&aff_platform=msite&m_page_id=kknvggxbwhicaasx17e4e54623120c0b2a7f2476ba&gclid)
 
 ### 8.2.2. Pole + Guy Wires
 
-The following table shows the specifications of the pole used:
+The following table (Table 12) shows the specifications of the pole used:
 
 | Property              | Specification  |
 | --------------------- | -------------- |
@@ -771,13 +858,13 @@ We chose aluminium for the pole because it has a low density and high tensile st
 
 Guy wires provide extra stability during extreme weather conditions.
 
+Fig 17:
 <img src="./Images/Pole%20and%20Guy%20Wires.png" width="400px">
 
-[Available at 27500 (ubuy.co.in)](https://www.ubuy.co.in/product/1PIQEAHYQ-primus-wind-power-guyed-tower-kit-wind-power-turbine-solutions-made-in-usa?utm_source=gad&utm_medium=cpc&utm_campaign=inshop&loc=1007820&gclid=CjwKCAiAxJSPBhAoEiwAeO_fP0KSJjIbn2V1CJ2GrzT_fX6-uDxSN_J46sOmyb-0edaQnGA6p-P1MRoCU1kQAvD_BwE)
 
 ### 8.2.3. Hub
 
-The following table shows the specifications of the hub used:
+The following table (Table 13) shows the specifications of the hub used:
 
 | Property | Specification |
 | -------- | ------------- |
@@ -786,13 +873,12 @@ The following table shows the specifications of the hub used:
 
 The hub is a crucial component because it holds the blades in their proper position for maximum aerodynamic efficiency; it also rotates the generator's shaft.
 
+Fig 18:
 <img src="./Images/Hub.png" width="400px">
-
-[Available at Ali-express](https://www.aliexpress.com/item/4001139515403.html?spm=a2g0n.productlist.0.0.7211IQi9IQi9Vx&browser_id=d00f1a8121fb44c1b2b14a6af3db712a&aff_trace_key=2e6262a6b946444e9647f01778184a13-1640936845702-06527-_d8O2mSk&aff_platform=msite&m_page_id=kknvggxbwhicaasx17e4e54623120c0b2a7f2476ba&gclid)
 
 ### 8.2.4. Turbine/generator
 
-The following table shows the specifications of the turbine used:
+The following table (Table 14) shows the specifications of the turbine used:
 
 | Property     | Specification                |
 | ------------ | ---------------------------- |
@@ -803,13 +889,13 @@ The following table shows the specifications of the turbine used:
 
 This generator uses a direct-drive mechanism, which eliminates a gearbox and can operate at variable RPM. A gearbox free mechanism such as ours reduces the weight and cost.
 
+Fig 19:
 <img src="./Images/Generator.png" width="400px">
 
-[Supplier-controlelectricco.com at INR 22,000](https://www.controlelectricco.com/permanent-magnet-alternator.html)
 
 ### 8.2.5. Casing
 
-The following table shows the specifications of the turbine used:
+The following table (Table 15) shows the specifications of the turbine used:
 
 | Property         | Specification            |
 | ---------------- | ------------------------ |
@@ -820,23 +906,24 @@ The following table shows the specifications of the turbine used:
 
 5052 Aluminium is optimal for sheet metal work and is very easy to form at room temperature. This material is very bendable and can therefore handle tight radii.
 
+Fig 20:
 <img src="./Images/Casing.png" width="400px">
-
-[Supplier - protocase](https://www.protocase.com/products/materials-components-finishes/materials/aluminum.php)
 
 ### 8.2.6. Assembly
 
-Flowchart of Mechanical Assembly of the Wind Mill
+Flowchart of Mechanical Assembly of the Wind Mill(Fig 21):
 
 <img src="./Images/Flowchart%20of%20Mechanical%20Assembly%20of%20Wind%20Mill.jpeg" width="800px">
 
-Working schematics of the Wind Mill
+Working schematics of the Wind Mill (Fig 22):
 
 !["Working schematics of the Wind Mill"](./Images/Working%20schematics%20of%20the%20Wind%20Mill.png "Working schematics of the Wind Mill")
 
 [Back to Table of Contents](#table-of-contents)
 
 ## 8.3. Cost Analysis
+
+The following table (Table 16) shows the cost analysis for Wind Unit:
 
 | Component                              | Quantity | Cost per Unit(INR) |
 | -------------------------------------- | -------- | ------------------ |
@@ -865,259 +952,211 @@ Assuming Average Wind Speed to be 4.51 m/s, we get the following results:
 
 # 9. Biomass Energy
 
-Mind Map: ![](RackMultipart20220201-4-1apfz2s_html_1c48242ea212999b.png)
+## 9.1. Mindmap
 
-## 9.1 Working of a biomass plant
+The following diagram shows the mind map used while designing the Biomass energy production unit:
 
-![](RackMultipart20220201-4-1apfz2s_html_89a5d94981e37c25.jpg)
+Fig 24:
+![](Images/Mindmap_biomass.png)
 
-Reference: <https://arivjournal.com/technology/a-comprehensive-investigation-of-suitable-biomass-raw-materials-and-biomass-conversion-technology-in-sarawak-malaysia/>
+## 9.2. Components of a biomass plant
 
-## 9.2 Component Description
+### 9.2.1. Combustion Chamber
 
-### 9.2.1 Combustion chamber
+Design and Specifications of the combustion chamber are as follows:
 
- **Dimension and Design**: -
+1. The 3 mm thick aluminum (1050a recommended) is used to withstand high combustion temperatures with dimensions of 0.5 m (L) $\times$ 0.5 m (W) $\times$ 2 m (H) and a volume of $\sim0.5$ $m^{3}$.
+2. An inlets for fuel can be used like shown in Figure 26 as design would be almost resembling for at least combustion part. The combustion chamber working temperature would be 473 K in controlled oxygen.
+3. A hole will be made on the top of the chamber of diameter 100 mm with funnel on top.
+4. The combustion chamber will be installed with a steam boiler (refer to boiler design specification), as shown in  Figure 27.
+5. For starting, the combustion burner is attached through the inlet of fuel in the combustion chamber and closed once temperature (473 K) is attained.
 
-- The 3 mm thick aluminium (1050a RECOMMENDED) is used to withstand high combustion temperatures with dimensions of 0.5 m (L) × 0.5 m (W) × 2 m (H) and a volume of ~0.5 m3, see figure1
-- An inlets for fuel can be used like in coals shown in Figure 2 as Design would be almost resembling for at least combustion part. The combustion chamber working temperature would be 473K in controlled oxygen
-- A hole will be made on the top of the chamber diameter of 100mm. with a funnel on top
-- The combustion chamber will be installed with a steam boiler(look boiler design specification), as shown in figure2
-- For starting, the combustion burner is attached through the inlet of fuel in the combustion chamber and closed once temperature(473K) is attained
+Taking cost/$m^2$ of 3 mm sheet = INR 7,000 
 
-![](RackMultipart20220201-4-1apfz2s_html_c8550523be3b1c1b.png) ![](RackMultipart20220201-4-1apfz2s_html_c0351b9f96222acf.png)
+Total cost of making a combustion chamber = INR 30,000(sheet) + INR 5,000(manufacturing cost) =  INR 35,000
 
-Figure1 Figure2
+Fig 25:
+![](Images/Isometric_burner.png)
 
-Design of combustion chamber &#39;s burner attachment
+Fig 26:
+![](Images/Design_of_combustion_chamber.png)
 
-![](RackMultipart20220201-4-1apfz2s_html_428d275ee241039e.png)
+Fig 27:
+![](Images/Burner_attachment.png)
 
-Isometric view
+### 9.2.2. High Pressure Boiler
 
-Cost
+Heated gasses, from the burning fuel, are circulated by natural convection or forced by a pump in a High Pressure Boiler. Boiler processes this water to steam at high pressure. Input is water produced by combustion of 8 kg wood. For 8 kg of wood, the steam produced is 22.58 kg at 70\% efficiency.
 
-Taking cost/m2 of 3mm sheet = INR 7000
+The required specifications for the boiler are as follows (Table 18):
 
-Total cost =INR 30000(sheet) + INR 5000(manufacturing cost) = INR 35000
+| Property |Specifications|
+|---|---|
+|Length | 1.9 m|
+|Diameter of cylindrical base | 1.2 m |
+|Area of cylindrical base | 1.13 $m^{2}$ |
+|Maximum temperature of water return/supply | 65-80 C |
+|Boiler capacity | 80 L of water |
+|Cost | INR 45,000 |
 
-Reference ;
+Fig 28:
+![](Images/isometric_boiler.png)
 
-https://www.researchgate.net/publication/281112175\_A\_biomass\_combustion\_chamber\_Design\_evaluation\_and\_a\_case\_study\_of\_wheat\_straw\_combustion\_emission\_tests
+Fig 29:
+![](Images/Dimensions_noiler.jpg)
 
-### High-Pressure Boiler
 
-![](RackMultipart20220201-4-1apfz2s_html_2118da285e4692ff.jpg)
+### 9.2.3. Steam Turbine
 
-Figure showing dimensions of a high-pressure boiler
+Steam turbine extracts thermal energy from pressurized steam and uses it to do mechanical work on a rotating output shaft. The turbines are connected to a generator with an axle, which in turn produces energy via a magnetic field that produces an electric current.
 
-(Scaled to half the dimensions shown in mm)
+The required specifications for the steam turbine are as follows (Table 19):
 
-![](RackMultipart20220201-4-1apfz2s_html_ca4ea38e94d954e7.png)
+|Property | Specifications |
+|---|---|
+|Pressure range | 10 bar- 87 bar |
+|Power | 1 kW - 5 MW |
+|Power capacity | 1 kW - 40 MW |
+|Cost | INR 50,000 |
 
-Estimated cost: Rs.45000
 
-Efficiency: 70%
+The required specifications for the generator are as follows(Table 20):
 
-- Input is water produced by combustion of 8 kg wood
-From the burning fuel, heated gasses are circulated by natural convection or forced by a pump
-- Boiler processes this water to steam at high pressure
-- For 8kg of wood, the steam produced is 22.580kg at this efficiency
+| Property | Specifications|
+|---|---|
+|Power | 10 kW |
+|Voltage | 415 V |
+|Alternator type | AC|
+|Frequency | 50 Hz, 60 Hz |
+|Cost | INR 22000 |
 
-![](RackMultipart20220201-4-1apfz2s_html_e4360a86f9b28e06.png)
+Fig 30:
+![](Images/generator_1.png)
 
-### Working Boiler
+Fig 31:
+![](Images/generator_2.png)
 
-Specifications :
+### 9.2.5. Compost Tumbler
 
-Length: 1.9m
+The basic requirements for a good compost tumbler are as follows:
 
-Diameter of cylindrical base: 1.2m
+1. Having a proper food-web: a mixture of creatures, which include many insects, bugs, slugs, bacteria, and mushrooms, adding a small quantity of soil to this mixture can be used to start the process.
+2. Nitrogen/Carbon Ratio : The ideal mix is 3/4  “brown” and 1/4 “green” ingredients by volume which will ensure that the mass maintains the appropriate quantity of humidity and air, and hastens the decomposing process.
+3. The compost should remain humid throughout the process. About 50 \% humidity is acceptable. Allow the excess water to drain out through the ventilation bores. The mixture should remain humid, but not wet.
+4. All creatures and mushrooms in the compost mixture need oxygen during the process. The tumbler must be rotated every second day or so to prevent cutting off air supply and hastening the process.
+5. Location- The fastest decomposition occurs between 140°F (60°C) and 160°F (71°C). We should position the Compost Tumbler out of the excessive wind and in full sunlight. 
 
-Area of cylindrical base: 1.2 sq.m
+The following table shows different materials used in compost(Table 21):
 
-Maximum temperature of water return/supply: 65/80 C
+|Material | Carbon/Nitrogen |Info|
+|---|---|---|
+|Fruit and vegetable scraps | Nitrogen |	Add with dry carbon items|
+|Chicken/rabbit manure	| Nitrogen |	Excellent compost 'activator', use in moderation |
+| Coffee grounds	| Nitrogen| Filters may also be included |
+|Tea leaves |	Nitrogen |	Loose or in bags |
+|Grass clippings| Nitrogen |	Add in thin layers so they don't mat into clumps and putrefy |
+|Garden plants |Nitrogen	|Use disease-free plants only|
+|Lawn & garden weeds	| Nitrogen	| Only use weeds which have not gone to seed |
+|Flowers, cuttings	| Nitrogen	| Chop up any long woody stems |
+|Seaweed and kelp |	Nitrogen |	Rinse first; good source for trace minerals |
+|Eggshells	| Neutral	| Best when crushed |
+|Leaves	 | Carbon |	Leaves break down faster when shredded |
+|Straw or hay	| Carbon| Straw is best; hay (with seeds) is less ideal |
+|Pine needles|	Carbon | Acidic; use in moderate amounts |
+|Wood ash |	Carbon	| Only use ash from clean materials; sprinkle lightly  |
+|Cardboard | Carbon	 | Shred material to avoid matting |
+|Corn cobs, stalks	| Carbon |	Slow to decompose; best if chopped up |
+|Dryer lint |	Carbon |	Best if from natural fibers |
+|Wood chips |	Carbon |	High carbon content can overwhelm, and shut down, an otherwise good compost batch; use sparingly|
+|Sawdust| Carbon |	High carbon content can overwhelm, and shut down, an otherwise good compost batch; use sparingly. Be sure sawdust is clean, with no machine oil or chain oil residues from cutting equipment. Do not use sawdust from painted or treated lumber  |
 
-Boiler capacity: 80L of water
 
-References
+The following items should be avoided in compost:
 
-[https://www.researchgate.net/figure/Basic-dimensions-of-the-boiler-model-I-II-burner-connections-K1-K6-measurement-points\_fig4\_286826933](https://www.researchgate.net/figure/Basic-dimensions-of-the-boiler-model-I-II-burner-connections-K1-K6-measurement-points_fig4_286826933)
+1. Meat, fish, fats, bones and other foods like dairy products, sauces, salad dressing, and cooking oil as these could ferment or putrefy, causing odors, and attracting flies, rodents, or other animals that can be pests
+2. Ashes but could be used in small quantities
+3. Dog and cat feces may cause a risk of adding diseases
+4. Perpetual weeds that have turned to seed or diseased plants are not to be used as they can spread with the compost
+5. Any cooked or canned foods that contain salt as salt kills the little creatures that do the composting in your mixture
 
-[https://www.indiamart.com/proddetail/biomass-steam-boilers-22695269591.html](https://www.indiamart.com/proddetail/biomass-steam-boilers-22695269591.html)
+Materials required for making a Compost Tumbler are as follows:
+1. 55-gallon plastic drum of length 39 inches, diameter 25 inches and thickness- 3/16  inches 
+2. Two pressure-treated wooden boards of dimensions 4 ft x 8 ft and one of dimensions 6 ft x 8 ft 
+3. Six HDPE plastic sheets of dimension 0.5 inches $\times$ 0.5 inches each
+4. Stainless steel butt hinges
+5. Stainless steel latch 
+6. A galvanized metal Axle of diameter 0.5 inches and length 42 inches
 
-[https://www.researchgate.net/publication/320057473\_Steam\_Boiler](https://www.researchgate.net/publication/320057473_Steam_Boiler)
+Fig 32:
+![](Images/compost_2.png)
+    
+Design specifications for the Compost Tumbler are as follows:
 
-### Steam turbine
+1. Tumbler’s Hatch Door- 12 inches x 12 inches, attached with a hinge and locked with a latch. 
+2. Drill holes in the drum to allow airflow in and out. Sufficient airflow is important to allow rain and air to enter and drain out of the drum. Space them 2-3 inches apart. Holes can be of 3/8 inches diameter.
+3. We add 1/2 inches square HDPE plastic inside the drum, to prevent the compost from stelling at the base.
 
-<img src="./Images/RackMultipart20220201-4-1apfz2s_html_a4c5300863d4a9ad.png" width="400px">
+Our compost tumbler can process around 200 L of waster at one time. A properly combined mixture will reach a working temperature of about 140° F (60° C) in about five days. At this time, the mixture will be settling. The compost is ready when the original ingredients have turned into a uniform, dark brown, crumbly product with a pleasant, earthy aroma.
 
-Pressure range: 10 bar- 87 bar
+Cost Estimations for the Compost Tumbler:
 
-Power : 1KW - 5MW
+The major parts required are a pressure-treated wooden board, a 55-gallon plastic drum, and a 0.5 inches $\times$ 0.5 inches HDPE plastic sheet. Other than those we would need screws, hinges, and a latch. 
 
-Power capacity : 1KW - 40MW
+1. Drum- INR 600 to INR 800
+2. Pressure treated wooden boards- INR 300
+3. HDPE Plastic sheet- INR 100
 
-Cost : Rs. 50,000
+So the total cost would be INR 1200 to INR 1500.
 
-- Steam turbine extracts thermal energy from pressurized steam and use it to do mechanical work on a rotating output shaft
-- The turbines are connected to a generator with an axle, which produces energy via a magnetic field that produces an electric current
+### 9.2.6. Flue Gas Cleaning
 
-References
+Flue gas is the gas that emanates from combustion plants and which contains the reaction products of fuel and combustion air and residual substances such as particulate matter (dust), sulfur oxides, nitrogen oxides, etc, that are hazardous to the environment and health. The purpose of a flue gas cleaning system is to reduce atmospheric emissions of these substances. 
 
-[https://www.indiamart.com/proddetail/steam-turbine-23055952012.html?pos=2&amp;kwd=steam%20turbine&amp;tags=A||||8258.9375|Price|proxy](https://www.indiamart.com/proddetail/steam-turbine-23055952012.html?pos=2&amp;kwd=steam%20turbine&amp;tags=A%7C%7C%7C%7C8258.9375%7CPrice%7Cproxy)
+Many gas cleaning systems can be summarized as removal of particulates, removal of water soluble gas and pollutants, removal of NO$_{x}$ and removal of toxic and hazardous pollutants like mercury (Hg).
 
-[https://www.researchgate.net/publication/304396514\_Power\_Plant\_Lecture\_Notes\_-\_CHAPTER-4\_STEAM\_TURBINE](https://www.researchgate.net/publication/304396514_Power_Plant_Lecture_Notes_-_CHAPTER-4_STEAM_TURBINE)
+Fig 33:
+![](Images/flow_flue.png)
 
-### Generator
+### 9.2.7. Cyclones (Cyclone separator)
 
-![](RackMultipart20220201-4-1apfz2s_html_ca5aa1b6402111f4.png) ![](RackMultipart20220201-4-1apfz2s_html_c3002d5ae1d578c2.png)
+1. In cyclones, particles are separated by centrifugal forces. Flue gas containing particulates is fed into a cylinder tangentially in order to achieve rotational movement. The inside of the chamber creates a spiral vortex, similar to a tornado. 
+2. The lighter components of this gas have less inertia, so it is easier for them to be influenced by the vortex and travel up it. 
+3. Contrarily, larger components of particulate matter have more inertia and are not as easily influenced by the vortex  and drop down into a collection hopper.
+4. The cleaned flue gas escapes out the top of the chamber.
+5. Estimated Cost : 1.2-1.5 m (4-5 ft) tall cyclone separator can cost about INR 75000.
+6. Efficiency : 70-80\% for particulate matter
 
-Cost : Rs. 22000
+Fig 34:
+![](Images/cyclone_generator.png)
 
-Power: 10KW
+## 9.3 Cost Analysis
 
-Voltage: 415V
+The folllowing table (Table 22) shows cost analsis for Biomass Unit:
 
-Alternator Type: AC
+|Components | Price (INR)|
+|---|---|
+|Combustion chamber | 35000 |
+|High Pressure boiler | 45000 |
+|Steam turbine | 50000 |
+|Generator | 22000 |
+|Cyclone separator| 75000|
+|Fuel for combustion chamber and boiler | 10000 |
+|Compost tumbler | 1500|
 
-Frequency: 50Hz, 60 Hz
+## 9.4 Results for Biomass Production
 
-Reference:
+The total cost would be INR 1,68,500. 
 
-[https://www.controlelectricco.com/permanent-magnet-alternator.html](https://www.controlelectricco.com/permanent-magnet-alternator.html)
+Total electricity produced is 550 W per kg waste
 
-# COMPOST TUMBLER
-
-### Requirements for good Compost
-
-- Having a proper food-web: a mixture of creatures, which include many insects, bugs, slugs, bacteria, and mushrooms, adding a small quantity of soil to this mixture can be used to start the process
-- Nitrogen / Carbon Ratio -The ideal mix is ¾ &quot;brown&quot; and ¼ &quot;green&quot; ingredients by volume. Such a mixture of &quot;brown&quot; and &quot;green&quot; ingredients will ensure that the mass maintains the appropriate quantity of humidity and air and hastens the decomposing process
-- The compost should remain humid throughout the process. About 50% humidity is acceptable. Let excess water drain out through the ventilation bores. The mixture should remain humid but not wet
-- All creatures and mushrooms in the compost mixture need oxygen during the process. The tumbler must be rotated every second day to prevent cutting off the air supply and hastening the process
-- Location- The fastest decomposition occurs between 140°F (60°C) and 160°F (71°C). We should position the Compost Tumbler out of the excessive wind and in full sunlight
-
-### Basic Carbon/Nitrogen Table
-
-### ![](RackMultipart20220201-4-1apfz2s_html_88559e31a3d4b7a2.png)
-
-### Items to avoid in Compost
-
-- Meat, fish, fats, and bones- could ferment or putrefy, causing odours and attracting flies, rodents, or other animals that can be pests
-- Other foods like dairy products, sauces, salad dressing, and cooking oil– These too could ferment or putrefy, causing odours and attracting flies, rodents, or other animals that can be pests
-- Ashes - Wood ashes may be very useful but in small quantities.
-- Dog and cat faeces may cause a risk of adding diseases!
-- Perpetual weeds that have turned to seed or diseased plants are Not to be used as they can spread with the compost
-- Any cooked or canned foods that contain salt- Salt kills the tiny creatures that do the composting in your mixture
-
-## DESIGN And Specifications
-
-### Materials Required
-
-- 55-gallon plastic drum: Length- 39&quot;, Diameter- 25&quot;, Thickness- 3/16&quot;
-- Pressure-treated wooden boards- Two 2x4x8 Pressure Treated Boards, One 1x6x8 Pressure Treated Board
-- HPDE plastic sheet: dimensions- 1/2″x1/2″x6′
-- Stainless steel butt hinges
-- Stainless steel latch
-- Axel- galvanized metal conduit- diameter- 0.5&quot;, length- 42&quot;
-
-### Cut specifications for wooden stand
-
-(dimensions as shown in the diagram)
-
-- Two (2) 2×4&#39;s cut to 4′ 2-1/2″, one end cut at 30° inside mitre
-- Two (2) 2×4&#39;s cut to 3′ 8-7/16″, both ends with 30° inside mitres angled toward each other
-- Two (2) 2×4&#39;s cut to 4″, one end cut at 30° inside mitre
-- Two (2) 1×6&#39;s cut to 2′ 2-5/16″ with 30° inside mitres at each end
-- One (1) 1×6 cut to 3′ 3″ long
-
-![](RackMultipart20220201-4-1apfz2s_html_827ef30a8183b3e9.png) ![](RackMultipart20220201-4-1apfz2s_html_97c0293d68ecae62.png)
-
-Image of the specification of the compost tumbler Image of the finished tumbler
-
-### Other design specifications
-
-- Tumbler&#39;s Hatch Door- 12&quot;x12&quot; attached with a hinge and locked with a latch
-- Drill holes in the drum to allow airflow in and out. Sufficient airflow is essential to allow rain and air to enter and drain the drum. Space them 2-3 inches apart. Holes can be of ⅜&quot; diameter
-
-- We add ½&quot; square HDPE plastic inside the drum to prevent the compost from stelling at the base
-
-### Cost estimations
-
-The significant parts required are a pressure-treated wooden board, a 55-gallon plastic drum, and a 1/2″x1/2″x6′ HDPE, UHMWPE, or similar plastic sheet. Other than those, we would need screws, hinges, and a latch
-
-- Drum- Rs 600 to Rs 800
-- Pressure-treated wooden boards- Rs 300
-- HDPE Plastic sheet- Rs 100
-
-So the total cost would be Rs. 1200 to Rs. 1500
-
-### Output
-
-Source of all images: [https://www.itsahusbandthing.com/make-diy-compost-tumbler-bin/](https://www.itsahusbandthing.com/make-diy-compost-tumbler-bin/)
-
-Other references:
-
-- [https://www.walshmedicalmedia.com/open-access/design-and-development-of-compost-bin-for-indian-kitchen-2252-5211-1000323.pdf](https://www.walshmedicalmedia.com/open-access/design-and-development-of-compost-bin-for-indian-kitchen-2252-5211-1000323.pdf)
-- [https://www.planetnatural.com/tumbling-composter/](https://www.planetnatural.com/tumbling-composter/)
-- [https://www.miraclegro.com/en-us/products/garden-tools/composters](https://www.miraclegro.com/en-us/products/garden-tools/composters)
-
-**FLUE GAS CLEANING(Optional)**
-
-Flue gas emanates from combustion plants and contains the reaction products of fuel and combustion air and residual substances such as particulate matter (dust), sulfur oxides, nitrogen oxides, Etc., that are hazardous to the environment and health. A flue gas cleaning system aims to reduce atmospheric emissions of these substances.
-
-Many gas cleaning systems can be summarized as removing particulates, removing water-soluble gas and pollutants, removing NOx, and removing toxic and hazardous pollutants like mercury (Hg).
-
-![](RackMultipart20220201-4-1apfz2s_html_1a31e84e43d437d2.png)
-
-Figure: Flow chart depicting Flue Gas Cleaning
-
-Cyclones(Cyclone Separator)
-
-- In cyclones, particles are separated by centrifugal forces. Flue gas containing particulates is fed into a cylinder tangentially to achieve rotational movement. The inside of the chamber creates a spiral vortex, similar to a tornado
-- The lighter components of this gas have less inertia, so it is easier for them to be influenced by the vortex and travel up it
-- Contrarily, more significant components of particulate matter have more inertia and are not as easily influenced by the vortex and drop down into a collection hopper
-- The cleaned flue gas escapes out the top of the chamber
-
-Estimated Cost: 1.2-1.5m(4-5 feet) tall cyclone separator can cost about Rs 75000.
-
-Efficiency: 70-80% for particulate matter
-
-![](RackMultipart20220201-4-1apfz2s_html_1fed6dc28466c18.png)
-
-Figure: Section View of a Cyclone
-
-References:-
-
-[https://www.sciencedirect.com/science/article/pii/B9780128095706000035](https://www.sciencedirect.com/science/article/pii/B9780128095706000035)
-
-[https://www.researchgate.net/publication/273856373\_A\_review\_on\_methods\_of\_flue\_gas\_cleaning\_from\_combustion\_of\_biomass](https://www.researchgate.net/publication/273856373_A_review_on_methods_of_flue_gas_cleaning_from_combustion_of_biomass)
-
-[https://energyeducation.ca/encyclopedia/Cyclone\_separator#cite\_note-1](https://energyeducation.ca/encyclopedia/Cyclone_separator#cite_note-1)
-
-[https://www.simerics.com/animation/cyclone\_ani.gif](https://www.simerics.com/animation/cyclone_ani.gif)
-
-##
-
-The overall cost of the whole set-up
-
-- Combustion chamber-Rs. 40000
-- High Pressure boiler- Rs. 45000
-- Steam turbine - Rs. 50000
-- Generator - Rs.22000
-- Cyclone separator (optional for environment purposes)- Rs.75000
-- Fuel for combustion chamber and boiler - Rs.10000
-- Compost tumbler - Rs.1500
-
-Total cost : Rs. 1,68,500
-
-The total electricity produced: 550W per kg waste
-
-Reference: <https://www.sciencedirect.com/science/article/pii/S0956053X16300599>
 
 [Back to Table of Contents](#table-of-contents)
 
 # 10. Storage
+
+The following figure (Fig 35) shows the Mindmap used while developing the storage unit:
+
+![](Images/Mind%20Map%20Storage.png)
 
 ## 10.1. Requirements
 
@@ -1151,7 +1190,6 @@ The following are the requirements of storage of energy produced by the Solar, W
 
 14. Coolants must be added
 
-<https://www.loomsolar.com/collections/off-grid-solar-system>
 
 ## 10.2. Specifications
 
@@ -1162,7 +1200,7 @@ The following are the requirements of storage of energy produced by the Solar, W
 
 2. 3500W 24V-240V Inverter
 
-The following table shows the specifications of the Inverter used :
+The following table (Table 23) shows the specifications of the Inverter used :
 
 | Property            | Specification                                 |
 | ------------------- | --------------------------------------------- |
@@ -1187,7 +1225,7 @@ The inverter also has the following features:
 
 3. Supplied Power:
 
-The following table shows the characteristics of Supplied Power:
+The following table (Table 24) shows the characteristics of Supplied Power:
 
 | Property                    | Specification |
 | --------------------------- | ------------- |
@@ -1197,7 +1235,7 @@ The following table shows the characteristics of Supplied Power:
 
 4. Battery:
 
-The following table shows the specifications of the Battery:
+The following table (Table 25) shows the specifications of the Battery:
 
 | Property                                 | Specification                    |
 | ---------------------------------------- | -------------------------------- |
@@ -1207,9 +1245,6 @@ The following table shows the specifications of the Battery:
 | Cell Cathode Material                    | LiFePO4 (Lithium Iron Phosphate) |
 | Cycle Life                               | 2000-3000                        |
 | Operating Temperature                    | 5°C - 45°C                       |
-
-<https://www.amazon.com/dp/B07ZRKXV2L?tag=solartree-20>
-<https://www.victronenergy.com/batteries>
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1241,11 +1276,10 @@ The following table shows the specifications of the Solar Charge Controller:
 | Weight                   |               |
 | Cost                     |               |
 
-<https://www.amazon.com/EPEVER-Charge-Controller-Sealed-Flooded/dp/B07JJBRGN8>
 
 2. Wind Turbine Charge Controller
 
-The following table shows the specifications of the Wind Turbine Charge Controller:
+The following table (Table 26) shows the specifications of the Wind Turbine Charge Controller:
 
 | Property         | Specification |
 | ---------------- | ------------- |
@@ -1256,13 +1290,13 @@ The following table shows the specifications of the Wind Turbine Charge Controll
 | Weight           | 0.4 kg        |
 | Cost             | $104.61       |
 
+Fig 36:
 <img src="./Images/Wind%20Turbine%20Charge%20Controller.png" width="400px">
 
-<https://www.ato.com/600w-wind-turbine-mppt-charge-controller>
 
-1. Biomass turbine Charge controller
+3. Biomass turbine Charge controller
 
-The following table shows the specifications of the Biomass Turbine Charge Controller:
+The following table (Table 27) shows the specifications of the Biomass Turbine Charge Controller:
 
 | Property         | Specification |
 | ---------------- | ------------- |
@@ -1273,8 +1307,7 @@ The following table shows the specifications of the Biomass Turbine Charge Contr
 | Weight           | 0.4 kg        |
 | Cost             | 7500 (INR)     |
 
-<https://www.inverter.com/800w-wind-turbine-mppt-charge-controller>)
-
+Fig 37:
 ![Battery Connection Diagram](./Images/Battery%20Connection%20Diagram.png "Battery Connection Diagram")
 
 ### 10.3.2 Battery
@@ -1301,7 +1334,8 @@ Three parallel sets can handle 132A (3 $*$ 44A) charging current and ensure a 66
 
 **ILTT26060, Lead Acid Storage Battery (Factory Charged)**
 
-<https://www.luminousindia.com/iltt-26060.html>
+
+The following table (Table 28) shows the characteristics of the ILTT26060 Battery
 
 | Property                          | Specification              |
 | --------------------------------- | -------------------------- |
@@ -1314,6 +1348,8 @@ Three parallel sets can handle 132A (3 $*$ 44A) charging current and ensure a 66
 | No. of series-connected batteries | 2                          |
 | Total power                       | (12)V*(6*220) Ah = 15.84kw |
 | Total Cost                        | 6*20,856 = 1,25,136 INR    |
+
+Fig 38:
 
 <img src="./Images/Battery.png" width="400px">
 
@@ -1359,11 +1395,11 @@ Many inverters are available in the market, depending on the output frequency re
 
 5. 1000 V - when the inverter is part of a high voltage direct current power transmission system
 
-<https://en.m.wikipedia.org/wiki/High-voltage_direct_current>
 
+Fig 39:
 ![Design of a simple inverter](./Images/Design%20of%20a%20simple%20inverter.png "Design of a simple inverter")
 
-We will need the input to be 24V (coming from the battery) for our purposes with the following specifications:
+We will need the input to be 24V (coming from the battery) for our purposes with the following specifications (Table 29):
 
 | Property               | Specification                       |
 | ---------------------- | ----------------------------------- |
@@ -1374,11 +1410,13 @@ We will need the input to be 24V (coming from the battery) for our purposes with
 | Price                  |1200 (INR)                  |
 | Dimensions of Inverter | 8cm $*$ 9cm $*$ 6cm                 |
 
-<https://www.amazon.in/WindyNation-Welding-Battery-Flexible-Inverter/dp/B01MY9QVRI>
+
 
 [Back to Table of Contents](#table-of-contents)
 
 ## Cost Analysis
+
+The following table (Table 29) shows the cost analysis for storage unit:
 
 | Item                           | Quantity | Price/item(INR) | Total  |
 | ------------------------------ | -------- | ----------------- | ------ |
@@ -1408,17 +1446,12 @@ The maximum rated voltage of the charge controller is 100V. The short circuit Vo
 
 ## Appendix B: Wind energy density distribution over India
 
-<https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/eeaa/2020/eeaa_38_1/0144598719875276/20200528/images/large/10.1177_0144598719875276-fig11.jpeg>
-<https://journals.sagepub.com/doi/full/10.1177/0144598719875276>#
-<https://www.researchgate.net/figure/Map-showing-wind-power-potential-at-100-m-AGL-26_fig3_332702533>
 
+Fig 40:
 <img src="./Images/Map-showing-wind-power-potential-at-100-m.png" width="500px">
 
 ## Appendix C: Power Calculations
 
-<https://www.researchgate.net/post/How_can_I_calculate_the_rotational_speed_of_a_wind_turbine>
-<https://www.controlelectricco.com/permanent-magnet-alternator.html>
-<https://en.wikipedia.org/wiki/Wind_gradient>
 
 Formulas used:
 
