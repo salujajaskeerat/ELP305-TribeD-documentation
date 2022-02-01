@@ -462,7 +462,7 @@ The specifications of DC Wire are as follows:
 | | |Diameter | 4.09mm|
 | | |One way distance| 2m |
 |4|Earthing Wire(For circuit grounding)|Wire Gauge| 6 AWG |
-|5|For Lightning Arrestor| | 50sq mm Aluminum Wire(insulated) |
+|5|For Lightning Arrestor| | 50sq mm Aluminium Wire(insulated) |
 
 <https://www.omnicalculator.com/physics/wire-size>
 
@@ -819,7 +819,7 @@ The following table shows the specifications of the turbine used:
 | Material         | 5052 Aluminium H32       |
 | Weight           | 4.78 kg                  |
 
-5052 Aluminum is optimal for sheet metal work and is very easy to form at room temperature. This material is very bendable and can therefore handle tight radii.
+5052 Aluminium is optimal for sheet metal work and is very easy to form at room temperature. This material is very bendable and can therefore handle tight radii.
 
 <img src="./Images/Casing.png" width="400px">
 
@@ -841,9 +841,9 @@ Working schematics of the Wind Mill
 
 | Component                              | Quantity | Cost per Unit(INR) |
 | -------------------------------------- | -------- | ------------------ |
-| Aluminum Casing                        | 1        | 2,500              |
+| Aluminium Casing                        | 1        | 2,500              |
 | Permanent Magnet Alternator (PMGL 270) | 1        | 22,000             |
-| Guyed Tower (27 ft.)                   | 1        | 27,442             |
+| Guyed Tower (27 ft./8.23m)                   | 1        | 27,442             |
 | Carbon Fibre Blades(3) & Hub           | 1        | 6,348              |
 | Total                                  |          | 58,290             |
 
