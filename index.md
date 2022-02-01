@@ -231,7 +231,7 @@ Attached at the end of the pdf report.
 
 The following sources of energy fulfil the energy requirements of the house:
 
-1. Biomass: Chambers containing organic material (carbon content) undergoes reactions to spin the turbine. (Storeroom for production)
+1. Biomass: Chambers containing organic material (carbon content) undergoes reactions to spin the turbine(Storeroom for production)
 
 2. Solar: Installed on the roof
 
@@ -316,12 +316,12 @@ From each MCB, the phase wire is connected to the switchboard in the room, and a
 
 ### 6.4.3. Battery Room preventive measures against mishaps
 
-1. Ventilation: Hydrogen and oxygen evolved from the lead-acid battery during the recharge process. Suppose the hydrogen level exceeds 4% of the available volume in the area. In that case, the general atmosphere can become explosive – because of this; it is recommended that the concentration of hydrogen never exceeds 1% of available volume.
+1. Ventilation: Hydrogen and oxygen evolved from the lead-acid battery during the recharge process. Suppose the hydrogen level exceeds 4% of the available volume in the area. In that case, the general atmosphere can become explosive – because of this; it is recommended that the concentration of hydrogen never exceeds 1% of available volume
 
-- Adequate ventilation needs to be provided to keep the hydrogen level below 1%. The battery room shall be ventilated employing two exhaust fans (one working + one standby).
+- Adequate ventilation needs to be provided to keep the hydrogen level below 1%. The battery room shall be ventilated employing two exhaust fans (one working + one standby)
 
 - The standby fan should start automatically in case the other fails.
-- The fan shall be mounted as high as possible in the wall, but not below the level of the light fittings. (Fan used: Havells Ventil Air DX 200mm Exhaust Fan )
+- The fan shall be mounted as high as possible in the wall, but not below the level of the light fittings (Fan used: Havells Ventil Air DX 200mm Exhaust Fan )
 
 2. Personal Protective Equipment and Clothing
 
@@ -339,11 +339,11 @@ From each MCB, the phase wire is connected to the switchboard in the room, and a
 
 4. Do's & Don'ts in and around battery room:
    - To ensure that the area is adequately ventilated to dissipate harmful gasses, two exhaust fans have been installed
-   - Keep all metallic objects away from battery tops.
-   - Prevent open flames, sparks or electric arcs in the battery charging areas.
+   - Keep all metallic objects away from battery tops
+   - Prevent open flames, sparks or electric arcs in the battery charging areas
    - The battery charging has been well lit with two lights
-   - A spill tray should be installed under the battery to contain any spill.
-   - If installed batteries are at risk of metal tools or other conductive materials touching terminals, then the terminals should be insulated.
+   - A spill tray should be installed under the battery to contain any spill
+   - If installed batteries are at risk of metal tools or other conductive materials touching terminals, then the terminals should be insulated
 <https://www.miningsafety.co.za/battery-charging-rooms-and-mining-safety/>
 
 ### 6.4.4. Cost Analysis
@@ -380,7 +380,7 @@ The average sunlight time is 5 hours per day, with an error factor of 1.1. The a
 
 Solar Panels should produce approx 6-8 kWh per day. It is the primary component for the solar energy system to convert sunlight into electricity. Solar panels should fulfil the requirements :
 
-1. They should have an auto-clean covering for better sunlight incident on solar cells.
+1. They should have an auto-clean covering for better sunlight incident on solar cells
 2. They should be sturdy
 3. They Should not degrade by constant heating and cooling down
 4. They should be UV protected
@@ -404,12 +404,12 @@ We are using six 335W Solar panels (Total 335W * 6 =2.01 kW). The following are 
 
 Features of Luminous Monocrystalline Perc solar Panels are:
 
-1. Excellent performance under low light conditions.
-2. Comes with highly qualified anti-reflective glass.
-3. Comes with the latest PERC(Passivated Emitter and Rear Cell) technology.
-4. Panels made of potential-induced degradation (PID) resistance technology.
-5. Comes with premium MC4 connectors and 1000mm DC cable that ensures a secure and safe connection.
-6. These Solar Panels offer high torsion resistance against wind and snow loads due to their silver anodized aluminium frame.
+1. Excellent performance under low light conditions
+2. Comes with highly qualified anti-reflective glass
+3. Comes with the latest PERC(Passivated Emitter and Rear Cell) technology
+4. Panels made of potential-induced degradation (PID) resistance technology
+5. Comes with premium MC4 connectors and 1000mm DC cable that ensures a secure and safe connection
+6. These Solar Panels offer high torsion resistance against wind and snow loads due to their silver anodized aluminium frame
 
 !["Solar Panel"](./Images/Single%20solar%20panel.jpg "Solar Panel")
 
@@ -435,9 +435,9 @@ The inverter and the home should be as close as possible so that energy from the
 
 The battery should be completely safe, not burnable, stable and maintenance-free. Battery should fulfil the requirements :
 
-1. It should have good electrical performance with low resistance.
-2. It should have a high number of charge cycles.
-3. It should have a high current rating.
+1. It should have good electrical performance with low resistance
+2. It should have a high number of charge cycles
+3. It should have a high current rating
 
 The maximum distance between solar panels and batteries should be 20 to 30 ft. and mount the charge controller within a meter of the batteries. If the distance is more than 30ft, we need high-quality cables.
 <https://solvoltaics.com/solar-panels-distance-battery-charge-controller-inverter/#:~:text=Solar%20Battery%20storage%20systems%20should,components%20of%20your%20solar%20array>.
@@ -476,7 +476,7 @@ The wires that are used to connect the inverter with the grid power and Househol
 
 It includes AC SPD, AC fuse and MCB to protect the solar inverter from high voltages on the AC side. ACDB should fulfil the requirements:
 
-1. It should have a capacity of up to 3kW.
+1. It should have a capacity of up to 3kW
 2. Dust and water protected
 3. Polycarbonate Material
 4. MCB Based AC disconnection
@@ -487,7 +487,7 @@ It includes AC SPD, AC fuse and MCB to protect the solar inverter from high volt
 
 It protects the solar energy system from DC from panels and protects panels from reverse current flow. DCDB should fulfil the requirements:
 
-1. It should include DC Fuse, DC MCB and SPDs.
+1. It should include DC Fuse, DC MCB and SPDs
 2. With an LED indicator for the Current produced from the panels
 3. IP66 Polycarbonate Material
 4. With DC SPD, DC Fuse and Indicators
@@ -519,18 +519,18 @@ A Solar water heater with the following requirements:
 7. Coldwater tank with required insulated hot water pipelines and accessories.
 8. Pipelines
 9. It should withstand hot water up to 80 °C.
-10. The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the no. of storage tank
+10. The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the number of storage tank
 11. Some valves to control the flow
 
 The following are the specifications of the Solar Heater used:
 <https://www.indiamart.com/proddetail/200-lpd-solar-water-heater-10495712030.html>
 
 1. Dimensions are : 1.316m x 2.105m
-2. 200 LPD Non-pressurized ETC(Evacuated Tube Collector based on thermosyphon principle) because ETC has a very low heat loss coefficient.
-3. Average Hot water output is above 40 to 50 °C above ambient temperature.
-4. Tank insulation with Polyurethane foam keeps the water hot for 16 to 18 hrs with a slight temperature loss of 3 °C.
-5. Socket provided for the Electrical Back up heating coil in the tank for low sunlight conditions.
-6. Plumbing Pipes and accessories are required for inlet and outlet connections with domestic water tank and supply.
+2. 200 LPD Non-pressurized ETC(Evacuated Tube Collector based on thermosyphon principle) because ETC has a very low heat loss coefficient
+3. Average Hot water output is above 40 to 50 °C above ambient temperature
+4. Tank insulation with Polyurethane foam keeps the water hot for 16 to 18 hrs with a slight temperature loss of 3 °C
+5. Socket provided for the Electrical Back up heating coil in the tank for low sunlight conditions
+6. Plumbing Pipes and accessories are required for inlet and outlet connections with domestic water tank and supply
 
 !["Isometric View of Solar Water Heater"](./Images/solar%20water%20heater%20(isometric).jpg "Isometric View of Solar Water Heater")
 
@@ -539,8 +539,8 @@ The following are the specifications of the Solar Heater used:
 We use charge controllers to regulate voltage and current from solar panels to batteries. We used MPPT(Maximum Power Point Tracking) in this solar system. Charge Controller should fulfil the following requirements:
 
 1. It should have a high current rating more than the output peak current of solar panels
-2. It should charge the batteries correctly and efficiently and protect them from overcharging.
-3. It should regulate the variation in current-voltage characteristics properly.
+2. It should charge the batteries correctly and efficiently and protect them from overcharging
+3. It should regulate the variation in current-voltage characteristics properly
 
 We are using 1 Victron SmartSolar Charge Controller(85A,150V):
 <https://www.victronenergy.com/solar-charge-controllers/smartsolar-mppt-ve.can#enclosure-dimensions>
@@ -556,13 +556,13 @@ We are using 1 Victron SmartSolar Charge Controller(85A,150V):
 
 Other specifications of this Charge Controller are:
 
-1. It is a Maximum Power Point Tracking(MPPT) controller and uses an advanced MPPT control algorithm to minimize the maximum power point loss rate and loss time,
-2. It has ultra-fast tracking speed and excellent tracking efficiency.
-3. It has a Fully programmable charge algorithm and eight pre-programmed algorithms, selectable with a rotary switch.
+1. It is a Maximum Power Point Tracking(MPPT) controller and uses an advanced MPPT control algorithm to minimize the maximum power point loss rate and loss time
+2. It has ultra-fast tracking speed and excellent tracking efficiency
+3. It has a Fully programmable charge algorithm and eight pre-programmed algorithms, selectable with a rotary switch
 4. Comes with an auto-voltage detection feature (12, 24, 36, or 48 volts)
-Current rating:- maximum output current of the solar panel and Battery Voltage.
-5. LCD and indicators to display operating data and status of the system.
-6. The wireless(Bluetooth) solution to set up, monitor, update and synchronize SmartSolar Charge Controllers.
+Current rating:- maximum output current of the solar panel and Battery Voltage
+5. LCD and indicators to display operating data and status of the system
+6. The wireless(Bluetooth) solution to set up, monitor, update and synchronize SmartSolar Charge Controllers
 7. Real-time energy statistics function, Overheating power reduction function
 
 The solar charge controller should always be placed close to the batteries, not the panels. It should be within one meter (approximately 3.25ft) of the battery bank and in the same room or enclosure.
@@ -578,7 +578,7 @@ Clamp metre detects the magnetic field emitted by current flowing in wire to mea
 
 1. It should be lightweight
 2. It should have an overload protection system
-3. It should be adjusted according to different current ranges for better precision.
+3. It should be adjusted according to different current ranges for better precision
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -604,14 +604,14 @@ Solar Panel Stand should fulfil the following requirements:
 
 We used Mechanical stands for the panels, which includes a change in angle of panels by mechanical movement of the roads. This will increase energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.
 
-1. Panels will face towards the South direction with an angle of 14.8° from horizontal in Spring/Fall season, 30° in Winter season and 0°C (exactly horizontal) in summers.
+1. Panels will face towards the South direction with an angle of 14.8° from horizontal in Spring/Fall season, 30° in Winter season and 0°C (exactly horizontal) in summers
 <https://footprinthero.com/solar-panel-tilt-angle-calculator>
 
-2. Panels will be adjusted four times a year.
+2. Panels will be adjusted four times a year
 3. Height of panels from the roof: The height should be at least 3-5 inches for continuous airflow. (the airflow helps in reducing the temperature of the panels for more energy production)
 <https://www.pveducation.org/pvcdrom/solar-cell-operation/effect-of-temperature>
 
-We have designed the Solar panel stands so that it has holes from 0°-30⁰, which can be adjusted manually according to the sun's position, thus giving the desired output. Panels will be adjusted four times a year.<br/>
+We have designed the Solar panel stands so that it has holes from 0°-30⁰, which can be adjusted manually according to the sun's position, thus giving the desired output. Panels will be adjusted four times a year.
 
 The area covered by both stands is 170 sq feet.
 Total weight of solar panels is approx 22.5×6 = 133 kg.
@@ -921,8 +921,8 @@ Estimated cost: Rs.45000
 Efficiency: 70%
 
 - Input is water produced by combustion of 8 kg wood
-From the burning fuel, heated gasses are circulated by natural convection or forced by a pump.
-- Boiler processes this water to steam at high pressure.
+From the burning fuel, heated gasses are circulated by natural convection or forced by a pump
+- Boiler processes this water to steam at high pressure
 - For 8kg of wood, the steam produced is 22.580kg at this efficiency
 
 ![](RackMultipart20220201-4-1apfz2s_html_e4360a86f9b28e06.png)
@@ -961,8 +961,8 @@ Power capacity : 1KW - 40MW
 
 Cost : Rs. 50,000
 
-- Steam turbine extracts thermal energy from pressurized steam and use it to do mechanical work on a rotating output shaft.
-- The turbines are connected to a generator with an axle, which produces energy via a magnetic field that produces an electric current.
+- Steam turbine extracts thermal energy from pressurized steam and use it to do mechanical work on a rotating output shaft
+- The turbines are connected to a generator with an axle, which produces energy via a magnetic field that produces an electric current
 
 References
 
@@ -992,11 +992,11 @@ Reference:
 
 ### Requirements for good Compost
 
-- Having a proper food-web: a mixture of creatures, which include many insects, bugs, slugs, bacteria, and mushrooms, adding a small quantity of soil to this mixture can be used to start the process.
-- Nitrogen / Carbon Ratio -The ideal mix is ¾ &quot;brown&quot; and ¼ &quot;green&quot; ingredients by volume. Such a mixture of &quot;brown&quot; and &quot;green&quot; ingredients will ensure that the mass maintains the appropriate quantity of humidity and air and hastens the decomposing process.
-- The compost should remain humid throughout the process. About 50% humidity is acceptable. Let excess water drain out through the ventilation bores. The mixture should remain humid but not wet.
-- All creatures and mushrooms in the compost mixture need oxygen during the process. The tumbler must be rotated every second day to prevent cutting off the air supply and hastening the process.
-- Location- The fastest decomposition occurs between 140°F (60°C) and 160°F (71°C). We should position the Compost Tumbler out of the excessive wind and in full sunlight.
+- Having a proper food-web: a mixture of creatures, which include many insects, bugs, slugs, bacteria, and mushrooms, adding a small quantity of soil to this mixture can be used to start the process
+- Nitrogen / Carbon Ratio -The ideal mix is ¾ &quot;brown&quot; and ¼ &quot;green&quot; ingredients by volume. Such a mixture of &quot;brown&quot; and &quot;green&quot; ingredients will ensure that the mass maintains the appropriate quantity of humidity and air and hastens the decomposing process
+- The compost should remain humid throughout the process. About 50% humidity is acceptable. Let excess water drain out through the ventilation bores. The mixture should remain humid but not wet
+- All creatures and mushrooms in the compost mixture need oxygen during the process. The tumbler must be rotated every second day to prevent cutting off the air supply and hastening the process
+- Location- The fastest decomposition occurs between 140°F (60°C) and 160°F (71°C). We should position the Compost Tumbler out of the excessive wind and in full sunlight
 
 ### Basic Carbon/Nitrogen Table
 
@@ -1005,11 +1005,11 @@ Reference:
 ### Items to avoid in Compost
 
 - Meat, fish, fats, and bones- could ferment or putrefy, causing odours and attracting flies, rodents, or other animals that can be pests
-- Other foods like dairy products, sauces, salad dressing, and cooking oil– These too could ferment or putrefy, causing odours and attracting flies, rodents, or other animals that can be pests.
+- Other foods like dairy products, sauces, salad dressing, and cooking oil– These too could ferment or putrefy, causing odours and attracting flies, rodents, or other animals that can be pests
 - Ashes - Wood ashes may be very useful but in small quantities.
 - Dog and cat faeces may cause a risk of adding diseases!
-- Perpetual weeds that have turned to seed or diseased plants are Not to be used as they can spread with the compost.
-- Any cooked or canned foods that contain salt- Salt kills the tiny creatures that do the composting in your mixture.
+- Perpetual weeds that have turned to seed or diseased plants are Not to be used as they can spread with the compost
+- Any cooked or canned foods that contain salt- Salt kills the tiny creatures that do the composting in your mixture
 
 ## DESIGN And Specifications
 
@@ -1027,7 +1027,7 @@ Reference:
 (dimensions as shown in the diagram)
 
 - Two (2) 2×4&#39;s cut to 4′ 2-1/2″, one end cut at 30° inside mitre
-- Two (2) 2×4&#39;s cut to 3′ 8-7/16″, both ends with 30° inside mitres angled toward each other.
+- Two (2) 2×4&#39;s cut to 3′ 8-7/16″, both ends with 30° inside mitres angled toward each other
 - Two (2) 2×4&#39;s cut to 4″, one end cut at 30° inside mitre
 - Two (2) 1×6&#39;s cut to 2′ 2-5/16″ with 30° inside mitres at each end
 - One (1) 1×6 cut to 3′ 3″ long
@@ -1038,14 +1038,14 @@ Image of the specification of the compost tumbler Image of the finished tumbler
 
 ### Other design specifications
 
-- Tumbler&#39;s Hatch Door- 12&quot;x12&quot; attached with a hinge and locked with a latch.
-- Drill holes in the drum to allow airflow in and out. Sufficient airflow is essential to allow rain and air to enter and drain the drum. Space them 2-3 inches apart. Holes can be of ⅜&quot; diameter.
+- Tumbler&#39;s Hatch Door- 12&quot;x12&quot; attached with a hinge and locked with a latch
+- Drill holes in the drum to allow airflow in and out. Sufficient airflow is essential to allow rain and air to enter and drain the drum. Space them 2-3 inches apart. Holes can be of ⅜&quot; diameter
 
-- We add ½&quot; square HDPE plastic inside the drum to prevent the compost from stelling at the base.
+- We add ½&quot; square HDPE plastic inside the drum to prevent the compost from stelling at the base
 
 ### Cost estimations
 
-The significant parts required are a pressure-treated wooden board, a 55-gallon plastic drum, and a 1/2″x1/2″x6′ HDPE, UHMWPE, or similar plastic sheet. Other than those, we would need screws, hinges, and a latch.
+The significant parts required are a pressure-treated wooden board, a 55-gallon plastic drum, and a 1/2″x1/2″x6′ HDPE, UHMWPE, or similar plastic sheet. Other than those, we would need screws, hinges, and a latch
 
 - Drum- Rs 600 to Rs 800
 - Pressure-treated wooden boards- Rs 300
@@ -1075,10 +1075,10 @@ Figure: Flow chart depicting Flue Gas Cleaning
 
 Cyclones(Cyclone Separator)
 
-- In cyclones, particles are separated by centrifugal forces. Flue gas containing particulates is fed into a cylinder tangentially to achieve rotational movement. The inside of the chamber creates a spiral vortex, similar to a tornado.
-- The lighter components of this gas have less inertia, so it is easier for them to be influenced by the vortex and travel up it.
-- Contrarily, more significant components of particulate matter have more inertia and are not as easily influenced by the vortex and drop down into a collection hopper.
-- The cleaned flue gas escapes out the top of the chamber.
+- In cyclones, particles are separated by centrifugal forces. Flue gas containing particulates is fed into a cylinder tangentially to achieve rotational movement. The inside of the chamber creates a spiral vortex, similar to a tornado
+- The lighter components of this gas have less inertia, so it is easier for them to be influenced by the vortex and travel up it
+- Contrarily, more significant components of particulate matter have more inertia and are not as easily influenced by the vortex and drop down into a collection hopper
+- The cleaned flue gas escapes out the top of the chamber
 
 Estimated Cost: 1.2-1.5m(4-5 feet) tall cyclone separator can cost about Rs 75000.
 
@@ -1124,42 +1124,42 @@ Reference: <https://www.sciencedirect.com/science/article/pii/S0956053X16300599>
 
 The following are the requirements of storage of energy produced by the Solar, Wind and Biomass sources:
 
-1. The battery must be durable and resistant to temperature, pressure, and interference changes. Along with being durable, it should be space-efficient and flexible to changing loads.
+1. The battery must be durable and resistant to temperature, pressure, and interference changes. Along with being durable, it should be space-efficient and flexible to changing loads
 
-2. Capacity should be enough to generate electricity to power up the entire house.
+2. Capacity should be enough to generate electricity to power up the entire house
 
-3. Connecting wires should be robust and long-lasting.
+3. Connecting wires should be robust and long-lasting
 
-4. Depth of discharge, an indicator of the percentage of the battery capacity that can be used before potentially shortening its life span, should be high to increase the usage.
+4. Depth of discharge, an indicator of the percentage of the battery capacity that can be used before potentially shortening its life span, should be high to increase the usage
 
-5. There must be an I/O device that shows the amount of energy stored in the electrical storage devices.
+5. There must be an I/O device that shows the amount of energy stored in the electrical storage devices
 
-6. Set-up and Maintenance costs should be kept in mind.
+6. Set-up and Maintenance costs should be kept in mind
 
 7. Provisions for DC/AC conversion using an inverter and DC/DC conversion
 
-8. The working system must require minimal supervision, including protective coverings, automated systems, and a single point of contact for all the user interfaces.
+8. The working system must require minimal supervision, including protective coverings, automated systems, and a single point of contact for all the user interfaces
 
-9. Circuit breakers must be added to handle the excessive load. There must be a system to efficiently store distinct types of energy (AC/DC) from various sources without interference.
+9. Circuit breakers must be added to handle the excessive load. There must be a system to efficiently store distinct types of energy (AC/DC) from various sources without interference
 
-10. There must be a system to efficiently store distinct types of energy(AC/DC) from various sources without interference.
+10. There must be a system to efficiently store distinct types of energy(AC/DC) from various sources without interference
 
-11. Provisions to cut-off storage and sell off surplus energy.
+11. Provisions to cut-off storage and sell off surplus energy
 
-12. Peer-to-peer energy sharing mechanism (off-grid communities).
+12. Peer-to-peer energy sharing mechanism (off-grid communities)
 
-13. Round-trip efficiency, which signifies the fraction of energy put into the storage that can be retrieved, should be high.
+13. Round-trip efficiency, which signifies the fraction of energy put into the storage that can be retrieved, should be high
 
-14. Coolants must be added.
+14. Coolants must be added
 
 <https://www.loomsolar.com/collections/off-grid-solar-system>
 
 ## 10.2. Specifications
 
 1. One 85A Charge Controller with the following specifications:
-   1. 85A - As per the given maximum current allowed.
-   2. Power combiner box to monitor high-voltage fuses and over-voltage and provide protection against over-current.
-   3. Charging management algorithm.
+   1. 85A - As per the given maximum current allowed
+   2. Power combiner box to monitor high-voltage fuses and over-voltage and provide protection against over-current
+   3. Charging management algorithm
 
 2. 3500W 24V-240V Inverter
 
@@ -1222,11 +1222,11 @@ For an optimal charging operation, the current and voltage supplied to the batte
 
 A charge controller either uses PWM or MPPT to control the battery supply.
 
-1. PWM based control: Switch between the controller and the battery. A PWM-based control is more suitable for smaller systems where the efficiency is not critical.
+1. PWM based control: Switch between the controller and the battery. A PWM-based control is more suitable for smaller systems where the efficiency is not critical
 
-2. MPPT based control: Adjusts the load on the supply dynamically with an incentive to maximize the power drawn from the supply. A charge controller equipped with MPPT dramatically improves the efficiency at which energy is stored. This form of control is more suitable for our use case as the energy stored is vital.
+2. MPPT based control: Adjusts the load on the supply dynamically with an incentive to maximize the power drawn from the supply. A charge controller equipped with MPPT dramatically improves the efficiency at which energy is stored. This form of control is more suitable for our use case as the energy stored is vital
 
-Remark: The output voltage of the supply needs to be close to the charging voltage of the battery, but using a battery of such a charging voltage was not feasible from a cost perspective.
+Remark: The output voltage of the supply needs to be close to the charging voltage of the battery, but using a battery of such a charging voltage was not feasible from a cost perspective
 
 1. Solar Charge Controller
 
@@ -1286,7 +1286,7 @@ It receives a DC input of 24V from the charge controllers and gives a DC output 
 
 There are two types of batteries available in the market:
 
-1. Lithium-Ion batteries.
+1. Lithium-Ion batteries
 
 2. Lead Acid batteries
 
@@ -1350,15 +1350,15 @@ The battery provides a DC, but the household appliances and the electrical grid 
 
 Many inverters are available in the market, depending on the output frequency requirement (50Hz for us) and input voltage requirement:
 
-1. 12 V DC - for smaller consumer and commercial inverters typically run from a rechargeable 12 V lead-acid battery or automotive electrical outlet.
+1. 12 V DC - for smaller consumer and commercial inverters typically run from a rechargeable 12 V lead-acid battery or automotive electrical outlet
 
-2. 24, 36 and 48 V DC - common standards for home energy systems.
+2. 24, 36 and 48 V DC - common standards for home energy systems
 
-3. 200 to 400 V DC - when power is from photovoltaic solar panels.
+3. 200 to 400 V DC - when power is from photovoltaic solar panels
 
-4. 300 to 450 V DC - when power is from electric vehicle battery packs in vehicle-to-grid systems.
+4. 300 to 450 V DC - when power is from electric vehicle battery packs in vehicle-to-grid systems
 
-5. 1000 V - when the inverter is part of a high voltage direct current power transmission system.
+5. 1000 V - when the inverter is part of a high voltage direct current power transmission system
 
 <https://en.m.wikipedia.org/wiki/High-voltage_direct_current>
 
