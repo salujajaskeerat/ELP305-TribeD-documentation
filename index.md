@@ -97,12 +97,11 @@ geometry: margin = 2cm
       - [Design of a simple inverter:-](#design-of-a-simple-inverter-)
   - [Cost Analysis](#cost-analysis)
 - [11. Closure](#11-closure)
-- [12. Reuse](#12-reuse)
-- [13. Appendix](#13-appendix)
-  - [13.1 Rating Calculations for Solar Charge Controller](#131-rating-calculations-for-solar-charge-controller)
-  - [13.2. Wind energy density distribution over India](#132-wind-energy-density-distribution-over-india)
-  - [13.3. Power Calculations](#133-power-calculations)
-- [14. References](#14-references)
+- [12. Appendix](#12-appendix)
+  - [Appendix A: Rating Calculations for Solar Charge Controller](#appendix-a-rating-calculations-for-solar-charge-controller)
+  - [Appendix B: Wind energy density distribution over India](#appendix-b-wind-energy-density-distribution-over-india)
+  - [Appendix C: Power Calculations](#appendix-c-power-calculations)
+- [13. References](#13-references)
 
 [Back to Table of Contents](#table-of-contents)  
 
@@ -1395,22 +1394,19 @@ We will need the input to be 24V (coming from the battery) for our purposes with
 
 # 11. Closure
 
-[Back to Table of Contents](#table-of-contents)
-
-# 12. Reuse
 
 [Back to Table of Contents](#table-of-contents)
 
-# 13. Appendix
+# 12. Appendix
 
-## 13.1 Rating Calculations for Solar Charge Controller
+## Appendix A: Rating Calculations for Solar Charge Controller
 
 Rating of Solar Charge Controller: 85A,150V
 Maximum charging current for batteries = ( Solar panel Wattage / System voltage ) = (6*335/24) = 83.75A (<85A)
 
 The maximum rated voltage of the charge controller is 100V. The short circuit Voltage rating of each solar panel is 46.5V, and the total maximum voltage from a combination of panels is 46.5x2=93V(<150V)
 
-## 13.2. Wind energy density distribution over India
+## Appendix B: Wind energy density distribution over India
 
 <https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/eeaa/2020/eeaa_38_1/0144598719875276/20200528/images/large/10.1177_0144598719875276-fig11.jpeg>
 <https://journals.sagepub.com/doi/full/10.1177/0144598719875276>#
@@ -1418,7 +1414,7 @@ The maximum rated voltage of the charge controller is 100V. The short circuit Vo
 
 <img src="./Images/Map-showing-wind-power-potential-at-100-m.png" width="500px">
 
-## 13.3. Power Calculations
+## Appendix C: Power Calculations
 
 <https://www.researchgate.net/post/How_can_I_calculate_the_rotational_speed_of_a_wind_turbine>
 <https://www.controlelectricco.com/permanent-magnet-alternator.html>
@@ -1462,4 +1458,4 @@ Output power @Wind Speed(4.5 m/s) ~ 470 Watts
 
 [Back to Table of Contents](#table-of-contents)
 
-# 14. References
+# 13. References
