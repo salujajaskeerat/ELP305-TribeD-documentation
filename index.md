@@ -478,8 +478,8 @@ It includes AC SPD, AC fuse and MCB to protect the solar inverter from high volt
 
 1. It should have a capacity of up to 3kW
 2. Dust and water protected
-3. Polycarbonate Material
-4. MCB Based AC disconnection
+3. Polycarbonate material
+4. MCB based AC disconnection
 5. It should have a current rating
 6. It should have high voltage and frequency ass in AC
 
@@ -488,37 +488,37 @@ It includes AC SPD, AC fuse and MCB to protect the solar inverter from high volt
 It protects the solar energy system from DC from panels and protects panels from reverse current flow. DCDB should fulfil the requirements:
 
 1. It should include DC Fuse, DC MCB and SPDs
-2. With an LED indicator for the Current produced from the panels
-3. IP66 Polycarbonate Material
+2. With an LED indicator for the current produced from the panels
+3. IP66 polycarbonate material
 4. With DC SPD, DC Fuse and Indicators
-5. It should have fused with dc rated current rating
+5. It should have fused with DC rated current rating
 6. It should have a voltage rating as of o/p of solar panels
 
 The following table shows the specifications of the DCDB used:
 
 | Property | Specification |
 |---|---|
-|Maximum current| 3*10.57A* 1.25 = 39.63A |
-|Fuse Rating | 38-40A |
+|Maximum current| 3\*10.57A\*1.25 = 39.63 A |
+|Fuse Rating | 38-40 A |
 |Brand|Havells|
 |Model Name/Number | zoob|
 |Voltage |220-240 V|
 |Material | PVC IP68|
-|Power rating| 1-3kW|
+|Power rating| 1-3 kW|
 
 ## 7.8. Solar Water Heater
 
 A Solar water heater with the following requirements:
 
-1. Medium Installation area should be required
-2. Solar Collector with copper tubes for better conduction
+1. Medium installation area should be required
+2. Solar collector with copper tubes for better conduction
 3. It should have good efficiency
 4. Should not get overheated and cause damage
 5. Some covering on the sides must be incorporated to prevent burn if someone comes nearby
 6. Insulated hot water storage tank approx
 7. Coldwater tank with required insulated hot water pipelines and accessories.
 8. Pipelines
-9. It should withstand hot water up to 80 °C.
+9. It should withstand hot water up to 80°C.
 10. The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the number of storage tank
 11. Some valves to control the flow
 
@@ -527,9 +527,9 @@ The following are the specifications of the Solar Heater used:
 
 1. Dimensions are : 1.316m x 2.105m
 2. 200 LPD Non-pressurized ETC(Evacuated Tube Collector based on thermosyphon principle) because ETC has a very low heat loss coefficient
-3. Average Hot water output is above 40 to 50 °C above ambient temperature
-4. Tank insulation with Polyurethane foam keeps the water hot for 16 to 18 hrs with a slight temperature loss of 3 °C
-5. Socket provided for the Electrical Back up heating coil in the tank for low sunlight conditions
+3. Average hot water output is above 40 to 50°C above ambient temperature
+4. Tank insulation with Polyurethane foam keeps the water hot for 16 to 18 hrs with a slight temperature loss of 3°C
+5. Socket provided for the electrical back up heating coil in the tank for low sunlight conditions
 6. Plumbing Pipes and accessories are required for inlet and outlet connections with domestic water tank and supply
 
 !["Isometric View of Solar Water Heater"](./Images/solar%20water%20heater%20(isometric).jpg "Isometric View of Solar Water Heater")
@@ -550,7 +550,7 @@ We are using 1 Victron SmartSolar Charge Controller(85A,150V):
 |Dimensions | 295 x 213.9 x 100.4 mm |
 |Maximum possible current in the system | 83.75 A (minimum Current rating)
 | Upper Voltage limit | 93 V (minimum voltage rating) |
-| Maximum power | 6*335 = 2140 W (minmium power rating) |
+| Maximum power | 6\*335 = 2140 W (minmium power rating) |
 | Efficiency | 98% |
 | Wire Size(cross-section)| 16mm² |
 
@@ -558,7 +558,7 @@ Other specifications of this Charge Controller are:
 
 1. It is a Maximum Power Point Tracking(MPPT) controller and uses an advanced MPPT control algorithm to minimize the maximum power point loss rate and loss time
 2. It has ultra-fast tracking speed and excellent tracking efficiency
-3. It has a Fully programmable charge algorithm and eight pre-programmed algorithms, selectable with a rotary switch
+3. It has a fully programmable charge algorithm and eight pre-programmed algorithms, selectable with a rotary switch
 4. Comes with an auto-voltage detection feature (12, 24, 36, or 48 volts)
 Current rating:- maximum output current of the solar panel and Battery Voltage
 5. LCD and indicators to display operating data and status of the system
@@ -572,9 +572,9 @@ The solar charge controller should always be placed close to the batteries, not 
 
 !["Charge Controller Block Diagram"](./Images/charge%20controller%20block%20diagram.jpg "Charge Controller Block Diagram")
 
-## 7.10. Clamp metre
+## 7.10. Clamp meter
 
-Clamp metre detects the magnetic field emitted by current flowing in wire to measure the current value. Charge Controller should fulfil the following requirements:
+Clamp meter detects the magnetic field emitted by current flowing in wire to measure the current value. Clamp meter should fulfil the following requirements:
 
 1. It should be lightweight
 2. It should have an overload protection system
@@ -591,7 +591,7 @@ We will use the Solar panel system to measure current and voltage whenever requi
 
 ## 7.12. Solar Panel Stand
 
-Solar panel stand is an iron structure that fixes the solar panels on the rooftop and protects the solar panels from high blowing wind and animal attacks Etc. <br/>
+Solar panel stand is an iron structure that fixes the solar panels on the rooftop and protects the solar panels from high speed winds, animal attacks etc. <br/>
 
 Solar Panel Stand should fulfil the following requirements:
 
@@ -602,7 +602,7 @@ Solar Panel Stand should fulfil the following requirements:
 
 ### 7.12.1. Design of solar panel stand
 
-We used Mechanical stands for the panels, which includes a change in angle of panels by mechanical movement of the roads. This will increase energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.
+We used Mechanical stands for the panels, which includes a change in angle of panels by mechanical movement of the rods. This will increase energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.
 
 1. Panels will face towards the South direction with an angle of 14.8° from horizontal in Spring/Fall season, 30° in Winter season and 0°C (exactly horizontal) in summers
 <https://footprinthero.com/solar-panel-tilt-angle-calculator>
@@ -633,7 +633,7 @@ A: --> O:(Copper Plate)
 A: --> P:(Earthing Compound) 
 ```
 
-Two separate earthlings are required, 1 for Inverter and another for Lightning Arrester. <br/>
+Two separate earthings are required, one for Inverter and another for Lightning Arrester. <br/>
 
 Copper rod of diameter should be enough to conduct lightning to earth and not degrade, or GI can also be taken buried upright in the earth manually or with the help of a pneumatic hammer.<br/>
 
@@ -650,23 +650,23 @@ Earthing is required for the protection of human life and protection of equipmen
 
 The following table shows the benefits of using Earthing compound:
 
-1. Improves soil resistance & the Electrical Conductivity of the Soil
-2. Non-Toxic & Long Lasting
+1. Improves soil resistance & the electrical conductivity of the soil
+2. Non-toxic & long lasting
 3. Excellent Moisture Absorption and Retaining Capacity
 4. Enriches the Charge Carrying Ions in the soil
 
 [Back to Table of Contents](#table-of-contents)
 
-## 7.14. Lighting Arrester
+## 7.14. Lightning Arrester
 
-Lighting Arrester(LA) protects solar panels from thunder. In dangerous lightning strikes, LA activates and diverts lighting to the ground.
+Lightning Arrester(LA) protects solar panels from thunder. In dangerous lightning strikes, LA activates and diverts lightning to the ground.
 
-We use a copper bonded lightning arrester 1 meter with earthing rod for home and building protection. This 1kg and 350gm weight offer coverage of 45° from the top point of the arrester, that is, the surrounding area with a 2m radius.
+We use a copper bonded lightning arrester of length 1m with an earthing rod for home and building protection. This 1kg and 350gm weight offer coverage of 45° from the top point of the arrester, that is, the surrounding area with a 2m radius.
 In order to let the surge current flow to the ground via the earthing system, the copper strip or 4mm copper ac wire is connected between this lightning arrester and the ground earthing system.
 
 Suitable for: 1kW, 2kW, 1kVA to 3kVA off-grid or on-grid solar power system.
 
-The following table shows the specifications of the lighting arrester used:
+The following table shows the specifications of the lightning arrester used:
 
 | Property | Specification |
 |---|---|
@@ -678,7 +678,7 @@ The following table shows the specifications of the lighting arrester used:
 |Surface Treatment| Galvanized |
 |Total length|1m |
 |Diameter| 9.2mm|
-|Dimension of base plate| 9*9 cm|
+|Dimension of base plate| 9\*9 cm|
 
 ## 7.15. Basic tools required
 
@@ -703,7 +703,7 @@ The following figure shows the block diagram for electricity production and tran
 
 <img src="./Images/electricity%20production%20from%20solar%20energy%20and%20transmission%20to%20battery_block%20diagram%20.jpeg" width="600px">
 
-The amount of energy lost in solar power systems depends on the cable used, solar panel and battery design and how far apart they are. The actual amount of energy lost depends on the gauge or thickness of the wire. Long, thin cables increase the energy lost as the conductor resists current flow. With a shorter, thicker cable, energy loss is minimized during transmission.
+The amount of energy lost in solar power systems depends on the cable used, solar panel and battery design and how far apart they are. The actual amount of energy lost also depends on the gauge or thickness of the wire. Long, thin cables increase the energy lost as the conductor resists current flow. With a shorter, thicker cable, energy loss is minimized during transmission.
 
 ## 7.17. Cost Analysis
 
