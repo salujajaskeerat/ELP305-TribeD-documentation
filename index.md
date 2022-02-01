@@ -264,19 +264,19 @@ The following table contains information about different rooms in the house alon
 | | Exhaust Fan | 1| Power: 32 W, Operating Voltage: 230 volts|
 | | Light |2| Power: 9 W, Operating Voltage: 230V|
 | | Chute system to Biogas chamber | |
-| | Power socket for a fridge|1| Operating Voltage: 230V, Current: 15A |
-| | Power sockets for normal appliance usage (Toaster, Grinder etc)|1| Operating Voltage: 230V, Current: 5A |
+| | 15A 3-pin power outlet|1| Operating Voltage: 230V, Current: 15A |
+| | 5A 3-pin power outlet (Toaster, Grinder etc)|1| Operating Voltage: 230V, Current: 5A |
 | 1 Hallway | Light |3|Power: 9 W, Operating Voltage: 230V|
 | 1 Bathroom | Geyser powered by Solar Energy |1|Power: 2000 W, Capacity: 15L, Operating Voltage: 230V |
 | | Exhaust Fan | 1| Power: 32 W, Operating Voltage: 230 volts|
 | | Light |1|Power: 9 W, Operating Voltage: 230V|
 | | Chute system to Biogas chamber | |
 | 2 Bedrooms | Fan |1|Power: 70 W, Operating Voltage: 230V| |
-| | Power sockets for normal appliance usage|1|Operating Voltage: 230V, Current: 5A|
+| | 5A 3-pin power outlet|1|Operating Voltage: 230V, Current: 5A|
 | | Light|1| Power: 9 W, Operating Voltage: 230V |
 | 1 Living room | Tube Lights|2|Power: 20 W, Operating Voltage: 230V|
 | | Fan |1|Power: 70 W, Operating Voltage: 230V|
-| | Power sockets for normal appliance usage|2| 230 V, 5 A|
+| | 5A 3-pin power outlet |2| 230 V, 5 A|
 | 1 Battery Storage Room| MCB + Fuse Box |
 
 ![](./Images/House%20Dimensions.png "")
@@ -439,10 +439,10 @@ The battery should be completely safe, not burnable, stable and maintenance-free
 2. It should have a high number of charge cycles.
 3. It should have a high current rating.
 
-The maximum distance between solar panels and batteries should be 20 to 30 ft. and mount the charge controller within a yard or meter of the batteries. If the distance is more than 30ft, we need high-quality cables.
+The maximum distance between solar panels and batteries should be 20 to 30 ft. and mount the charge controller within a meter of the batteries. If the distance is more than 30ft, we need high-quality cables.
 <https://solvoltaics.com/solar-panels-distance-battery-charge-controller-inverter/#:~:text=Solar%20Battery%20storage%20systems%20should,components%20of%20your%20solar%20array>.
 
-The battery bank and the inverter should also be close — within a yard.
+The battery bank and the inverter should also be close — within a meter.
 
 ## 7.5. Wires (AC and DC)
 
