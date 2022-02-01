@@ -6,7 +6,7 @@ geometry: margin = 2cm
 
 >Semester 2, 2021-22
 >
->Week 3 Design for Sunergy Assignment
+>Week 4 Design for Sunergy Assignment
 >
 >Author: **Tribe D (DukhDard)**
 >
@@ -380,9 +380,9 @@ The average sunlight time is 5 hours per day, with an error factor of 1.1. The a
 
 Solar Panels should produce approx 6-8 kWh per day. It is the primary component for the solar energy system to convert sunlight into electricity. Solar panels should fulfil the requirements :
 
-1. They should have an auto-clean covering for better sunlight incident on solar cells
+1. They should have an auto-clean covering for better sunlight incidence on solar cells
 2. They should be sturdy
-3. They Should not degrade by constant heating and cooling down
+3. They should not degrade by constant heating and cooling down
 4. They should be UV protected
 
 We are using six 335W Solar panels (Total 335W * 6 =2.01 kW). The following are the specifications of the Solar Panels used:
