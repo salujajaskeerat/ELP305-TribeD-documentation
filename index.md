@@ -203,8 +203,6 @@ Attached at the end of the pdf report.
 
 >We are designing a system to meet the entire energy needs of your home without drawing commercial electrical power from the utility. This report contains the final report of the house designed by Tribe D i.e. the requirements, specifications and design of the house.
 
-[Back to Table of Contents](#table-of-contents)
-
 # 5. Abstract
 
 [Back to Table of Contents](#table-of-contents)
@@ -234,8 +232,6 @@ The following table contains specifications of the house:
 
 The following figure shows the top view of the house:
 
-<!-- !["Top View of the House"](./Images/House%20Top%20View%20(Labelled).png = 100x20) -->
-
 <img src="./Images/House%20Top%20View%20(Labelled).png" width="400px">
 
 The following figure shows the isometric view of the house:
@@ -248,24 +244,24 @@ The following table contains information about different rooms in the house alon
 |-------|------|----|----|
 | 1 Kitchen | Doors to the outside| 2| |
 | | Exhaust Fan | 1| Power: 32 W, Operating Voltage: 230 volts|
-| | Light |2| Power: 70 W, Operating Voltage: 230V|
+| | Light |2| Power: 9 W, Operating Voltage: 230V|
 | | Chute system to Biogas chamber | |
 | | Power socket for a fridge|1| Operating Voltage: 230V, Current: 15A |
 | | Power sockets for normal appliance usage (Toaster, Grinder etc)|1| Operating Voltage: 230V, Current: 5A |
-| 1 Hallway | Light |3|Power: 70 W, Operating Voltage: 230V|
-| 1 Bathroom | Geyser powered by Solar Energy |1| |
+| 1 Hallway | Light |3|Power: 9 W, Operating Voltage: 230V|
+| 1 Bathroom | Geyser powered by Solar Energy |1|Power: 2000 W, Capacity: 15L, Operating Voltage: 230V |
 | | Exhaust Fan | 1| Power: 32 W, Operating Voltage: 230 volts|
-| | Light |1|Power: 70 W, Operating Voltage: 230V|
+| | Light |1|Power: 9 W, Operating Voltage: 230V|
 | | Chute system to Biogas chamber | |
 | 2 Bedrooms | Fan |1|Power: 70 W, Operating Voltage: 230V| |
 | | Power sockets for normal appliance usage|1|Operating Voltage: 230V, Current: 5A|
-| | Light|1| Power: 70 W, Operating Voltage: 230V |
-| 1 Living room | Tube Lights|2|
+| | Light|1| Power: 9 W, Operating Voltage: 230V |
+| 1 Living room | Tube Lights|2|Power: 20 W, Operating Voltage: 230V|
 | | Fan |1|Power: 70 W, Operating Voltage: 230V|
 | | Power sockets for normal appliance usage|2| 230 V, 5 A|
 | 1 Battery Storage Room| MCB + Fuse Box |
 
-![](House%20Dimensions.png "")
+![](./Images/House%20Dimensions.png "")
 
 ## 6.3. House Wiring
 
@@ -281,7 +277,7 @@ The following diagram shows the Electric Wiring Board:
 
 !["Electric Wiring Board Diagram"](./Images/Electric%20Wiring%20Board%20.png "Electric Wiring Board Diagram")
 
-The following diagrams shows the components of ELectric Wiring Board:
+The following diagrams shows the components of Electric Wiring Board:
 
 <img src="./Images/Components%20of%20Electric%20Wiring%20Board.png" width="400px">
 
@@ -369,7 +365,7 @@ Solar Panels should produce approx 6-8 kWh per day. It is the primary component 
 1. They should have auto-clean covering for better sunlight incident on solar cells.
 2. They should be sturdy
 3. They Should not degrade by constant heating and cooling down
-4. They should be uv protected
+4. They should be UV protected
 
 We are using six 335W Solar panels (Total 335W * 6 =2.01 kW). The following are the specifications of the Solar Panels used:
 
@@ -385,7 +381,7 @@ We are using six 335W Solar panels (Total 335W * 6 =2.01 kW). The following are 
 |Current at Max Power (imax) | 10.03A|
 |Open Circuit voltage | 46.5 V|
 |One Panel weight | 22Kg|
-|One Panel price | Rs 14,500(approx)|
+|One Panel price | 14,500(INR)|
 |Area for solar panels| 180 sq.feet|
 
 Features of Luminous Monocrystalline Perc solar Panels are:
@@ -504,7 +500,7 @@ A Solar water heater with the following requirements:
 6. Insulated hot water storage tank approx
 7. Cold water tank with required insulated hot water pipelines and accessories.
 8. Pipelines
-9. It should be able to withstand hot water upto 80 degree
+9. It should be able to withstand hot water upto 80 °C.
 10. The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the no. of storage tank
 11. Some valves to control the flow
 
@@ -513,10 +509,10 @@ The following are the specifications of the Solar Heater used:
 
 1. Dimensions are : 1.316m x 2.105m
 2. 200 LPD Non pressurized ETC(Evacuated Tube Collector-based on thermosyphon principle) because ETC has a very low heat loss coefficient.
-3. Average Hot water output is above 40 to 50 degree celsius above ambient temperature.
-4. Tank insulation with Polyurethane foam which keeps the water hot for 16 to 18 hrs with a small temperature loss of 3 degree celsius.
+3. Average Hot water output is above 40 to 50 °C above ambient temperature.
+4. Tank insulation with Polyurethane foam which keeps the water hot for 16 to 18 hrs with a small temperature loss of 3 °C.
 5. Socket provided for the Electrical Back up heating coil in the tank for low sunlight conditions.
-6. Plumbing Pipes and accesseries are required for inlet and outlet connections with domestic water tank and supply.
+6. Plumbing Pipes and accessories are required for inlet and outlet connections with domestic water tank and supply.
 
 !["Isometric View of Solar Water Heater"](./Images/solar%20water%20heater%20(isometric).jpg "Isometric View of Solar Water Heater")
 
@@ -590,14 +586,14 @@ Solar Panel Stand should fulfill the following requirements:
 
 We used Mechanical stands for the panels, which includes change in angle of panels by mechanical movement of the roads. This will increase the energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.
 
-1. Panels will face towards the South direction with an angle of 14.8 degrees from horizontal in Spring/Fall season, 30 degrees in Winter season and 0 degree (exactly horizontal) in summers.
+1. Panels will face towards the South direction with an angle of 14.8° from horizontal in Spring/Fall season, 30° in Winter season and 0°C (exactly horizontal) in summers.
 <https://footprinthero.com/solar-panel-tilt-angle-calculator>
 
 2. Panels will be adjusted four times in a year.
 3. Height of panels from the roof: The height should be at least 3-5 inches for continuous airflow. (the airflow helps in reducing the temperature of the panels for more energy production)
 <https://www.pveducation.org/pvcdrom/solar-cell-operation/effect-of-temperature>
 
-We have designed the Solar panel stands in such a way it have holes from 0-30⁰(degree)which can be adjusted manually according to position of sun, thus giving the desired output. Panels will be adjusted four times in a year.<br/>
+We have designed the Solar panel stands in such a way it have holes from 0°-30⁰ which can be adjusted manually according to position of sun, thus giving the desired output. Panels will be adjusted four times in a year.<br/>
 
 Area covered by both stands is 170 sq feet.
 Total weight of solar panels is approx 22.5×6 = 133 kg.
@@ -647,7 +643,7 @@ The following table shows benefits of using Earthing compound:
 
 Lighting Arrester(LA) protects solar panels from thunder. In dangerous lighting strikes, LA activates and diverts lighting to ground.
 
-We are using copper bonded lightning arrester 1 meter with earthing rod for home and building protection. This 1kg and 350gm weight offers a coverage of 45 degrees from the top point of the arrester, that is the surrounding area with a 2m radius.
+We are using copper bonded lightning arrester 1 meter with earthing rod for home and building protection. This 1kg and 350gm weight offers a coverage of 45° from the top point of the arrester, that is the surrounding area with a 2m radius.
 In order to let the surge current flow to the ground via the earthing system, the copper strip or 4mm copper ac wire is connected between this lightning arrester and ground earthing system.
 
 Suitable for: 1kW, 2kW, 1kVA to 3kVA off-grid or on-grid solar power system.
@@ -658,7 +654,7 @@ The following table shows the specfications of lighting arrester used:
 |---|---|
 |Phase| Single Phase|
 |No. of Poles| 5|
-|Building Protection Coverage|45 degrees from the top point |
+|Building Protection Coverage|45°C from the top point |
 |Application| Residential|
 |Material| Copper|
 |Surface Treatment| Galvanized|
@@ -695,7 +691,7 @@ The amount of energy lost in solar power systems depends on the cable used, sola
 
 Cost analysis(all prices in INR):
 
-|Name |Price (in Rs) | Quantity | Total Price |
+|Name |Price (INR) | Quantity | Total Price |
 |---|---|---|---|
 |Luminous Solar Panel | 14,500 | 6 | 87,000 |
 |Charge Controller |55,000|1|55,000|
@@ -852,6 +848,8 @@ Assuming Average Wind Speed to be 4.51 m/s, we get the following results:
 
 # 9. Biomass Energy
 
+
+
 [Back to Table of Contents](#table-of-contents)
 
 # 10. Storage
@@ -878,7 +876,7 @@ The following are the requirements of storage of energy produced by the Solar, W
 
 9. Circuit breakers must be added to handle the excessive load.There must be a system to efficiently store distinct types of energy (AC/DC) from various sources without interference.
 
-10. There mjst be a system to efficiently store distinct type of energy(AC/DC) from various sources without interference.
+10. There must be a system to efficiently store distinct type of energy(AC/DC) from various sources without interference.
 
 11. Provisions to cut-off storage and sell off surplus energy.
 
@@ -930,7 +928,7 @@ The following table shows the characteristics of Supplied Power:
 | --------------------------- | ------------- |
 | Base consumption            | 1.3kW         |
 | Peak Output Power to Supply | 7.5kW         |
-| Max. Peak load Duration     | 1hr           |
+| Max. Peak load Duration     | 1 hour           |
 
 4. Battery:
 
@@ -1008,7 +1006,7 @@ The following table shows the specifiactions of Biomass Turbine Charge Controlle
 | Uses MPPT        |
 | Dimension        | 100×80×15mm   |
 | Weight           | 0.4 kg        |
-| Cost             | $99.82        |
+| Cost             | 7500 (INR)     |
 
 <https://www.inverter.com/800w-wind-turbine-mppt-charge-controller>)
 
@@ -1108,7 +1106,7 @@ We will need the input to be 24V (coming from battery) for our purposes with the
 | Output                 | 220V AC current with Frequency 50Hz |
 | Efficiency             | 95% to 98%                          |
 | Minimum Inverter Power | 1000W                               |
-| Price                  | Rs.1200                             |
+| Price                  |1200 (INR)                  |
 | Dimensions of Inverter | 8cm $*$ 9cm $*$ 6cm                 |
 
 <https://www.amazon.in/WindyNation-Welding-Battery-Flexible-Inverter/dp/B01MY9QVRI>
@@ -1117,7 +1115,7 @@ We will need the input to be 24V (coming from battery) for our purposes with the
 
 ## Cost Analysis
 
-| Item                           | Quantity | Price/item(in Rs) | Total  |
+| Item                           | Quantity | Price/item(INR) | Total  |
 | ------------------------------ | -------- | ----------------- | ------ |
 | MCB 100A                       | 1        | 1700              | 1700   |
 | MCB 20A                        | 2        | 100               | 200    |
