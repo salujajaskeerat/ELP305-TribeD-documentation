@@ -1,0 +1,37 @@
+{
+  "name": "elp305-tribed-documentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "7.0.4",
+    "lint-staged": "12.3.3",
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "fix:other": "npm run prettier --write",
+    "fix": "npm run fix:other",
+    "prettier": "prettier \"**/*.{json,md,scss,yaml,yml}\"",
+    "test:other": "npm run prettier --list-different",
+    "test": "npm run  test:other"
+  },
+  "lint-staged": {
+  "*.{json,md,scss,yaml,yml}": ["prettier --write"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salujajaskeerat/ELP305-TribeD-documentation.git"
+  },
+  "author": "salujajaskeerat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salujajaskeerat/ELP305-TribeD-documentation/issues"
+  },
+  "homepage": "https://github.com/salujajaskeerat/ELP305-TribeD-documentation#readme"
+}

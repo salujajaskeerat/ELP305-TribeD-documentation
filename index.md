@@ -237,8 +237,8 @@ geometry: margin = 1.5 cm
 |10 | Cost Analysis for Solar Unit|
 |11 | Specifications of Blade for Wind Mill|
 |12 | Specifications of Pole and Guy Wires for Wind Mill|
-|13 | Specifications of Hub for Wind Mill| 
-|14 | Specifications of Turbine and Generator Wires for Wind Mill| 
+|13 | Specifications of Hub for Wind Mill|
+|14 | Specifications of Turbine and Generator Wires for Wind Mill|
 |15 | Specifications of Casing for Wind Mill|
 |16 | Cost Analysis for Wind Unit |
 |17 | Power Analysis for Wind Unit|
@@ -246,14 +246,14 @@ geometry: margin = 1.5 cm
 |19 | Specifications of Steam Turbine for Biomass Unit|
 |20 | Specifications of Generator for Biomass Unit |
 |21 | Information about various material used in compost|
-|22 | Cost of individual components for Biomass Unit| 
+|22 | Cost of individual components for Biomass Unit|
 |23 | Specifications of Inverter for Storage Unit|
 |24 | Characteristics of Supplied Power for Storage Unit|
 |25 | Characteristics of Battery for Storage Unit|
 |26 | Characteristics of Wind Turbine Charge Controller|
 |27 | Characteristics of Biomass Turbine Charge Controller|
 |28 | Characteristics of ILTT26060 Battery|
-|29 | Cost Analysis for Storage Unit| 
+|29 | Cost Analysis for Storage Unit|
 
 ## 3.4 List of Figures
 
@@ -279,7 +279,7 @@ geometry: margin = 1.5 cm
 |18 | Hub of a Wind Mill |
 |19 | Generator of a Wind Mill |
 |20 | Casing of a Wind Mill |
-|21 | Flowchart of Mechanical Assembly of Wind Mill | 
+|21 | Flowchart of Mechanical Assembly of Wind Mill |
 |22 | Working schematics of the Wind Mill |
 |23 | Command Line Interface of Wind Box |
 |24 | Mindmap used while designing the Biomass energy production unit |
@@ -312,13 +312,13 @@ Attached at the end of the pdf report.
 
 # 5. Abstract
 
-The aim of this project is to design an assembly of power resources to meet the entire energy needs of a home without drawing from commercial electricity. To meet these needs, we’ve incorporated Solar, Biomass and Wind Energy with an emphasis on Solar energy, and using Wind and Biomass as per the availability of resources in the environment. The location of the house is assumed to be Chennai (Tamil Nadu, India). 
+The aim of this project is to design an assembly of power resources to meet the entire energy needs of a home without drawing from commercial electricity. To meet these needs, we’ve incorporated Solar, Biomass and Wind Energy with an emphasis on Solar energy, and using Wind and Biomass as per the availability of resources in the environment. The location of the house is assumed to be Chennai (Tamil Nadu, India).
 
 The designed house has one floor, with adequate space allocated in the garden area for a Biomass Unit as well as a Windmill unit and the roof which mounts the solar panels all of which connect to a separate battery storage room. The power supplied to the house is enough for daily usage, and incase of a cutoff can provide backup for upto a week.
 
 The setup is designed to harness approximately 7kWh of electricity per day from solar energy which is taken to be available for approximately five hour per day. We have taken an array of six solar panels with connections optimised for continuous and maximum generation. We designed a custom build design of a stand which can hold three panels in one frame. With two of this frame holding 6 panels in total.
 
-The biomass resources have the potential to supply more useful energy at the same time reducing the impacts on the environment compared to fossil fuels. The biomass power plant uses a direct-fired combustion system to produce electricity in which the biomass is burned directly to produce high-pressure steam to drive a turbine generator. The setup is designed to harness 4-5kWh of electricity per day from biomass energy using around 8-10 kg of dry waste everyday. We also propose to use the wet waste using a compost. 
+The biomass resources have the potential to supply more useful energy at the same time reducing the impacts on the environment compared to fossil fuels. The biomass power plant uses a direct-fired combustion system to produce electricity in which the biomass is burned directly to produce high-pressure steam to drive a turbine generator. The setup is designed to harness 4-5kWh of electricity per day from biomass energy using around 8-10 kg of dry waste everyday. We also propose to use the wet waste using a compost.
 
 The storage unit has wild AC coming from three sources - solar, wind, and biomass. Through charge controllers, this is converted to DC at a constant 24V. The charging voltage for the batteries is set at 24V. Simultaneously, the current is drawn from the battery at 24V and fed to the inverter, converting it into AC at 220V, 50Hz frequency. The AC current is then supplied to the household through MCB to prevent damage.
 
@@ -425,11 +425,11 @@ From each MCB, the phase wire is connected to the switchboard in the room, and a
 - One ABC fire extinguisher that is adequately inspected/maintained
 
 - One Fire extinguisher
-- Adequate amount of Neutralizer 
+- Adequate amount of Neutralizer
 
 1. If electrolyte is spilt:
 
-- Throw sand over the contaminated area and remove the earth or sand once it has soaked up the acid/electrolyte 
+- Throw sand over the contaminated area and remove the earth or sand once it has soaked up the acid/electrolyte
 - Wash down the area with a solution of ordinary washing soda.
 - Dispose of any contaminated material safely
 
@@ -456,8 +456,6 @@ The following table (Table 3) shows the Cost Analysis for Battery Room:
 |RCCB |999|1|999|
 |Isolator|747|1|747|
 | | |Total| 10026|
-
-
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -518,7 +516,6 @@ The central component converts DC Voltage into AC for AC operated home appliance
 3. It should have at least a 2.5 kW power rating
 4. It should be able to withstand high temperatures and should have an excellent cooling mechanism
 5. It should be resistant to humid climates
-
 
 ## 7.4. Batteries
 
@@ -601,11 +598,10 @@ A Solar water heater with the following requirements:
 6. Insulated hot water storage tank approx 200-300 L
 7. Coldwater tank with required insulated hot water pipelines and accessories
 8. It should withstand hot water up to 80°C
-9.  The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the number of storage tank
+9. The cold water tank used for storing daily water usage can be connected to solar heater tubes for regular heating and reduce the number of storage tank
 10. Some valves to control the flow
 
 The following are the specifications of the Solar Heater used:
-
 
 1. Dimensions are : 1.316m x 2.105m
 2. 200 LPD Non-pressurized ETC(Evacuated Tube Collector based on thermosyphon principle) because ETC has a very low heat loss coefficient
@@ -626,7 +622,6 @@ We use charge controllers to regulate voltage and current from solar panels to b
 3. It should regulate the variation in current-voltage characteristics properly
 
 We are using 1 Victron SmartSolar Charge Controller(85A,150V):
-
 
 The following table (Table 7) shows the specifications of charge controller:
 
@@ -813,7 +808,8 @@ Cost analysis(all prices in INR) (Table 10):
 
 ## 8.1. Components of Wind Mill
 
-Fig 15: 
+Fig 15:
+
 ```mermaid
 flowchart  
  A:(Wind Mill) --> M:(Mechanical Components)  
@@ -861,7 +857,6 @@ Guy wires provide extra stability during extreme weather conditions.
 Fig 17:
 <img src="./Images/Pole%20and%20Guy%20Wires.png" width="400px">
 
-
 ### 8.2.3. Hub
 
 The following table (Table 13) shows the specifications of the hub used:
@@ -891,7 +886,6 @@ This generator uses a direct-drive mechanism, which eliminates a gearbox and can
 
 Fig 19:
 <img src="./Images/Generator.png" width="400px">
-
 
 ### 8.2.5. Casing
 
@@ -971,7 +965,7 @@ Design and Specifications of the combustion chamber are as follows:
 4. The combustion chamber will be installed with a steam boiler (refer to boiler design specification), as shown in  Figure 27.
 5. For starting, the combustion burner is attached through the inlet of fuel in the combustion chamber and closed once temperature (473 K) is attained.
 
-Taking cost/$m^2$ of 3 mm sheet = INR 7,000 
+Taking cost/$m^2$ of 3 mm sheet = INR 7,000
 
 Total cost of making a combustion chamber = INR 30,000(sheet) + INR 5,000(manufacturing cost) =  INR 35,000
 
@@ -1005,7 +999,6 @@ Fig 28:
 Fig 29:
 ![](Images/Dimensions_noiler.jpg)
 
-
 ### 9.2.3. Steam Turbine
 
 Steam turbine extracts thermal energy from pressurized steam and uses it to do mechanical work on a rotating output shaft. The turbines are connected to a generator with an axle, which in turn produces energy via a magnetic field that produces an electric current.
@@ -1018,7 +1011,6 @@ The required specifications for the steam turbine are as follows (Table 19):
 |Power | 1 kW - 5 MW |
 |Power capacity | 1 kW - 40 MW |
 |Cost | INR 50,000 |
-
 
 The required specifications for the generator are as follows(Table 20):
 
@@ -1044,32 +1036,31 @@ The basic requirements for a good compost tumbler are as follows:
 2. Nitrogen/Carbon Ratio : The ideal mix is 3/4  “brown” and 1/4 “green” ingredients by volume which will ensure that the mass maintains the appropriate quantity of humidity and air, and hastens the decomposing process.
 3. The compost should remain humid throughout the process. About 50 \% humidity is acceptable. Allow the excess water to drain out through the ventilation bores. The mixture should remain humid, but not wet.
 4. All creatures and mushrooms in the compost mixture need oxygen during the process. The tumbler must be rotated every second day or so to prevent cutting off air supply and hastening the process.
-5. Location- The fastest decomposition occurs between 140°F (60°C) and 160°F (71°C). We should position the Compost Tumbler out of the excessive wind and in full sunlight. 
+5. Location- The fastest decomposition occurs between 140°F (60°C) and 160°F (71°C). We should position the Compost Tumbler out of the excessive wind and in full sunlight.
 
 The following table shows different materials used in compost(Table 21):
 
 |Material | Carbon/Nitrogen |Info|
 |---|---|---|
-|Fruit and vegetable scraps | Nitrogen |	Add with dry carbon items|
-|Chicken/rabbit manure	| Nitrogen |	Excellent compost 'activator', use in moderation |
-| Coffee grounds	| Nitrogen| Filters may also be included |
-|Tea leaves |	Nitrogen |	Loose or in bags |
-|Grass clippings| Nitrogen |	Add in thin layers so they don't mat into clumps and putrefy |
-|Garden plants |Nitrogen	|Use disease-free plants only|
-|Lawn & garden weeds	| Nitrogen	| Only use weeds which have not gone to seed |
-|Flowers, cuttings	| Nitrogen	| Chop up any long woody stems |
-|Seaweed and kelp |	Nitrogen |	Rinse first; good source for trace minerals |
-|Eggshells	| Neutral	| Best when crushed |
-|Leaves	 | Carbon |	Leaves break down faster when shredded |
-|Straw or hay	| Carbon| Straw is best; hay (with seeds) is less ideal |
-|Pine needles|	Carbon | Acidic; use in moderate amounts |
-|Wood ash |	Carbon	| Only use ash from clean materials; sprinkle lightly  |
-|Cardboard | Carbon	 | Shred material to avoid matting |
-|Corn cobs, stalks	| Carbon |	Slow to decompose; best if chopped up |
-|Dryer lint |	Carbon |	Best if from natural fibers |
-|Wood chips |	Carbon |	High carbon content can overwhelm, and shut down, an otherwise good compost batch; use sparingly|
-|Sawdust| Carbon |	High carbon content can overwhelm, and shut down, an otherwise good compost batch; use sparingly. Be sure sawdust is clean, with no machine oil or chain oil residues from cutting equipment. Do not use sawdust from painted or treated lumber  |
-
+|Fruit and vegetable scraps | Nitrogen | Add with dry carbon items|
+|Chicken/rabbit manure | Nitrogen | Excellent compost 'activator', use in moderation |
+| Coffee grounds | Nitrogen| Filters may also be included |
+|Tea leaves | Nitrogen | Loose or in bags |
+|Grass clippings| Nitrogen | Add in thin layers so they don't mat into clumps and putrefy |
+|Garden plants |Nitrogen |Use disease-free plants only|
+|Lawn & garden weeds | Nitrogen | Only use weeds which have not gone to seed |
+|Flowers, cuttings | Nitrogen | Chop up any long woody stems |
+|Seaweed and kelp | Nitrogen | Rinse first; good source for trace minerals |
+|Eggshells | Neutral | Best when crushed |
+|Leaves  | Carbon | Leaves break down faster when shredded |
+|Straw or hay | Carbon| Straw is best; hay (with seeds) is less ideal |
+|Pine needles| Carbon | Acidic; use in moderate amounts |
+|Wood ash | Carbon | Only use ash from clean materials; sprinkle lightly  |
+|Cardboard | Carbon  | Shred material to avoid matting |
+|Corn cobs, stalks | Carbon | Slow to decompose; best if chopped up |
+|Dryer lint | Carbon | Best if from natural fibers |
+|Wood chips | Carbon | High carbon content can overwhelm, and shut down, an otherwise good compost batch; use sparingly|
+|Sawdust| Carbon | High carbon content can overwhelm, and shut down, an otherwise good compost batch; use sparingly. Be sure sawdust is clean, with no machine oil or chain oil residues from cutting equipment. Do not use sawdust from painted or treated lumber  |
 
 The following items should be avoided in compost:
 
@@ -1080,19 +1071,20 @@ The following items should be avoided in compost:
 5. Any cooked or canned foods that contain salt as salt kills the little creatures that do the composting in your mixture
 
 Materials required for making a Compost Tumbler are as follows:
-1. 55-gallon plastic drum of length 39 inches, diameter 25 inches and thickness- 3/16  inches 
-2. Two pressure-treated wooden boards of dimensions 4 ft x 8 ft and one of dimensions 6 ft x 8 ft 
+
+1. 55-gallon plastic drum of length 39 inches, diameter 25 inches and thickness- 3/16  inches
+2. Two pressure-treated wooden boards of dimensions 4 ft x 8 ft and one of dimensions 6 ft x 8 ft
 3. Six HDPE plastic sheets of dimension 0.5 inches $\times$ 0.5 inches each
 4. Stainless steel butt hinges
-5. Stainless steel latch 
+5. Stainless steel latch
 6. A galvanized metal Axle of diameter 0.5 inches and length 42 inches
 
 Fig 32:
 ![](Images/compost_2.png)
-    
+
 Design specifications for the Compost Tumbler are as follows:
 
-1. Tumbler’s Hatch Door- 12 inches x 12 inches, attached with a hinge and locked with a latch. 
+1. Tumbler’s Hatch Door- 12 inches x 12 inches, attached with a hinge and locked with a latch.
 2. Drill holes in the drum to allow airflow in and out. Sufficient airflow is important to allow rain and air to enter and drain out of the drum. Space them 2-3 inches apart. Holes can be of 3/8 inches diameter.
 3. We add 1/2 inches square HDPE plastic inside the drum, to prevent the compost from stelling at the base.
 
@@ -1100,7 +1092,7 @@ Our compost tumbler can process around 200 L of waster at one time. A properly c
 
 Cost Estimations for the Compost Tumbler:
 
-The major parts required are a pressure-treated wooden board, a 55-gallon plastic drum, and a 0.5 inches $\times$ 0.5 inches HDPE plastic sheet. Other than those we would need screws, hinges, and a latch. 
+The major parts required are a pressure-treated wooden board, a 55-gallon plastic drum, and a 0.5 inches $\times$ 0.5 inches HDPE plastic sheet. Other than those we would need screws, hinges, and a latch.
 
 1. Drum- INR 600 to INR 800
 2. Pressure treated wooden boards- INR 300
@@ -1110,7 +1102,7 @@ So the total cost would be INR 1200 to INR 1500.
 
 ### 9.2.6. Flue Gas Cleaning
 
-Flue gas is the gas that emanates from combustion plants and which contains the reaction products of fuel and combustion air and residual substances such as particulate matter (dust), sulfur oxides, nitrogen oxides, etc, that are hazardous to the environment and health. The purpose of a flue gas cleaning system is to reduce atmospheric emissions of these substances. 
+Flue gas is the gas that emanates from combustion plants and which contains the reaction products of fuel and combustion air and residual substances such as particulate matter (dust), sulfur oxides, nitrogen oxides, etc, that are hazardous to the environment and health. The purpose of a flue gas cleaning system is to reduce atmospheric emissions of these substances.
 
 Many gas cleaning systems can be summarized as removal of particulates, removal of water soluble gas and pollutants, removal of NO$_{x}$ and removal of toxic and hazardous pollutants like mercury (Hg).
 
@@ -1119,8 +1111,8 @@ Fig 33:
 
 ### 9.2.7. Cyclones (Cyclone separator)
 
-1. In cyclones, particles are separated by centrifugal forces. Flue gas containing particulates is fed into a cylinder tangentially in order to achieve rotational movement. The inside of the chamber creates a spiral vortex, similar to a tornado. 
-2. The lighter components of this gas have less inertia, so it is easier for them to be influenced by the vortex and travel up it. 
+1. In cyclones, particles are separated by centrifugal forces. Flue gas containing particulates is fed into a cylinder tangentially in order to achieve rotational movement. The inside of the chamber creates a spiral vortex, similar to a tornado.
+2. The lighter components of this gas have less inertia, so it is easier for them to be influenced by the vortex and travel up it.
 3. Contrarily, larger components of particulate matter have more inertia and are not as easily influenced by the vortex  and drop down into a collection hopper.
 4. The cleaned flue gas escapes out the top of the chamber.
 5. Estimated Cost : 1.2-1.5 m (4-5 ft) tall cyclone separator can cost about INR 75000.
@@ -1145,10 +1137,9 @@ The folllowing table (Table 22) shows cost analsis for Biomass Unit:
 
 ## 9.4 Results for Biomass Production
 
-The total cost would be INR 1,68,500. 
+The total cost would be INR 1,68,500.
 
 Total electricity produced is 550 W per kg waste
-
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1189,7 +1180,6 @@ The following are the requirements of storage of energy produced by the Solar, W
 13. Round-trip efficiency, which signifies the fraction of energy put into the storage that can be retrieved, should be high
 
 14. Coolants must be added
-
 
 ## 10.2. Specifications
 
@@ -1276,7 +1266,6 @@ The following table shows the specifications of the Solar Charge Controller:
 | Weight                   |               |
 | Cost                     |               |
 
-
 2. Wind Turbine Charge Controller
 
 The following table (Table 26) shows the specifications of the Wind Turbine Charge Controller:
@@ -1292,7 +1281,6 @@ The following table (Table 26) shows the specifications of the Wind Turbine Char
 
 Fig 36:
 <img src="./Images/Wind%20Turbine%20Charge%20Controller.png" width="400px">
-
 
 3. Biomass turbine Charge controller
 
@@ -1333,7 +1321,6 @@ Three parallel sets can handle 132A (3 $*$ 44A) charging current and ensure a 66
 **Selected battery:**
 
 **ILTT26060, Lead Acid Storage Battery (Factory Charged)**
-
 
 The following table (Table 28) shows the characteristics of the ILTT26060 Battery
 
@@ -1395,7 +1382,6 @@ Many inverters are available in the market, depending on the output frequency re
 
 5. 1000 V - when the inverter is part of a high voltage direct current power transmission system
 
-
 Fig 39:
 ![Design of a simple inverter](./Images/Design%20of%20a%20simple%20inverter.png "Design of a simple inverter")
 
@@ -1409,8 +1395,6 @@ We will need the input to be 24V (coming from the battery) for our purposes with
 | Minimum Inverter Power | 1000W                               |
 | Price                  |1200 (INR)                  |
 | Dimensions of Inverter | 8cm $*$ 9cm $*$ 6cm                 |
-
-
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1432,7 +1416,6 @@ The following table (Table 29) shows the cost analysis for storage unit:
 
 # 11. Closure
 
-
 [Back to Table of Contents](#table-of-contents)
 
 # 12. Appendix
@@ -1446,12 +1429,10 @@ The maximum rated voltage of the charge controller is 100V. The short circuit Vo
 
 ## Appendix B: Wind energy density distribution over India
 
-
 Fig 40:
 <img src="./Images/Map-showing-wind-power-potential-at-100-m.png" width="500px">
 
 ## Appendix C: Power Calculations
-
 
 Formulas used:
 
