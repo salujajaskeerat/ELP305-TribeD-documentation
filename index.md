@@ -1494,7 +1494,7 @@ https://www.fuelcellstore.com/blog-section/how-to-build-a-fuel-cell (accessed Ja
 7. “Installing and Maintaining a Small Wind Electric System | Department of Energy.” 
 https://www.energy.gov/energysaver/installing-and-maintaining-small-wind-electric-system (accessed Jan. 11, 2022).
  
-8. “Panasonic Launches 5 kW Type Pure Hydrogen Fuel Cell Generator | Headquarters News | Panasonic Newsroom Global.” 
+8. ———. “Panasonic Launches 5 kW Type Pure Hydrogen Fuel Cell Generator | Headquarters News | Panasonic Newsroom Global.” 
 https://news.panasonic.com/global/press/data/2021/10/en211001-4/en211001-4.html (accessed Jan. 11, 2022).
 
 9. T. Kamoshita and N. Nakajima, “Present Status and Trends of Fuel Cell Power Generation,” vol. 47, no. 1, p. 6.
@@ -1502,7 +1502,7 @@ https://news.panasonic.com/global/press/data/2021/10/en211001-4/en211001-4.html 
 10. “SHARK Bi-facial Panel, 440- 530 Watt, Both side power generation panel.” 
 https://www.loomsolar.com/collections/solar-panels/products/shark-bifacial-front-back-power-generation-solar-panel (accessed Jan. 11, 2022).
 
-11. “Solar Pump, Solar Pump Manufacturer in India, submersible Solar Pump | Lubi Solar.” 
+11. ———. “Solar Pump, Solar Pump Manufacturer in India, submersible Solar Pump | Lubi Solar.” 
 https://www.lubisolar.com/solar-pumps/ (accessed Jan. 11, 2022).
 
 12.  Andrianto, M, and Fahriansyah Fahriansyah. 2019. “3-D Designing of an Organic Waste Crusher.” IOP Conference
@@ -1512,7 +1512,7 @@ https://doi.org/10.1088/1755-1315/277/1/012009
 13.  “(PDF) Design and Fabrication of Multipurpose Organic Chopper Machine.” n.d. Accessed January 25, 2022.
 https://www.researchgate.net/publication/338718623_Design_and_fabrication_of_multipurpose_organic_chopper_machine
 
-14. “Amazon.Com: EPEVER Mppt Solar Charge Controller 80a 12v/24v/36v/48v Auto Max 200V 6000W Inpot Power Fit for Sealed/Gel/Flooded(Tracer 8420AN): Patio, Lawn Garden.” n.d. Accessed January 25, 2022. 
+14. ———.  “Amazon.Com: EPEVER Mppt Solar Charge Controller 80a 12v/24v/36v/48v Auto Max 200V 6000W Inpot Power Fit for Sealed/Gel/Flooded(Tracer 8420AN): Patio, Lawn Garden.” n.d. Accessed January 25, 2022. 
 https://www.amazon.com/EPEVER-Charge-Controller-Sealed-Flooded/dp/B07JJBRGN8
 
 15. “600W Wind Turbine MPPT Charge Controller, 12V/24V.” n.d. ATO.Com. Accessed January 25, 2022.
