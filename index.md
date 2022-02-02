@@ -525,14 +525,14 @@ The battery should be completely safe, not burnable, stable and maintenance-free
 2. It should have a high number of charge cycles
 3. It should have a high current rating
 
-The maximum distance between solar panels and batteries should be 20 to 30 ft. and mount the charge controller within a meter of the batteries. If the distance is more than 30ft, we need high-quality cables.
+The maximum distance between solar panels and batteries should be 20 to 30 ft. and mount the charge controller within a meter of the batteries. If the distance is more than 30ft, we need high-quality cables.[6]
 The battery bank and the inverter should also be close — within a meter.
 
 ## 7.5. Wires (AC and DC)
 
 The wires used in the connection of panels with the Solar inverter are called DC wires. These wires should be in PVC pipe and cable tray for protection from DC and Sunlight. <br/>
 
-The specifications of DC Wire are as follows(Table 5):
+The specifications of DC Wire are as follows(Table 5)[7][8]:
 
 |S.No|Use of wire | Property | Specification |
 |---|---|---|---|
@@ -645,7 +645,7 @@ Current rating:- maximum output current of the solar panel and Battery Voltage
 6. The wireless(Bluetooth) solution to set up, monitor, update and synchronize SmartSolar Charge Controllers
 7. Real-time energy statistics function, Overheating power reduction function
 
-The solar charge controller should always be placed close to the batteries, not the panels. It should be within one meter (approximately 3.25ft) of the battery bank and in the same room or enclosure.
+The solar charge controller should always be placed close to the batteries, not the panels. It should be within one meter (approximately 3.25ft) of the battery bank and in the same room or enclosure.[5]
 
 Fig 8:
 !["Charge controller outer casing with connectinon ports"](./Images/charge%20controller%20outer%20casing%20with%20connectinon%20ports.jpg "Charge controller outer casing with connectinon ports")
@@ -683,7 +683,7 @@ Solar Panel Stand should fulfil the following requirements:
 
 ### 7.12.1. Design of solar panel stand
 
-We used Mechanical stands for the panels, which includes a change in angle of panels by mechanical movement of the rods. This will increase energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.
+We used Mechanical stands for the panels, which includes a change in angle of panels by mechanical movement of the rods. This will increase energy production by at least 6-7 %. The cost of these stands is almost equal to the fixed stands.[1]
 
 1. Panels will face towards the South direction with an angle of 14.8° from horizontal in Spring/Fall season, 30° in Winter season and 0°C (exactly horizontal) in summers
 
@@ -784,7 +784,7 @@ The following figure (Fig 14) shows the block diagram for electricity production
 
 <img src="./Images/electricity%20production%20from%20solar%20energy%20and%20transmission%20to%20battery_block%20diagram%20.png" width="600px">
 
-The amount of energy lost in solar power systems depends on the cable used, solar panel and battery design and how far apart they are. The actual amount of energy lost also depends on the gauge or thickness of the wire. Long, thin cables increase the energy lost as the conductor resists current flow. With a shorter, thicker cable, energy loss is minimized during transmission.
+The amount of energy lost in solar power systems depends on the cable used, solar panel and battery design and how far apart they are. The actual amount of energy lost also depends on the gauge or thickness of the wire. Long, thin cables increase the energy lost as the conductor resists current flow. With a shorter, thicker cable, energy loss is minimized during transmission.[5]
 
 ## 7.17. Cost Analysis
 
@@ -972,7 +972,7 @@ Total cost of making a combustion chamber = INR 30,000(sheet) + INR 5,000(manufa
 Fig 25:
 ![](Images/Isometric_burner.png)
 
-Fig 26:
+Fig 26[10]:
 ![](Images/Design_of_combustion_chamber.png)
 
 Fig 27:
@@ -1079,7 +1079,7 @@ Materials required for making a Compost Tumbler are as follows:
 5. Stainless steel latch
 6. A galvanized metal Axle of diameter 0.5 inches and length 42 inches
 
-Fig 32:
+Fig 32[11][13]:
 ![](Images/compost_2.png)
 
 Design specifications for the Compost Tumbler are as follows:
@@ -1111,7 +1111,7 @@ Fig 33:
 
 ### 9.2.7. Cyclones (Cyclone separator)
 
-1. In cyclones, particles are separated by centrifugal forces. Flue gas containing particulates is fed into a cylinder tangentially in order to achieve rotational movement. The inside of the chamber creates a spiral vortex, similar to a tornado.
+1. In cyclones, particles are separated by centrifugal forces. Flue gas containing particulates is fed into a cylinder tangentially in order to achieve rotational movement. The inside of the chamber creates a spiral vortex, similar to a tornado.[9]
 2. The lighter components of this gas have less inertia, so it is easier for them to be influenced by the vortex and travel up it.
 3. Contrarily, larger components of particulate matter have more inertia and are not as easily influenced by the vortex  and drop down into a collection hopper.
 4. The cleaned flue gas escapes out the top of the chamber.
@@ -1254,7 +1254,7 @@ Remark: The output voltage of the supply needs to be close to the charging volta
 
 1. Solar Charge Controller
 
-The following table shows the specifications of the Solar Charge Controller:
+The following table shows the specifications of the Solar Charge Controller[14]:
 
 | Property                 | Specification |
 | ------------------------ | ------------- |
@@ -1268,7 +1268,7 @@ The following table shows the specifications of the Solar Charge Controller:
 
 2. Wind Turbine Charge Controller
 
-The following table (Table 26) shows the specifications of the Wind Turbine Charge Controller:
+The following table (Table 26) shows the specifications of the Wind Turbine Charge Controller[15]:
 
 | Property         | Specification |
 | ---------------- | ------------- |
@@ -1284,7 +1284,7 @@ Fig 36:
 
 3. Biomass turbine Charge controller
 
-The following table (Table 27) shows the specifications of the Biomass Turbine Charge Controller:
+The following table (Table 27) shows the specifications of the Biomass Turbine Charge Controller[16]:
 
 | Property         | Specification |
 | ---------------- | ------------- |
@@ -1385,7 +1385,7 @@ Many inverters are available in the market, depending on the output frequency re
 Fig 39:
 ![Design of a simple inverter](./Images/Design%20of%20a%20simple%20inverter.png "Design of a simple inverter")
 
-We will need the input to be 24V (coming from the battery) for our purposes with the following specifications (Table 29):
+We will need the input to be 24V (coming from the battery) for our purposes with the following specifications (Table 29)[17]:
 
 | Property               | Specification                       |
 | ---------------------- | ----------------------------------- |
@@ -1434,7 +1434,7 @@ Fig 40:
 
 ## Appendix C: Power Calculations
 
-Formulas used:
+Formulas used[19]:
 
 - $\omega \leq \frac{V \ × \ TSR }{ π \ \times \ D }$
 - $P_{wind} = (1/2) \times ρ × (πr^2)\times v^3 \times C_p$
@@ -1473,47 +1473,59 @@ Output power @Wind Speed(4.5 m/s) ~ 470 Watts
 [Back to Table of Contents](#table-of-contents)
 
 # 13. References
-1. “What Is a Solar Tracker and Is It Worth the Investment?” n.d. Solar Reviews. Accessed January 25, 2022.
-https://www.solarreviews.com/content/blog/are-solar-axis-trackers-worth-the-additional-investment
-2. “Solar Panel Tilt Angle Calculator - Footprint Hero.” n.d. Accessed January 25, 2022.
-https://footprinthero.com/solar-panel-tilt-angle-calculator
-3. Dhimish, Mahmoud, and Santiago Silvestre. 2019. “Estimating the Impact of Azimuth-Angle Variations on Photovoltaic Annual Energy Production.” Clean Energy 3 (1): 47–58.
-https://doi.org/10.1093/ce/zky022
-4. Sproul, and M. A. Green. 1991. “Improved Value for the Silicon Intrinsic Carrier Concentration from 275 to 375 K.”
-Journal of Applied Physics 70: 846–54.
-https://doi.org/10.1063/1.349645
-5. “Solar Panels Distance: Battery/Charge Controller/Inverter/House - 2022.” 2021. August 30, 2021.
-https://solvoltaics.com/solar-panels-distance-battery-charge-controller-inverter/
-6. PortableSolarExpert. 2020a. “Guide to the Right Distance between Solar Panels and Battery.” Portablesolarexpert.Com (blog). November 2, 2020.
-https://www.portablesolarexpert.com/guide-to-the-right-distance-between-solar-panels-andbattery/
-7. “Wire Size Calculator.” n.d. Accessed January 25, 2022.
-https://www.omnicalculator.com/physics/wire-size
-8. ———. 2020b. “Solar Panel Grounding Wire Size Guide.” Portablesolarexpert.Com (blog). December 28, 2020.
-https://www.portablesolarexpert.com/solar-panel-grounding-wire-size-guide/
-9. Singh, Renu, and Ashish Shukla. 2014. “A Review on Methods of Flue Gas Cleaning from Combustion of Biomass.”
-Renewable and Sustainable Energy Reviews 29 (January): 854–64.
-https://doi.org/10.1016/j.rser.2013.09.005
-10. Singh, Renu, and Ashish Shukla. 2014. “A Review on Methods of Flue Gas Cleaning from Combustion of Biomass.”
-Renewable and Sustainable Energy Reviews 29 (January): 854–64.
-https://doi.org/10.1016/j.rser.2013.09.005
-11. Katiyar, Abhay, Abhishek Gaur, Ms. Gaganpreet Kaur, and Department of Mechanical Engineering, ABES Engineering College, Ghaziabad, Uttar Pradesh, India. 2019. “Design and Construction of a Shredding Machine for Recycling
-and Management of Organic Waste.” International Journal of Trend in Scientific Research and Development Volume-3
-(Issue-4): 707–12.
-https://doi.org/10.31142/ijtsrd23889
-12. Andrianto, M, and Fahriansyah Fahriansyah. 2019. “3-D Designing of an Organic Waste Crusher.” IOP Conference
+1. “ACDB DCDB: Best price for ACDB DCDB box in India - Kenbrook Solar.” 
+https://kenbrooksolar.com/price-list/acdb-dcdb-array-junction-box-manufacturer (accessed Jan. 11, 2022).
+
+2. “Blacktail Solar Homes: Discussion of why we experience seasonal solar variation, and how this variation affects home design.” 
+https://www.blacktailsolarhomes.com/EarthWobble.html (accessed Jan. 11, 2022).
+
+3. “fcto_fuel_cells_fact_sheet.pdf.” Accessed: Jan. 11, 2022. [Online]. 
+Available: https://www.energy.gov/sites/prod/files/2015/11/f27/fcto_fuel_cells_fact_sheet.pdf
+
+4. mdavis19, “How I Built an Electricity Producing Wind Turbine,” Instructables. 
+https://www.instructables.com/How-I-built-an-electricity-producing-wind-turbine/ (accessed Jan. 11, 2022).
+
+5. “How much does Solar Panel Installation Cost in India, 2022.” 
+https://www.loomsolar.com/blogs/collections/solar-panel-installation-cost-in-india (accessed Jan. 11, 2022).
+
+6. “How to Build a Fuel Cell.” 
+https://www.fuelcellstore.com/blog-section/how-to-build-a-fuel-cell (accessed Jan. 11, 2022).
+
+7. “Installing and Maintaining a Small Wind Electric System | Department of Energy.” 
+https://www.energy.gov/energysaver/installing-and-maintaining-small-wind-electric-system (accessed Jan. 11, 2022).
+ 
+8. “Panasonic Launches 5 kW Type Pure Hydrogen Fuel Cell Generator | Headquarters News | Panasonic Newsroom Global.” 
+https://news.panasonic.com/global/press/data/2021/10/en211001-4/en211001-4.html (accessed Jan. 11, 2022).
+
+9. T. Kamoshita and N. Nakajima, “Present Status and Trends of Fuel Cell Power Generation,” vol. 47, no. 1, p. 6.
+
+10. “SHARK Bi-facial Panel, 440- 530 Watt, Both side power generation panel.” 
+https://www.loomsolar.com/collections/solar-panels/products/shark-bifacial-front-back-power-generation-solar-panel (accessed Jan. 11, 2022).
+
+11. “Solar Pump, Solar Pump Manufacturer in India, submersible Solar Pump | Lubi Solar.” 
+https://www.lubisolar.com/solar-pumps/ (accessed Jan. 11, 2022).
+
+12.  Andrianto, M, and Fahriansyah Fahriansyah. 2019. “3-D Designing of an Organic Waste Crusher.” IOP Conference
 Series: Earth and Environmental Science 277 (June): 012009.
 https://doi.org/10.1088/1755-1315/277/1/012009
-13. “(PDF) Design and Fabrication of Multipurpose Organic Chopper Machine.” n.d. Accessed January 25, 2022.
-https://www.researchgate.net/publication/338718623_Design_and_fabrication_of_multipurpose_
-organic_chopper_machine
-14. “Amazon.Com: EPEVER Mppt Solar Charge Controller 80a 12v/24v/36v/48v Auto Max 200V 6000W Inpot Power
-Fit for Sealed/Gel/Flooded(Tracer 8420AN): Patio, Lawn Garden.” n.d. Accessed January 25, 2022.
+
+13.  “(PDF) Design and Fabrication of Multipurpose Organic Chopper Machine.” n.d. Accessed January 25, 2022.
+https://www.researchgate.net/publication/338718623_Design_and_fabrication_of_multipurpose_organic_chopper_machine
+
+14. “Amazon.Com: EPEVER Mppt Solar Charge Controller 80a 12v/24v/36v/48v Auto Max 200V 6000W Inpot Power Fit for Sealed/Gel/Flooded(Tracer 8420AN): Patio, Lawn Garden.” n.d. Accessed January 25, 2022. 
 https://www.amazon.com/EPEVER-Charge-Controller-Sealed-Flooded/dp/B07JJBRGN8
+
 15. “600W Wind Turbine MPPT Charge Controller, 12V/24V.” n.d. ATO.Com. Accessed January 25, 2022.
 https://www.ato.com/600w-wind-turbine-mppt-charge-controller
+
 16. “800W Wind Turbine MPPT Charge Controller, 12V/24.” n.d. Inverter.Com. Accessed January 25, 2022.
 https://www.inverter.com/800w-wind-turbine-mppt-charge-controller
-17. “Battery 220 Ah - ILTT26060.” n.d. Accessed January 25, 2022.
+
+17.  “Battery 220 Ah - ILTT26060.” n.d. Accessed January 25, 2022.
 https://www.luminousindia.com/iltt-26060.html
-18. “Tubular Battery Price in India - ILTT 26060 — Luminous India.” n.d. Accessed January 25, 2022.
+
+18.  “Tubular Battery Price in India - ILTT 26060 — Luminous India.” n.d. Accessed January 25, 2022.
 https://www.luminousindia.com/iltt-26060.html
+
+19. "Wind Turbulence." 
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOfCjI23bKthOS6BOLnA0CwXqZfi8DuEJBrw&usqp=CAU (accessed Jan. 11, 2022).
