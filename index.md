@@ -1473,47 +1473,47 @@ Output power @Wind Speed(4.5 m/s) ~ 470 Watts
 [Back to Table of Contents](#table-of-contents)
 
 # 13. References
-[1] “What Is a Solar Tracker and Is It Worth the Investment?” n.d. Solar Reviews. Accessed January 25, 2022.
+1. “What Is a Solar Tracker and Is It Worth the Investment?” n.d. Solar Reviews. Accessed January 25, 2022.
 https://www.solarreviews.com/content/blog/are-solar-axis-trackers-worth-the-additional-investment
-[2] “Solar Panel Tilt Angle Calculator - Footprint Hero.” n.d. Accessed January 25, 2022.
+2. “Solar Panel Tilt Angle Calculator - Footprint Hero.” n.d. Accessed January 25, 2022.
 https://footprinthero.com/solar-panel-tilt-angle-calculator
-[3] Dhimish, Mahmoud, and Santiago Silvestre. 2019. “Estimating the Impact of Azimuth-Angle Variations on Photovoltaic Annual Energy Production.” Clean Energy 3 (1): 47–58.
+3. Dhimish, Mahmoud, and Santiago Silvestre. 2019. “Estimating the Impact of Azimuth-Angle Variations on Photovoltaic Annual Energy Production.” Clean Energy 3 (1): 47–58.
 https://doi.org/10.1093/ce/zky022
-[4] Sproul, and M. A. Green. 1991. “Improved Value for the Silicon Intrinsic Carrier Concentration from 275 to 375 K.”
+4. Sproul, and M. A. Green. 1991. “Improved Value for the Silicon Intrinsic Carrier Concentration from 275 to 375 K.”
 Journal of Applied Physics 70: 846–54.
 https://doi.org/10.1063/1.349645
-[5] “Solar Panels Distance: Battery/Charge Controller/Inverter/House - 2022.” 2021. August 30, 2021.
+5. “Solar Panels Distance: Battery/Charge Controller/Inverter/House - 2022.” 2021. August 30, 2021.
 https://solvoltaics.com/solar-panels-distance-battery-charge-controller-inverter/
-[6] PortableSolarExpert. 2020a. “Guide to the Right Distance between Solar Panels and Battery.” Portablesolarexpert.Com (blog). November 2, 2020.
+6. PortableSolarExpert. 2020a. “Guide to the Right Distance between Solar Panels and Battery.” Portablesolarexpert.Com (blog). November 2, 2020.
 https://www.portablesolarexpert.com/guide-to-the-right-distance-between-solar-panels-andbattery/
-[7] “Wire Size Calculator.” n.d. Accessed January 25, 2022.
+7. “Wire Size Calculator.” n.d. Accessed January 25, 2022.
 https://www.omnicalculator.com/physics/wire-size
-[8] ———. 2020b. “Solar Panel Grounding Wire Size Guide.” Portablesolarexpert.Com (blog). December 28, 2020.
+8. ———. 2020b. “Solar Panel Grounding Wire Size Guide.” Portablesolarexpert.Com (blog). December 28, 2020.
 https://www.portablesolarexpert.com/solar-panel-grounding-wire-size-guide/
-[9] Singh, Renu, and Ashish Shukla. 2014. “A Review on Methods of Flue Gas Cleaning from Combustion of Biomass.”
+9. Singh, Renu, and Ashish Shukla. 2014. “A Review on Methods of Flue Gas Cleaning from Combustion of Biomass.”
 Renewable and Sustainable Energy Reviews 29 (January): 854–64.
 https://doi.org/10.1016/j.rser.2013.09.005
-[10] Singh, Renu, and Ashish Shukla. 2014. “A Review on Methods of Flue Gas Cleaning from Combustion of Biomass.”
+10. Singh, Renu, and Ashish Shukla. 2014. “A Review on Methods of Flue Gas Cleaning from Combustion of Biomass.”
 Renewable and Sustainable Energy Reviews 29 (January): 854–64.
 https://doi.org/10.1016/j.rser.2013.09.005
-[11] Katiyar, Abhay, Abhishek Gaur, Ms. Gaganpreet Kaur, and Department of Mechanical Engineering, ABES Engineering College, Ghaziabad, Uttar Pradesh, India. 2019. “Design and Construction of a Shredding Machine for Recycling
+11. Katiyar, Abhay, Abhishek Gaur, Ms. Gaganpreet Kaur, and Department of Mechanical Engineering, ABES Engineering College, Ghaziabad, Uttar Pradesh, India. 2019. “Design and Construction of a Shredding Machine for Recycling
 and Management of Organic Waste.” International Journal of Trend in Scientific Research and Development Volume-3
 (Issue-4): 707–12.
 https://doi.org/10.31142/ijtsrd23889
-[12] Andrianto, M, and Fahriansyah Fahriansyah. 2019. “3-D Designing of an Organic Waste Crusher.” IOP Conference
+12. Andrianto, M, and Fahriansyah Fahriansyah. 2019. “3-D Designing of an Organic Waste Crusher.” IOP Conference
 Series: Earth and Environmental Science 277 (June): 012009.
 https://doi.org/10.1088/1755-1315/277/1/012009
-[13] “(PDF) Design and Fabrication of Multipurpose Organic Chopper Machine.” n.d. Accessed January 25, 2022.
+13. “(PDF) Design and Fabrication of Multipurpose Organic Chopper Machine.” n.d. Accessed January 25, 2022.
 https://www.researchgate.net/publication/338718623_Design_and_fabrication_of_multipurpose_
 organic_chopper_machine
-[14] “Amazon.Com: EPEVER Mppt Solar Charge Controller 80a 12v/24v/36v/48v Auto Max 200V 6000W Inpot Power
+14. “Amazon.Com: EPEVER Mppt Solar Charge Controller 80a 12v/24v/36v/48v Auto Max 200V 6000W Inpot Power
 Fit for Sealed/Gel/Flooded(Tracer 8420AN): Patio, Lawn Garden.” n.d. Accessed January 25, 2022.
 https://www.amazon.com/EPEVER-Charge-Controller-Sealed-Flooded/dp/B07JJBRGN8
-[15] “600W Wind Turbine MPPT Charge Controller, 12V/24V.” n.d. ATO.Com. Accessed January 25, 2022.
+15. “600W Wind Turbine MPPT Charge Controller, 12V/24V.” n.d. ATO.Com. Accessed January 25, 2022.
 https://www.ato.com/600w-wind-turbine-mppt-charge-controller
-[16] “800W Wind Turbine MPPT Charge Controller, 12V/24.” n.d. Inverter.Com. Accessed January 25, 2022.
+16. “800W Wind Turbine MPPT Charge Controller, 12V/24.” n.d. Inverter.Com. Accessed January 25, 2022.
 https://www.inverter.com/800w-wind-turbine-mppt-charge-controller
-[17] “Battery 220 Ah - ILTT26060.” n.d. Accessed January 25, 2022.
+17. “Battery 220 Ah - ILTT26060.” n.d. Accessed January 25, 2022.
 https://www.luminousindia.com/iltt-26060.html
-[18] “Tubular Battery Price in India - ILTT 26060 — Luminous India.” n.d. Accessed January 25, 2022.
+18. “Tubular Battery Price in India - ILTT 26060 — Luminous India.” n.d. Accessed January 25, 2022.
 https://www.luminousindia.com/iltt-26060.html
